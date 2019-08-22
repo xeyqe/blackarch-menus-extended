@@ -1,17 +1,15 @@
-# This file is part of BlackArch Linux ( http://blackarch.org ).
-# See COPYING for license details.
-
 pkgname='blackarch-menus-extended'
 pkgver='0.2'
-pkgrel=1
-groups=('blackarch')
-pkgdesc="BlackArch specific XDG-compliant menu"
+pkgrel=2
+pkgdesc="BlackArch specific XDG-compliant menu with more desktop files."
 arch=('any')
-url="http://www.blackarch.org/"
+url="https://github.com/xeyqe/blackarch-menus-extended"
 license=('GPL')
-depends=('xdg-utils')
+depends=('xdg-utils' 'fakeroot' 'gksu')
+provides=('blackarch-menus')
 conflicts=('blackarch-menus')
-source=("git+https://github.com/xeyqe/blackarch-menus-extended.git")
+replaces=('blackarch-menus')
+source=("https://codeload.github.com/xeyqe/blackarch-menus-extended/zip/master")
 md5sums=('SKIP')
 
 prepare() {
