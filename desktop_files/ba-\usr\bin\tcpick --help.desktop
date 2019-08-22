@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tcpick
+Icon=utilities-terminal
+Comment=TCP stream sniffer and connection tracker
+TryExec=/usr/bin/tcpick
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/tcpick --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;

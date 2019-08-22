@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bindead
+Icon=utilities-terminal
+Comment=A static analysis tool for binaries
+TryExec=/usr/bin/bindead
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bindead' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;X-BlackArch-Debugger;X-BlackArch-Reversing;

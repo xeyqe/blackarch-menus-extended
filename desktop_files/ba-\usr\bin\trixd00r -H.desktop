@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=trixd00r
+Icon=utilities-terminal
+Comment=An advanced and invisible userland backdoor based on TCP/IP for UNIX systems.
+TryExec=/usr/bin/trixd00r
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/trixd00r -H' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Backdoor;

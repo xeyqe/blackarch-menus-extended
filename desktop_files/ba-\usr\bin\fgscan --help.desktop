@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fgscan
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/fgscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/fgscan --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

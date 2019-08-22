@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=b2sum
+Icon=utilities-terminal
+Comment=BLAKE2 file hash sum check. Computes the BLAKE2 (BLAKE2b or -s, -bp, -sp) cryptographic hash of a given file.
+TryExec=/usr/bin/b2sum
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/b2sum --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;

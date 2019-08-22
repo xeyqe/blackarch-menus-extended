@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=voiphopper
+Icon=utilities-terminal
+Comment=A security validation tool that tests to see if a PC can mimic the behavior of an IP Phone. It rapidly automates a VLAN Hop into the Voice VLAN.
+TryExec=/usr/bin/voiphopper
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/voiphopper -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Voip;

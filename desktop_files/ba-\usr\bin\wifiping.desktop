@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wifiping
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/wifiping
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wifiping' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

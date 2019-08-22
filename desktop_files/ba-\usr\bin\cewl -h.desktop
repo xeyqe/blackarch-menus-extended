@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cewl
+Icon=utilities-terminal
+Comment=A custom word list generator
+TryExec=/usr/bin/cewl
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cewl -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Cracker;

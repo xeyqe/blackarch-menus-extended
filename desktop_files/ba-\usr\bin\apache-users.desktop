@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=apache-users
+Icon=utilities-terminal
+Comment=This perl script will enumerate the usernames on a unix system that use the apache module UserDir.
+TryExec=/usr/bin/apache-users
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/apache-users' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

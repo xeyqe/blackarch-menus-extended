@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=webslayer
+Icon=utilities-terminal
+Comment=A tool designed for brute forcing Web Applications.
+TryExec=/usr/bin/webslayer
+Exec=/usr/bin/webslayer
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Webapp;

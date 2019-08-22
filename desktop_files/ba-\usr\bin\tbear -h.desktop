@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tbear
+Icon=utilities-terminal
+Comment=Transient Bluetooth Environment Auditor includes an ncurses-based Bluetooth scanner (a bit similar to kismet), a Bluetooth DoS tool, and a Bluetooth hidden device locator.
+TryExec=/usr/bin/tbear
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/tbear -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=testssl
+Icon=utilities-terminal
+Comment=Testing TLS/SSL encryption.
+TryExec=/usr/bin/testssl
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/testssl -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;X-BlackArch-Scanner;

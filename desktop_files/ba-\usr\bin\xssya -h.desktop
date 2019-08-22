@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=xssya
+Icon=utilities-terminal
+Comment=A Cross Site Scripting Scanner & Vulnerability Confirmation.
+TryExec=/usr/bin/xssya
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/xssya -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;

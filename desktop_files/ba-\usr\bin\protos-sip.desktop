@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=protos-sip
+Icon=utilities-terminal
+Comment=SIP test suite.
+TryExec=/usr/bin/protos-sip
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/protos-sip' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Voip;

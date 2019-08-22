@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hashcat-expander
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/hashcat-expander
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hashcat-expander -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=vstt-s2f
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/vstt-s2f
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/vstt-s2f' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Tunnel;

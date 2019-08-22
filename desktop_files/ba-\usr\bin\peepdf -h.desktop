@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=peepdf
+Icon=utilities-terminal
+Comment=A Python tool to explore PDF files in order to find out if the file can be harmful or not
+TryExec=/usr/bin/peepdf
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/peepdf -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Malware;

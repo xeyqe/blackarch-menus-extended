@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bletchley-http2py
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/bletchley-http2py
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bletchley-http2py -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;

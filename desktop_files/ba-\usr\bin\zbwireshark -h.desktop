@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=zbwireshark
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/zbwireshark
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/zbwireshark -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Wireless;

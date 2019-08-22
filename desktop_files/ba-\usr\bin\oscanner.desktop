@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=oscanner
+Icon=utilities-terminal
+Comment=An Oracle assessment framework developed in Java.
+TryExec=/usr/bin/oscanner
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/oscanner' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

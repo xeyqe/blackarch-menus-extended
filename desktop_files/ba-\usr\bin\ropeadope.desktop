@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ropeadope
+Icon=utilities-terminal
+Comment=A linux log cleaner.
+TryExec=/usr/bin/ropeadope
+Exec=/usr/bin/ropeadope;
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Anti-Forensic;

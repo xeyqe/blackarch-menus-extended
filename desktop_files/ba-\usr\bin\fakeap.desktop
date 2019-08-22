@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fakeap
+Icon=utilities-terminal
+Comment=Black Alchemy's Fake AP generates thousands of counterfeit 802.11b access points. Hide in plain sight amongst Fake AP's cacophony of beacon frames.
+TryExec=/usr/bin/fakeap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/fakeap' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Honeypot;

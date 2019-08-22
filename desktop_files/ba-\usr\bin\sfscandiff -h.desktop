@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sfscandiff
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/sfscandiff
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sfscandiff -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;X-BlackArch-Scanner;X-BlackArch-Webapp;

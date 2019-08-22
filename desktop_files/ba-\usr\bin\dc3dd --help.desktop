@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dc3dd
+Icon=utilities-terminal
+Comment=A patched version of dd that includes a number of features useful for computer forensics.
+TryExec=/usr/bin/dc3dd
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dc3dd --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

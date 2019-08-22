@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bindiff
+Icon=utilities-terminal
+Comment=A comparison tool for binary files, that assists vulnerability researchers and engineers to quickly find differences and similarities in disassembled code.
+TryExec=/usr/bin/bindiff
+Exec=/usr/bin/bindiff
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Binary;X-BlackArch-Reversing;

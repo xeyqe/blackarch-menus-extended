@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wpa-bruteforcer
+Icon=utilities-terminal
+Comment=Attacking WPA/WPA encrypted access point without client.
+TryExec=/usr/bin/wpa-bruteforcer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wpa-bruteforcer' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

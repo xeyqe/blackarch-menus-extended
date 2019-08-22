@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ubertooth-util
+Icon=utilities-terminal
+Comment=Command line utility for Ubertooth Zero and Ubertooth One.
+TryExec=/usr/bin/ubertooth-util
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ubertooth-util -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

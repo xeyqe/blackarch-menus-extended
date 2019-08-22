@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hexorbase
+Icon=utilities-terminal
+Comment=A database application designed for administering and auditing multiple database servers simultaneously from a centralized location. It is capable of performing SQL queries and bruteforce attacks against common database servers (MySQL, SQLite, Microsoft SQL Server, Oracle, PostgreSQL).
+TryExec=/usr/bin/hexorbase
+Exec=/usr/bin/hexorbase
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Fuzzer;X-BlackArch-Scanner;

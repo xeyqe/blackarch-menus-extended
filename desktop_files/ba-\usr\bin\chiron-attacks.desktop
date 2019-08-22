@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=chiron-attacks
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/chiron-attacks
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/chiron-attacks' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Networking;X-BlackArch-Exploitation;X-BlackArch-Proxy;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=flowtop
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/flowtop
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/flowtop -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;

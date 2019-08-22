@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=creepy
+Icon=utilities-terminal
+Comment=A geolocation information gatherer. Offers geolocation information gathering through social networking platforms.
+TryExec=/usr/bin/creepy
+Exec=/usr/bin/creepy
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Social;X-BlackArch-Recon;

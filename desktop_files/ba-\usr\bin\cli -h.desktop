@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cli
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/cli
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cli -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

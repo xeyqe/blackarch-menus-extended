@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rcrack
+Icon=utilities-terminal
+Comment=Making a Faster Cryptanalytic Time-Memory Trade-Off.
+TryExec=/usr/bin/rcrack
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rcrack --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

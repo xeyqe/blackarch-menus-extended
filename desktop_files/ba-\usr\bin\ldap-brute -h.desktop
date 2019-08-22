@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ldap-brute
+Icon=utilities-terminal
+Comment=A semi fast tool to bruteforce values of LDAP injections over HTTP.
+TryExec=/usr/bin/ldap-brute
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ldap-brute -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

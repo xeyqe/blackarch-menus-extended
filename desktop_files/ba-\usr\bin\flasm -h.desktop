@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=flasm
+Icon=utilities-terminal
+Comment=Disassembler tool for SWF bytecode
+TryExec=/usr/bin/flasm
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/flasm -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Reversing;X-BlackArch-Decompiler;

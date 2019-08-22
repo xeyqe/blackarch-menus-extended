@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=createnpk
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/createnpk
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/createnpk' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Reversing;X-BlackArch-Binary;X-BlackArch-Networking;X-BlackArch-Packer;X-BlackArch-Unpacker;

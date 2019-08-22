@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=x86dis
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/x86dis
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/x86dis' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Disassembler;

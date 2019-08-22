@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=nfanon
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/nfanon
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/nfanon -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

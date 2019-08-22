@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rwaddrcount
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rwaddrcount
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rwaddrcount --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Scanner;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=armscgen
+Icon=utilities-terminal
+Comment=ARM Shellcode Generator (Mostly Thumb Mode).
+TryExec=/usr/bin/armscgen
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/armscgen -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Automation;

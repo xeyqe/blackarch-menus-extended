@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=umit
+Icon=utilities-terminal
+Comment=A powerful nmap frontend.
+TryExec=/usr/bin/umit
+Exec=sh -c 'gksu /usr/bin/umit' $SHELL
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Networking;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tlssled
+Icon=utilities-terminal
+Comment=A Linux shell script whose purpose is to evaluate the security of a target SSL/TLS (HTTPS) web server implementation.
+TryExec=/usr/bin/tlssled
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/tlssled -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Scanner;

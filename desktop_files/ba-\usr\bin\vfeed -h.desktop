@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=vfeed
+Icon=utilities-terminal
+Comment=Open Source Cross Linked and Aggregated Local Vulnerability Database main repository.
+TryExec=/usr/bin/vfeed
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/vfeed -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

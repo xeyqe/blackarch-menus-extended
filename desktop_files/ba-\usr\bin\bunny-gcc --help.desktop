@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bunny-gcc
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/bunny-gcc
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bunny-gcc --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ipmi-sensors-config
+Icon=utilities-terminal
+Comment=configure BMC values
+TryExec=/usr/bin/ipmi-sensors-config
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ipmi-sensors-config --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Misc;

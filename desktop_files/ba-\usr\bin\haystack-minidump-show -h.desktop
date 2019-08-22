@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=haystack-minidump-show
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/haystack-minidump-show
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/haystack-minidump-show -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;X-BlackArch-Forensic;

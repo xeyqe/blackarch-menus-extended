@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tes2.py
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/tes2.py
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/tes2.py' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dnspredict
+Icon=utilities-terminal
+Comment=DNS prediction
+TryExec=/usr/bin/dnspredict
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dnspredict --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

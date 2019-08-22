@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=lans
+Icon=utilities-terminal
+Comment=A Multithreaded asynchronous packet parsing/injecting arp spoofer.
+TryExec=/usr/bin/lans
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/lans -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Spoof;X-BlackArch-Networking;

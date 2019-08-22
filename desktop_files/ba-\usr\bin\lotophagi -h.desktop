@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=lotophagi
+Icon=utilities-terminal
+Comment=a relatively compact Perl script designed to scan remote hosts for default (or common) Lotus NSF and BOX databases.
+TryExec=/usr/bin/lotophagi
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/lotophagi -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

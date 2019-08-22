@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=airflood
+Icon=utilities-terminal
+Comment=A modification of aireplay that allows for a DOS in in the AP. This program fills the table of clients of the AP with random MACs doing impossible new connections.
+TryExec=/usr/bin/airflood
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/airflood -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

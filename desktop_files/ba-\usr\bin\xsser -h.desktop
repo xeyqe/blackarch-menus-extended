@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=xsser
+Icon=utilities-terminal
+Comment=A penetration testing tool for detecting and exploiting XSS vulnerabilites.
+TryExec=/usr/bin/xsser
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/xsser -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Fuzzer;X-BlackArch-Exploitation;

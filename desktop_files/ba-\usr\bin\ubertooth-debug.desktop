@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ubertooth-debug
+Icon=utilities-terminal
+Comment=Command line utility for debugging Ubertooth Zero and Ubertooth One.
+TryExec=/usr/bin/ubertooth-debug
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ubertooth-debug' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

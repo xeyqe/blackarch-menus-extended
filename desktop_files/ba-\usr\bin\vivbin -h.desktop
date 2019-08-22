@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=vivbin
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/vivbin
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/vivbin -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Debugger;X-BlackArch-Disassembler;X-BlackArch-Reversing;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=xprobe2
+Icon=utilities-terminal
+Comment=An active OS fingerprinting tool.
+TryExec=/usr/bin/xprobe2
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/xprobe2 -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fingerprint;

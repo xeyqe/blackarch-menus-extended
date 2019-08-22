@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pshitt
+Icon=utilities-terminal
+Comment=A lightweight fake SSH server designed to collect authentication data sent by intruders.
+TryExec=/usr/bin/pshitt
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pshitt -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Honeypot;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=logkeys-start.sh
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/logkeys-start.sh
+Exec=sh -c 'gksu /usr/bin/logkeys-start.sh' $SHELL
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Keylogger;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=irpas-tctrace
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/irpas-tctrace
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/irpas-tctrace -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

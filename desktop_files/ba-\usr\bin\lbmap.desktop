@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=lbmap
+Icon=utilities-terminal
+Comment=Proof of concept scripts for advanced web application fingerprinting, presented at OWASP AppSecAsia 2012.
+TryExec=/usr/bin/lbmap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/lbmap' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fingerprint;X-BlackArch-Webapp;

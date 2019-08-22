@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mkbrutus
+Icon=utilities-terminal
+Comment=Password bruteforcer for MikroTik devices or boxes running RouterOS.
+TryExec=/usr/bin/mkbrutus
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mkbrutus -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pyinstaller
+Icon=utilities-terminal
+Comment=A program that converts (packages) Python programs into stand-alone executables, under Windows, Linux, Mac OS X, Solaris and AIX.
+TryExec=/usr/bin/pyinstaller
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pyinstaller -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

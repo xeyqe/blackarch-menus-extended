@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tcpwatch
+Icon=utilities-terminal
+Comment=A utility written in Python that lets you monitor forwarded TCP connections or HTTP proxy connections.
+TryExec=/usr/bin/tcpwatch
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/tcpwatch --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=SDS_get_index.py
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/SDS_get_index.py
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/SDS_get_index.py -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

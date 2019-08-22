@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=spectool_gtk
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/spectool_gtk
+Exec=/usr/bin/spectool_gtk
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Wireless;

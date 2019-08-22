@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mitm_listener
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/mitm_listener
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mitm_listener' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Proxy;X-BlackArch-Sniffer;X-BlackArch-Networking;

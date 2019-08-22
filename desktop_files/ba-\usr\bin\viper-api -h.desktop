@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=viper-api
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/viper-api
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/viper-api -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Disassembler;X-BlackArch-Binary;X-BlackArch-Malware;

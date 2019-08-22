@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=crackqcli
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/crackqcli
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/crackqcli -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

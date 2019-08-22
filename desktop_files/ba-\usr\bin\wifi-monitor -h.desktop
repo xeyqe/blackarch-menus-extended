@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wifi-monitor
+Icon=utilities-terminal
+Comment=Prints the IPs on your local network that're sending the most packets.
+TryExec=/usr/bin/wifi-monitor
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wifi-monitor -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;

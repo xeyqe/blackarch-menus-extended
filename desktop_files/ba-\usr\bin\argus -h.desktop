@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=argus
+Icon=utilities-terminal
+Comment=Network monitoring tool with flow control.
+TryExec=/usr/bin/argus
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/argus -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Defensive;X-BlackArch-Sniffer;

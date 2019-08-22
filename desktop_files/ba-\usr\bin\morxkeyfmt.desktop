@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=morxkeyfmt
+Icon=utilities-terminal
+Comment=Read a private key from stdin and output formatted data values.
+TryExec=/usr/bin/morxkeyfmt
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/morxkeyfmt' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;

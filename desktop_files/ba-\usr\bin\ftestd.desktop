@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ftestd
+Icon=utilities-terminal
+Comment=FTester sniffer
+TryExec=/usr/bin/ftestd
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ftestd' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

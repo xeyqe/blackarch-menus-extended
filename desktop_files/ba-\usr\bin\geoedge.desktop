@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=geoedge
+Icon=utilities-terminal
+Comment=This little tools is designed to get geolocalization information of a host, it get the information from two sources (maxmind and geoiptool).
+TryExec=/usr/bin/geoedge
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/geoedge' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

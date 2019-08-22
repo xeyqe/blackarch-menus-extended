@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=whob
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/whob
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/whob -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;X-BlackArch-Networking;

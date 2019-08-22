@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=check-weak-dh-ssh
+Icon=utilities-terminal
+Comment=Debian OpenSSL weak client Diffie-Hellman Exchange checker.
+TryExec=/usr/bin/check-weak-dh-ssh
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/check-weak-dh-ssh' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Crypto;

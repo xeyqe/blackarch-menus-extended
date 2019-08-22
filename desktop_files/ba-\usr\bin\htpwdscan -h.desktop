@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=htpwdscan
+Icon=utilities-terminal
+Comment=A python HTTP weak pass scanner.
+TryExec=/usr/bin/htpwdscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/htpwdscan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

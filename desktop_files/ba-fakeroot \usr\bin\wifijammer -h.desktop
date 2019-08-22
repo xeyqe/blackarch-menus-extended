@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wifijammer
+Icon=utilities-terminal
+Comment=A python script to continuosly jam all wifi clients within range.
+TryExec=/usr/bin/wifijammer
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/wifijammer -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sha256deep
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/sha256deep
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sha256deep -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

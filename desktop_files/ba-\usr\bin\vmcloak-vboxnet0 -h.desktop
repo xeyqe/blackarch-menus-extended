@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=vmcloak-vboxnet0
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/vmcloak-vboxnet0
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/vmcloak-vboxnet0 -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-malware;

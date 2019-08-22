@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mycrypt
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/mycrypt
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mycrypt' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Proxy;

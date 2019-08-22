@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=theharvester
+Icon=utilities-terminal
+Comment=Python tool for gathering e-mail accounts and subdomain names from different public sources (search engines, pgp key servers).
+TryExec=/usr/bin/theharvester
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/theharvester' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

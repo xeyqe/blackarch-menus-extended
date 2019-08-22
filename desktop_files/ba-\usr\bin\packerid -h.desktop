@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=packerid
+Icon=utilities-terminal
+Comment=Script which uses a PEiD database to identify which packer (if any) is being used by a binary.
+TryExec=/usr/bin/packerid
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/packerid -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;X-BlackArch-Packer;X-BlackArch-Reversing;

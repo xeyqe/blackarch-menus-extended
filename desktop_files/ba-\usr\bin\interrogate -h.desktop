@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=interrogate
+Icon=utilities-terminal
+Comment=A proof-of-concept tool for identification of cryptographic keys in binary material (regardless of target operating system), first and foremost for memory dump analysis and forensic usage.
+TryExec=/usr/bin/interrogate
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/interrogate -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Cracker;

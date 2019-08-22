@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wr_iwlist.sh
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/wr_iwlist.sh
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wr_iwlist.sh' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;X-BlackArch-Cracker;

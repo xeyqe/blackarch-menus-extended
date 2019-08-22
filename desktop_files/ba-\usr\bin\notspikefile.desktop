@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=notspikefile
+Icon=utilities-terminal
+Comment=A Linux based file format fuzzing tool
+TryExec=/usr/bin/notspikefile
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/notspikefile' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

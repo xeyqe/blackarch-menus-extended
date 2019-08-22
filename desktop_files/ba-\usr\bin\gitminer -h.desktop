@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=gitminer
+Icon=utilities-terminal
+Comment=Tool for advanced mining for content on Github.
+TryExec=/usr/bin/gitminer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/gitminer -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

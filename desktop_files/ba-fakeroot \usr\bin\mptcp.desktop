@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mptcp
+Icon=utilities-terminal
+Comment=A tool for manipulation of raw packets that allows a large number of options.
+TryExec=/usr/bin/mptcp
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/mptcp' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=vane
+Icon=utilities-terminal
+Comment=A vulnerability scanner which checks the security of WordPress installations using a black box approach.
+TryExec=/usr/bin/vane
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/vane -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Webapp;X-BlackArch-Fuzzer;

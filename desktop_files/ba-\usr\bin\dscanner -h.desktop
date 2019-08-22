@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dscanner
+Icon=utilities-terminal
+Comment=Swiss-army knife for D source code.
+TryExec=/usr/bin/dscanner
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dscanner -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Code-audit;

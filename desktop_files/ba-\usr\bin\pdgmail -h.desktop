@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pdgmail
+Icon=utilities-terminal
+Comment=A password dictionary attack tool that targets windows authentication via the SMB protocol
+TryExec=/usr/bin/pdgmail
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pdgmail -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

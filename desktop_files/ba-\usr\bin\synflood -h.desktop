@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=synflood
+Icon=utilities-terminal
+Comment=A very simply script to illustrate DoS SYN Flooding attack.
+TryExec=/usr/bin/synflood
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/synflood -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Dos;

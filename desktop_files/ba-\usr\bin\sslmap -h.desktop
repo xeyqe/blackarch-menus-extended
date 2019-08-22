@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sslmap
+Icon=utilities-terminal
+Comment=A lightweight TLS/SSL cipher suite scanner.
+TryExec=/usr/bin/sslmap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sslmap -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Crypto;

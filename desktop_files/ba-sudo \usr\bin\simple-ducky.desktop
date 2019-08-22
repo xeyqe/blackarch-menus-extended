@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=simple-ducky
+Icon=utilities-terminal
+Comment=A payload generator.
+TryExec=/usr/bin/simple-ducky
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/simple-ducky' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Exploitation;

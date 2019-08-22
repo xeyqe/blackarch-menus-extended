@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=smtpscan
+Icon=utilities-terminal
+Comment=An SMTP scanner
+TryExec=/usr/bin/smtpscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/smtpscan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fingerprint;

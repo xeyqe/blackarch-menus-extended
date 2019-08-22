@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=joomscan
+Icon=utilities-terminal
+Comment=Detects file inclusion, sql injection, command execution vulnerabilities of a target Joomla! web site.
+TryExec=/usr/bin/joomscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/joomscan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

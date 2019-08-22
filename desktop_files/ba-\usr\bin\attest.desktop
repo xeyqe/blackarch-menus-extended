@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=attest
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/attest
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/attest' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

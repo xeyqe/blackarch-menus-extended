@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=vbrute
+Icon=utilities-terminal
+Comment=Virtual hosts brute forcer.
+TryExec=/usr/bin/vbrute
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/vbrute -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;X-BlackArch-Scanner;

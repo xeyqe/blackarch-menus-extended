@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=roputils
+Icon=utilities-terminal
+Comment=A Return-oriented Programming toolkit.
+TryExec=/usr/bin/roputils
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/roputils' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

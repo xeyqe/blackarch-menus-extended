@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=webrute
+Icon=utilities-terminal
+Comment=Web server directory brute forcer.
+TryExec=/usr/bin/webrute
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/webrute -help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Webapp;

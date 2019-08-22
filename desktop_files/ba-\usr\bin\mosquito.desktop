@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mosquito
+Icon=utilities-terminal
+Comment=XSS exploitation tool - access victims through HTTP proxy.
+TryExec=/usr/bin/mosquito
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mosquito' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Webapp;

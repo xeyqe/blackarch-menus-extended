@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=passcracking
+Icon=utilities-terminal
+Comment=A little python script for sending hashes to passcracking.com and milw0rm
+TryExec=/usr/bin/passcracking
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/passcracking' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

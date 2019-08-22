@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=spike-do-post
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/spike-do-post
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/spike-do-post' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

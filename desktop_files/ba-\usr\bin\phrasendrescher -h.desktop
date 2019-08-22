@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=phrasendrescher
+Icon=utilities-terminal
+Comment=A modular and multi processing pass phrase cracking tool
+TryExec=/usr/bin/phrasendrescher
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/phrasendrescher -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

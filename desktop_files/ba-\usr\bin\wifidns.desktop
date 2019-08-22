@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wifidns
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/wifidns
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wifidns' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

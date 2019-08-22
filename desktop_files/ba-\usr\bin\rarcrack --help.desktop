@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rarcrack
+Icon=utilities-terminal
+Comment=This program uses bruteforce algorithm to find correct password (rar, 7z, zip).
+TryExec=/usr/bin/rarcrack
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rarcrack --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

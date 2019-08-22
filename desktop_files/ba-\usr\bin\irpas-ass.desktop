@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=irpas-ass
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/irpas-ass
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/irpas-ass' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

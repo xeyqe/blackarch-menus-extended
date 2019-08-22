@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=iisbf
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/iisbf
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/iisbf' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

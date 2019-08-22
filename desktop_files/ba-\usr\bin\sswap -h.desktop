@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sswap
+Icon=utilities-terminal
+Comment=Secure overwrite of the swap space.
+TryExec=/usr/bin/sswap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sswap -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Anti-Forensic;X-BlackArch-Defensive;

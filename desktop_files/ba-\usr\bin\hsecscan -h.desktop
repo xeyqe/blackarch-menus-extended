@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hsecscan
+Icon=utilities-terminal
+Comment=A security scanner for HTTP response headers.
+TryExec=/usr/bin/hsecscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hsecscan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

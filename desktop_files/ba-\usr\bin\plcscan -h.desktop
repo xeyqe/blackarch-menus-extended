@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=plcscan
+Icon=utilities-terminal
+Comment=This is a tool written in Python that will scan for PLC devices over s7comm or modbus protocols.
+TryExec=/usr/bin/plcscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/plcscan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Networking;

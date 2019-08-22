@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=nfcapd
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/nfcapd
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/nfcapd -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=veracrypt
+Icon=utilities-terminal
+Comment=Free disk encryption software, TrueCrypt fork.
+TryExec=/usr/bin/veracrypt
+Exec=/usr/bin/veracrypt
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Crypto;X-BlackArch-Defensive;

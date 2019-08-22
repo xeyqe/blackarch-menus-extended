@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=subdomainer.py
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/subdomainer.py
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/subdomainer.py -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;X-BlackArch-Scanner;

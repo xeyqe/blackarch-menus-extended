@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=vinetto
+Icon=utilities-terminal
+Comment=A forensics tool to examine Thumbs.db files
+TryExec=/usr/bin/vinetto
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/vinetto -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

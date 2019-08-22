@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sawef
+Icon=utilities-terminal
+Comment=Send Attack Web Forms.
+TryExec=/usr/bin/sawef
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sawef -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Recon;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=maskgen
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/maskgen
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/maskgen -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pkcrack-makekey
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/pkcrack-makekey
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pkcrack-makekey' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

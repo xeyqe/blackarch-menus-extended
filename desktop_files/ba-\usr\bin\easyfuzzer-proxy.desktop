@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=easyfuzzer-proxy
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/easyfuzzer-proxy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/easyfuzzer-proxy' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;X-BlackArch-Webapp;

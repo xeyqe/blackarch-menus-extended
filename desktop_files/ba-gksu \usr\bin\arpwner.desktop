@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=arpwner
+Icon=utilities-terminal
+Comment=GUI-based python tool for arp posioning and dns poisoning attacks.
+TryExec=/usr/bin/arpwner
+Exec=sh -c 'gksu /usr/bin/arpwner' $SHELL
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Networking;

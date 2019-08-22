@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rfcomm_scan
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rfcomm_scan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rfcomm_scan' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;X-BlackArch-Fuzzer;

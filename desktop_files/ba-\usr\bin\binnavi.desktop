@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=binnavi
+Icon=utilities-terminal
+Comment=A binary analysis IDE that allows to inspect, navigate, edit and annotate control flow graphs and call graphs of disassembled code.
+TryExec=/usr/bin/binnavi
+Exec=/usr/bin/binnavi
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Disassembler;X-BlackArch-Reversing;X-BlackArch-Binary;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=xspy
+Icon=utilities-terminal
+Comment=A utility for monitoring keypresses on remote X servers
+TryExec=/usr/bin/xspy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/xspy -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Keylogger;

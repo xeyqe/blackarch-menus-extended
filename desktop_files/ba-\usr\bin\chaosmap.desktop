@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=chaosmap
+Icon=utilities-terminal
+Comment=An information gathering tool and dns / whois / web server scanner
+TryExec=/usr/bin/chaosmap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/chaosmap' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Scanner;X-BlackArch-Recon;

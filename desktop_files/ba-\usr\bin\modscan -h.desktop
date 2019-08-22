@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=modscan
+Icon=utilities-terminal
+Comment=A new tool designed to map a SCADA MODBUS TCP based network.
+TryExec=/usr/bin/modscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/modscan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Recon;

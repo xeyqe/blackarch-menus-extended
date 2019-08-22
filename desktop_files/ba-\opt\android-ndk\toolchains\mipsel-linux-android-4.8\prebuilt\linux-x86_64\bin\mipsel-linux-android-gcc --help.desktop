@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mipsel-linux-android-gcc
+Icon=utilities-terminal
+Comment=
+TryExec=/opt/android-ndk/toolchains/mipsel-linux-android-4.8/prebuilt/linux-x86_64/bin/mipsel-linux-android-gcc
+Exec=sh -c '/usr/local/bin/appHelper.sh /opt/android-ndk/toolchains/mipsel-linux-android-4.8/prebuilt/linux-x86_64/bin/mipsel-linux-android-gcc --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;

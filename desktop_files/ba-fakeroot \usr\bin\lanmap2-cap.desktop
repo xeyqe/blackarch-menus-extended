@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=lanmap2-cap
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/lanmap2-cap
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/lanmap2-cap' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

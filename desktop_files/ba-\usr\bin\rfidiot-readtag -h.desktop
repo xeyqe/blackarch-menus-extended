@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rfidiot-readtag
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rfidiot-readtag
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rfidiot-readtag -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

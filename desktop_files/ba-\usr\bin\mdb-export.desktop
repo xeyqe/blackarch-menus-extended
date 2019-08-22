@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mdb-export
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/mdb-export
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mdb-export' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

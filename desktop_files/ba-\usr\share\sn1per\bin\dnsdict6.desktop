@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dnsdict6
+Icon=utilities-terminal
+Comment=Enumerates a domain for DNS entries, it uses a dictionary file if supplied or a built-in list otherwise. This tool is based on dnsmap by gnucitizen.org.
+TryExec=/usr/share/sn1per/bin/dnsdict6
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/share/sn1per/bin/dnsdict6' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;X-BlackArch-Automation;X-BlackArch-Scanner;X-BlackArch-Cracker;

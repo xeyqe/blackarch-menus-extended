@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rfidiot-readmifare1k
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rfidiot-readmifare1k
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rfidiot-readmifare1k -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

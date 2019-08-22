@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pdfcrack
+Icon=utilities-terminal
+Comment=Password recovery tool for PDF-files.
+TryExec=/usr/bin/pdfcrack
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pdfcrack' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

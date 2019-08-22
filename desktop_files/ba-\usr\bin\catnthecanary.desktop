@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=catnthecanary
+Icon=utilities-terminal
+Comment=An application to query the canary.pw data set for leaked data.
+TryExec=/usr/bin/catnthecanary
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/catnthecanary' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=merge-router-config.pl
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/merge-router-config.pl
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/merge-router-config.pl' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ikecrack-snarf
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ikecrack-snarf
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ikecrack-snarf' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

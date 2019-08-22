@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=minimysqlator
+Icon=utilities-terminal
+Comment=A multi-platform application used to audit web sites in order to discover and exploit SQL injection vulnerabilities.
+TryExec=/usr/bin/minimysqlator
+Exec=/usr/bin/minimysqlator
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Exploitation;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sqlplus
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/sqlplus
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sqlplus -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

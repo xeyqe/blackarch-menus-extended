@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=scrounge-ntfs
+Icon=utilities-terminal
+Comment=Data recovery program for NTFS file systems
+TryExec=/usr/bin/scrounge-ntfs
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/scrounge-ntfs -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

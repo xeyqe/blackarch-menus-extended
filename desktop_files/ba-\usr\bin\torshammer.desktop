@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=torshammer
+Icon=utilities-terminal
+Comment=A slow POST Denial of Service testing tool written in Python.
+TryExec=/usr/bin/torshammer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/torshammer' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Dos;

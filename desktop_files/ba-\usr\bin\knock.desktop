@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=knock
+Icon=utilities-terminal
+Comment=Subdomain scanner.
+TryExec=/usr/bin/knock
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/knock' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Recon;

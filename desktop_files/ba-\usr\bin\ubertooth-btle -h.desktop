@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ubertooth-btle
+Icon=utilities-terminal
+Comment=Passive Bluetooth Low Energy monitoring.
+TryExec=/usr/bin/ubertooth-btle
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ubertooth-btle -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

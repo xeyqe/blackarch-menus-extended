@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=upnpscan
+Icon=utilities-terminal
+Comment=Scans the LAN or a given address range for UPnP capable devices.
+TryExec=/usr/bin/upnpscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/upnpscan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

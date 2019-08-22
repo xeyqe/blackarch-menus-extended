@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pcapsipdump
+Icon=utilities-terminal
+Comment=A tool for dumping SIP sessions (+RTP traffic, if available) to disk in a fashion similar to 'tcpdump -w' (format is exactly the same), but one file per sip session (even if there is thousands of concurrect SIP sessions).
+TryExec=/usr/bin/pcapsipdump
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pcapsipdump' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Voip;

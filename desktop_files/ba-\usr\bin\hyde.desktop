@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hyde
+Icon=utilities-terminal
+Comment=Just another tool in C to do DDoS (with spoofing).
+TryExec=/usr/bin/hyde
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hyde' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Dos;

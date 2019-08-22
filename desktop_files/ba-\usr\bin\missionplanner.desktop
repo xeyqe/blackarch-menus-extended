@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=missionplanner
+Icon=utilities-terminal
+Comment=A GroundControl Station for Ardupilot.
+TryExec=/usr/bin/missionplanner
+Exec=/usr/bin/missionplanner
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Drone;

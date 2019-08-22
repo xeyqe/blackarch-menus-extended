@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dhcdrop
+Icon=utilities-terminal
+Comment=Remove illegal dhcp servers with IP-pool underflow.
+TryExec=/usr/bin/dhcdrop
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dhcdrop -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

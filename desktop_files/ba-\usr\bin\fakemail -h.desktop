@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fakemail
+Icon=utilities-terminal
+Comment=Fake mail server that captures e-mails as files for acceptance testing.
+TryExec=/usr/bin/fakemail
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/fakemail -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

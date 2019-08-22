@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wyd
+Icon=utilities-terminal
+Comment=Gets keywords from personal files. IT security/forensic tool.
+TryExec=/usr/bin/wyd
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wyd' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Forensic;

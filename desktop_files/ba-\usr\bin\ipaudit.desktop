@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ipaudit
+Icon=utilities-terminal
+Comment=Monitors network activity on a network.
+TryExec=/usr/bin/ipaudit
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ipaudit' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

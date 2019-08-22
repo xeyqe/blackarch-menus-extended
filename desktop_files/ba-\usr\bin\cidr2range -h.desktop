@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cidr2range
+Icon=utilities-terminal
+Comment=Script for listing the IP addresses contained in a CIDR netblock
+TryExec=/usr/bin/cidr2range
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cidr2range -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

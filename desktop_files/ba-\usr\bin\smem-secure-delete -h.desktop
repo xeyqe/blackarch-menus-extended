@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=smem-secure-delete
+Icon=utilities-terminal
+Comment=Secure overwrite of the memory (RAM).
+TryExec=/usr/bin/smem-secure-delete
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/smem-secure-delete -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Anti-Forensic;X-BlackArch-Defensive;

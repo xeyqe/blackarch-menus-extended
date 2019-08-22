@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=smtptx
+Icon=utilities-terminal
+Comment=A very simple tool used for sending simple email and do some basic email testing from a pentester perspective.
+TryExec=/usr/bin/smtptx
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/smtptx -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Fuzzer;

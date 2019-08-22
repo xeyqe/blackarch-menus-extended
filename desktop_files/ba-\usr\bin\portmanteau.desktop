@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=portmanteau
+Icon=utilities-terminal
+Comment=An experimental unix driver IOCTL security tool that is useful for fuzzing and discovering device driver attack surface.
+TryExec=/usr/bin/portmanteau
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/portmanteau' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pdfresurrect
+Icon=utilities-terminal
+Comment=A tool aimed at analyzing PDF documents.
+TryExec=/usr/bin/pdfresurrect
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pdfresurrect -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

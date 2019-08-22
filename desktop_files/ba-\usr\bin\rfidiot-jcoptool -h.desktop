@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rfidiot-jcoptool
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rfidiot-jcoptool
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rfidiot-jcoptool -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

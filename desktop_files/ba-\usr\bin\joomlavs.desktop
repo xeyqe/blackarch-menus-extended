@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=joomlavs
+Icon=utilities-terminal
+Comment=A black box, Ruby powered, Joomla vulnerability scanner.
+TryExec=/usr/bin/joomlavs
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/joomlavs' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;X-BlackArch-Fuzzer;

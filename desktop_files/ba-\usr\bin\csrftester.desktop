@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=csrftester
+Icon=utilities-terminal
+Comment=The OWASP CSRFTester Project attempts to give developers the ability to test their applications for CSRF flaws.
+TryExec=/usr/bin/csrftester
+Exec=/usr/bin/csrftester
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Webapp;

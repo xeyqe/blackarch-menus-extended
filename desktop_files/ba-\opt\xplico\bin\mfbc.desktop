@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mfbc
+Icon=utilities-terminal
+Comment=
+TryExec=/opt/xplico/bin/mfbc
+Exec=sh -c '/usr/local/bin/appHelper.sh /opt/xplico/bin/mfbc' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Networking;

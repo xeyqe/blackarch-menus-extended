@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=unibrute
+Icon=utilities-terminal
+Comment=Multithreaded SQL union bruteforcer.
+TryExec=/usr/bin/unibrute
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/unibrute' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Database;

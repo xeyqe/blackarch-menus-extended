@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dnsmap-bulk
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/dnsmap-bulk
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dnsmap-bulk' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fingerprint;

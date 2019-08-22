@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=inurlbr
+Icon=utilities-terminal
+Comment=Advanced search in the search engines - Inurl scanner, dorker, exploiter.
+TryExec=/usr/bin/inurlbr
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/inurlbr -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Webapp;X-BlackArch-Automation;

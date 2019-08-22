@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=kolkata
+Icon=utilities-terminal
+Comment=A web application fingerprinting engine written in Perl that combines cryptography with IDS evasion.
+TryExec=/usr/bin/kolkata
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/kolkata' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Fingerprint;

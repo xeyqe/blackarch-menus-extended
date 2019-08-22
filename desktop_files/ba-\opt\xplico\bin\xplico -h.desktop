@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=xplico
+Icon=utilities-terminal
+Comment=Internet Traffic Decoder. Network Forensic Analysis Tool (NFAT).
+TryExec=/opt/xplico/bin/xplico
+Exec=sh -c '/usr/local/bin/appHelper.sh /opt/xplico/bin/xplico -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Networking;

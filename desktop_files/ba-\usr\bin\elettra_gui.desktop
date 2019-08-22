@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=elettra_gui
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/elettra_gui
+Exec=/usr/bin/elettra_gui
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Misc;

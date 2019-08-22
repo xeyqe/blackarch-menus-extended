@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=isme
+Icon=utilities-terminal
+Comment=Scans a VOIP environment, adapts to enterprise VOIP, and exploits the possibilities of being connected directly to an IP Phone VLAN.
+TryExec=/usr/bin/isme
+Exec=/usr/bin/isme
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Voip;X-BlackArch-Recon;X-BlackArch-Scanner;

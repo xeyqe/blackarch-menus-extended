@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=braa
+Icon=utilities-terminal
+Comment=A mass snmp scanner
+TryExec=/usr/bin/braa
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/braa -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

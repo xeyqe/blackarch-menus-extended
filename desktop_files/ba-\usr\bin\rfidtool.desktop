@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rfidtool
+Icon=utilities-terminal
+Comment=A opensource tool to read / write rfid tags
+TryExec=/usr/bin/rfidtool
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rfidtool' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

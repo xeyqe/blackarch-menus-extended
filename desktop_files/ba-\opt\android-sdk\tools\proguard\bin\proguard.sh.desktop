@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=proguard.sh
+Icon=utilities-terminal
+Comment=
+TryExec=/opt/android-sdk/tools/proguard/bin/proguard.sh
+Exec=sh -c '/usr/local/bin/appHelper.sh /opt/android-sdk/tools/proguard/bin/proguard.sh' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;

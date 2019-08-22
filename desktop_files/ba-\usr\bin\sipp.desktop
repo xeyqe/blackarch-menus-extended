@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sipp
+Icon=utilities-terminal
+Comment=A free Open Source test tool / traffic generator for the SIP protocol.
+TryExec=/usr/bin/sipp
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sipp' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Voip;

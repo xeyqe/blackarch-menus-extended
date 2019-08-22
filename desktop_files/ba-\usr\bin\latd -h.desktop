@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=latd
+Icon=utilities-terminal
+Comment=A LAT terminal daemon for Linux and BSD.
+TryExec=/usr/bin/latd
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/latd -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Misc;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sinfp
+Icon=utilities-terminal
+Comment=A full operating system stack fingerprinting suite.
+TryExec=/usr/bin/sinfp
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sinfp -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fingerprint;

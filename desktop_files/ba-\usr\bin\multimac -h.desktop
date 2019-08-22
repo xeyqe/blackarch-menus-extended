@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=multimac
+Icon=utilities-terminal
+Comment=Multiple MACs on an adapter
+TryExec=/usr/bin/multimac
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/multimac -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Spoof;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=iaxflood
+Icon=utilities-terminal
+Comment=IAX flooder.
+TryExec=/usr/bin/iaxflood
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/iaxflood' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Dos;X-BlackArch-Voip;

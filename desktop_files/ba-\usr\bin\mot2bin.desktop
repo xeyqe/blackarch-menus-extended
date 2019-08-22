@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mot2bin
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/mot2bin
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mot2bin' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wikigen
+Icon=utilities-terminal
+Comment=A script to generate wordlists out of wikipedia pages.
+TryExec=/usr/bin/wikigen
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wikigen -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Misc;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cpfinder
+Icon=utilities-terminal
+Comment=This is a simple script that looks for administrative web interfaces.
+TryExec=/usr/bin/cpfinder
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cpfinder -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Webapp;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rasplit
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rasplit
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rasplit -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Defensive;X-BlackArch-Sniffer;

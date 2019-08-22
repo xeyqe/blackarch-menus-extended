@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pescan
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/pescan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pescan --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Reversing;

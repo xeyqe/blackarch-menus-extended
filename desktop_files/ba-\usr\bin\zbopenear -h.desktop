@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=zbopenear
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/zbopenear
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/zbopenear -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Wireless;

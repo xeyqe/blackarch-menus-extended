@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tunna-webserver
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/tunna-webserver
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/tunna-webserver --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Tunnel;X-BlackArch-Proxy;X-BlackArch-Windows;

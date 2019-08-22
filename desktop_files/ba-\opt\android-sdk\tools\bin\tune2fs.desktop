@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tune2fs
+Icon=utilities-terminal
+Comment=
+TryExec=/opt/android-sdk/tools/bin/tune2fs
+Exec=sh -c '/usr/local/bin/appHelper.sh /opt/android-sdk/tools/bin/tune2fs' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;

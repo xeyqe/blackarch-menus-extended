@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tcp6
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/tcp6
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/tcp6' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

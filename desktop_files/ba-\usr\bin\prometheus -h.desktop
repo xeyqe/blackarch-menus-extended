@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=prometheus
+Icon=utilities-terminal
+Comment=A Firewall analyzer written in ruby
+TryExec=/usr/bin/prometheus
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/prometheus -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

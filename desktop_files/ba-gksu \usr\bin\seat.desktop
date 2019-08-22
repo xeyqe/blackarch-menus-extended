@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=seat
+Icon=utilities-terminal
+Comment=Next generation information digging application geared toward the needs of security professionals. It uses information stored in search engine databases, cache repositories, and other public resources to scan web sites for potential vulnerabilities.
+TryExec=/usr/bin/seat
+Exec=sh -c 'gksu /usr/bin/seat' $SHELL
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Recon;

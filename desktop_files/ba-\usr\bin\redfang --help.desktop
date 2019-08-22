@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=redfang
+Icon=utilities-terminal
+Comment=Finds non-discoverable Bluetooth devices by brute-forcing the last six bytes of the devices' Bluetooth addresses and calling read_remote_name().
+TryExec=/usr/bin/redfang
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/redfang --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;X-BlackArch-Scanner;

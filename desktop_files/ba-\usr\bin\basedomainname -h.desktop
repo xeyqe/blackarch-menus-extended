@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=basedomainname
+Icon=utilities-terminal
+Comment=Tool that can extract TLD (Top Level Domain), domain extensions (Second Level Domain + TLD), domain name, and hostname from fully qualified domain names.
+TryExec=/usr/bin/basedomainname
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/basedomainname -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;X-BlackArch-Scanner;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=elettra
+Icon=utilities-terminal
+Comment=Encryption utility by Julia Identity
+TryExec=/usr/bin/elettra
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/elettra' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

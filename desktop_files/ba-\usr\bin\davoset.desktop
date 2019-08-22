@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=davoset
+Icon=utilities-terminal
+Comment=A tool for using Abuse of Functionality and XML External Entities vulnerabilities on some websites to attack other websites.
+TryExec=/usr/bin/davoset
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/davoset' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Dos;

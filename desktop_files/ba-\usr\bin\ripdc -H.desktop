@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ripdc
+Icon=utilities-terminal
+Comment=A script which maps domains related to an given ip address or domainname.
+TryExec=/usr/bin/ripdc
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ripdc -H' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;X-BlackArch-Scanner;

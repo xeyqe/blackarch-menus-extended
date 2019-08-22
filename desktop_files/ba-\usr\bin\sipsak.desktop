@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sipsak
+Icon=utilities-terminal
+Comment=A small command line tool for developers and administrators of Session Initiation Protocol (SIP) applications.
+TryExec=/usr/bin/sipsak
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sipsak' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Voip;

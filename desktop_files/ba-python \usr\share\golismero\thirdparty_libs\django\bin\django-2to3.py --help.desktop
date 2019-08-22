@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=django-2to3.py
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/share/golismero/thirdparty_libs/django/bin/django-2to3.py
+Exec=sh -c '/usr/local/bin/appHelper.sh python /usr/share/golismero/thirdparty_libs/django/bin/django-2to3.py --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

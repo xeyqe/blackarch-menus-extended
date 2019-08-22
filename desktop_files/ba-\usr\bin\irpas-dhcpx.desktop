@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=irpas-dhcpx
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/irpas-dhcpx
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/irpas-dhcpx' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

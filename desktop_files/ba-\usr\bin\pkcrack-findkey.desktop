@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pkcrack-findkey
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/pkcrack-findkey
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pkcrack-findkey' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

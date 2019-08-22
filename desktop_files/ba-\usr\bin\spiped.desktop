@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=spiped
+Icon=utilities-terminal
+Comment=A utility for creating symmetrically encrypted and authenticated pipes between socket addresses.
+TryExec=/usr/bin/spiped
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/spiped' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Crypto;

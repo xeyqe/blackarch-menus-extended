@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=outlook-webapp-brute
+Icon=utilities-terminal
+Comment=Microsoft Outlook WebAPP Brute.
+TryExec=/usr/bin/outlook-webapp-brute
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/outlook-webapp-brute -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

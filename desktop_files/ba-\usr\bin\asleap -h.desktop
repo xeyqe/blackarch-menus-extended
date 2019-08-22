@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=asleap
+Icon=utilities-terminal
+Comment=Actively recover LEAP/PPTP passwords.
+TryExec=/usr/bin/asleap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/asleap -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dnstwist
+Icon=utilities-terminal
+Comment=Domain name permutation engine for detecting typo squatting, phishing and corporate espionage.
+TryExec=/usr/bin/dnstwist
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dnstwist -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Recon;

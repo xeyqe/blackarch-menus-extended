@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bluescan
+Icon=utilities-terminal
+Comment=A Bluetooth Device Scanner.
+TryExec=/usr/bin/bluescan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bluescan' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;X-BlackArch-Scanner;

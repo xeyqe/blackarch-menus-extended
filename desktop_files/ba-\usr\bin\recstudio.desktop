@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=recstudio
+Icon=utilities-terminal
+Comment=Cross platform interactive decompiler
+TryExec=/usr/bin/recstudio
+Exec=/usr/bin/recstudio
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Decompiler;X-BlackArch-Reversing;

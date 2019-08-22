@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=chaosreader0.94
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/share/fs-nyarl/bin/chaosreader0.94
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/share/fs-nyarl/bin/chaosreader0.94 -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Networking;X-BlackArch-Forensic;X-BlackArch-Spoof;X-BlackArch-Exploitation;X-BlackArch-Sniffer;

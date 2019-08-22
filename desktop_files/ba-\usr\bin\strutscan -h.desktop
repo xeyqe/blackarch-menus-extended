@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=strutscan
+Icon=utilities-terminal
+Comment=Apache Struts2 vulnerability scanner written in Perl.
+TryExec=/usr/bin/strutscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/strutscan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

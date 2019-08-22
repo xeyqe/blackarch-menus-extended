@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dpeparser
+Icon=utilities-terminal
+Comment=Default password enumeration project
+TryExec=/usr/bin/dpeparser
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dpeparser -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

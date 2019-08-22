@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=minimodem
+Icon=utilities-terminal
+Comment=A command-line program which decodes (or generates) audio modem tones at any specified baud rate, using various framing protocols.
+TryExec=/usr/bin/minimodem
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/minimodem' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

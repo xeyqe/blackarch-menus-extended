@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=scanssh
+Icon=utilities-terminal
+Comment=Fast SSH server and open proxy scanner.
+TryExec=/usr/bin/scanssh
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/scanssh -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

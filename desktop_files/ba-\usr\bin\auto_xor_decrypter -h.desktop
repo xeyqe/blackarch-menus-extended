@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=auto_xor_decrypter
+Icon=utilities-terminal
+Comment=Can automagically find short XOR keys in a XOR encrypted binary file, and use that to decrypt the XOR encrypted binary.
+TryExec=/usr/bin/auto_xor_decrypter
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/auto_xor_decrypter -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sagan
+Icon=utilities-terminal
+Comment=A snort-like log analysis engine.
+TryExec=/usr/bin/sagan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sagan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Ids;X-BlackArch-Defensive;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sucrack
+Icon=utilities-terminal
+Comment=A multi-threaded Linux/UNIX tool for brute-force cracking local user accounts via su
+TryExec=/usr/bin/sucrack
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sucrack' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

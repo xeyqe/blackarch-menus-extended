@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hpfeeds-client
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/hpfeeds-client
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hpfeeds-client -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Honeypot;X-BlackArch-Networking;

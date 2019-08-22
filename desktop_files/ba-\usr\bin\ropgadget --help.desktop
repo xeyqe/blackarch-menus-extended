@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ropgadget
+Icon=utilities-terminal
+Comment=Lets you search your gadgets on your binaries (ELF format) to facilitate your ROP exploitation.
+TryExec=/usr/bin/ropgadget
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ropgadget --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Binary;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=vlan-hopping
+Icon=utilities-terminal
+Comment=Easy 802.1Q VLAN Hopping
+TryExec=/usr/bin/vlan-hopping
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/vlan-hopping' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Networking;X-BlackArch-Recon;

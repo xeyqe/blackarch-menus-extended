@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=passhunt
+Icon=utilities-terminal
+Comment=Search drives for documents containing passwords.
+TryExec=/usr/bin/passhunt
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/passhunt -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

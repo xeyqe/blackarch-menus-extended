@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cloudflare-enum
+Icon=utilities-terminal
+Comment=Cloudflare DNS Enumeration Tool for Pentesters.
+TryExec=/usr/bin/cloudflare-enum
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cloudflare-enum' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

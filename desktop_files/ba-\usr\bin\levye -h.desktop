@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=levye
+Icon=utilities-terminal
+Comment=A brute force tool which is support sshkey, vnckey, rdp, openvpn.
+TryExec=/usr/bin/levye
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/levye -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

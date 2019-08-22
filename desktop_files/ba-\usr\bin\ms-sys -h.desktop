@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ms-sys
+Icon=utilities-terminal
+Comment=A tool to write Win9x-.. master boot records (mbr) under linux - RTM!
+TryExec=/usr/bin/ms-sys
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ms-sys -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Backdoor;X-BlackArch-Binary;X-BlackArch-Forensic;

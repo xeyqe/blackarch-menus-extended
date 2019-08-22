@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tuxcut
+Icon=utilities-terminal
+Comment=Netcut-like program for Linux written in PyQt.
+TryExec=/usr/bin/tuxcut
+Exec=/usr/bin/tuxcut
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Sniffer;

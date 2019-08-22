@@ -1,0 +1,601 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+"http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd">
+
+<Menu>
+	<Name>Applications</Name>
+	
+	<!-- BlackArch submenu -->
+	<Menu>
+		<Name>BlackArch</Name>
+		<Directory>BlackArch.directory</Directory>
+		<Include>
+			<Category>X-BlackArch</Category>
+		</Include>
+		
+		<!-- Begin of _CodeAnalysis -->
+		<Menu>
+			<Name>_CodeAnalysis</Name>
+			<Directory>BlackArch-_CodeAnalysis.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-_CodeAnalysis</Category>
+			</Include>
+
+					<!-- Begin of Reversing -->
+			<Menu>
+				<Name>Reversing</Name>
+				<Directory>BlackArch-Reversing.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Reversing</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Analysis -->
+			<Menu>
+				<Name>Analysis</Name>
+				<Directory>BlackArch-Analysis.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Analysis</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Disassembler -->
+			<Menu>
+				<Name>Disassembler</Name>
+				<Directory>BlackArch-Disassembler.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Disassembler</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Debugger -->
+			<Menu>
+				<Name>Debugger</Name>
+				<Directory>BlackArch-Debugger.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Debugger</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Binary -->
+			<Menu>
+				<Name>Binary</Name>
+				<Directory>BlackArch-Binary.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Binary</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Decompiler -->
+			<Menu>
+				<Name>Decompiler</Name>
+				<Directory>BlackArch-Decompiler.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Decompiler</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Code Audit -->
+			<Menu>
+				<Name>Code Audit</Name>
+				<Directory>BlackArch-Code-Audit.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Code-Audit</Category>
+				</Include>
+
+			</Menu>
+		</Menu>
+		<!-- Begin of _Cracking -->
+		<Menu>
+			<Name>_Cracking</Name>
+			<Directory>BlackArch-_Cracking.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-_Cracking</Category>
+			</Include>
+
+					<!-- Begin of Cracker -->
+			<Menu>
+				<Name>Cracker</Name>
+				<Directory>BlackArch-Cracker.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Cracker</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Crypto -->
+			<Menu>
+				<Name>Crypto</Name>
+				<Directory>BlackArch-Crypto.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Crypto</Category>
+				</Include>
+
+			</Menu>
+		</Menu>
+		<!-- Begin of _Defensive -->
+		<Menu>
+			<Name>_Defensive</Name>
+			<Directory>BlackArch-_Defensive.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-_Defensive</Category>
+			</Include>
+
+					<!-- Begin of Defensive -->
+			<Menu>
+				<Name>Defensive</Name>
+				<Directory>BlackArch-Defensive.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Defensive</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Honeypot -->
+			<Menu>
+				<Name>Honeypot</Name>
+				<Directory>BlackArch-Honeypot.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Honeypot</Category>
+				</Include>
+
+			</Menu>
+		</Menu>
+		<!-- Begin of _Exploitation -->
+		<Menu>
+			<Name>_Exploitation</Name>
+			<Directory>BlackArch-_Exploitation.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-_Exploitation</Category>
+			</Include>
+
+					<!-- Begin of Exploitation -->
+			<Menu>
+				<Name>Exploitation</Name>
+				<Directory>BlackArch-Exploitation.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Exploitation</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Dos -->
+			<Menu>
+				<Name>Dos</Name>
+				<Directory>BlackArch-Dos.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Dos</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Automation -->
+			<Menu>
+				<Name>Automation</Name>
+				<Directory>BlackArch-Automation.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Automation</Category>
+				</Include>
+
+			</Menu>
+		</Menu>
+		<!-- Begin of _Forensic -->
+		<Menu>
+			<Name>_Forensic</Name>
+			<Directory>BlackArch-_Forensic.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-_Forensic</Category>
+			</Include>
+
+					<!-- Begin of Anti Forensic -->
+			<Menu>
+				<Name>Anti Forensic</Name>
+				<Directory>BlackArch-Anti-Forensic.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Anti-Forensic</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Forensic -->
+			<Menu>
+				<Name>Forensic</Name>
+				<Directory>BlackArch-Forensic.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Forensic</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Unpacker -->
+			<Menu>
+				<Name>Unpacker</Name>
+				<Directory>BlackArch-Unpacker.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Unpacker</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Packer -->
+			<Menu>
+				<Name>Packer</Name>
+				<Directory>BlackArch-Packer.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Packer</Category>
+				</Include>
+
+			</Menu>
+		</Menu>
+		<!-- Begin of _Malware -->
+		<Menu>
+			<Name>_Malware</Name>
+			<Directory>BlackArch-_Malware.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-_Malware</Category>
+			</Include>
+
+					<!-- Begin of Malware -->
+			<Menu>
+				<Name>Malware</Name>
+				<Directory>BlackArch-Malware.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Malware</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Backdoor -->
+			<Menu>
+				<Name>Backdoor</Name>
+				<Directory>BlackArch-Backdoor.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Backdoor</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Keylogger -->
+			<Menu>
+				<Name>Keylogger</Name>
+				<Directory>BlackArch-Keylogger.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Keylogger</Category>
+				</Include>
+
+			</Menu>
+		</Menu>
+		<!-- Begin of _Networking -->
+		<Menu>
+			<Name>_Networking</Name>
+			<Directory>BlackArch-_Networking.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-_Networking</Category>
+			</Include>
+
+					<!-- Begin of Networking -->
+			<Menu>
+				<Name>Networking</Name>
+				<Directory>BlackArch-Networking.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Networking</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Tunnel -->
+			<Menu>
+				<Name>Tunnel</Name>
+				<Directory>BlackArch-Tunnel.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Tunnel</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Proxy -->
+			<Menu>
+				<Name>Proxy</Name>
+				<Directory>BlackArch-Proxy.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Proxy</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Spoof -->
+			<Menu>
+				<Name>Spoof</Name>
+				<Directory>BlackArch-Spoof.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Spoof</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Spoofer -->
+			<Menu>
+				<Name>Spoofer</Name>
+				<Directory>BlackArch-Spoofer.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Spoofer</Category>
+				</Include>
+
+			</Menu>
+		</Menu>
+		<!-- Begin of _Wireless -->
+		<Menu>
+			<Name>_Wireless</Name>
+			<Directory>BlackArch-_Wireless.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-_Wireless</Category>
+			</Include>
+
+					<!-- Begin of Bluetooth -->
+			<Menu>
+				<Name>Bluetooth</Name>
+				<Directory>BlackArch-Bluetooth.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Bluetooth</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Wireless -->
+			<Menu>
+				<Name>Wireless</Name>
+				<Directory>BlackArch-Wireless.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Wireless</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Nfc -->
+			<Menu>
+				<Name>Nfc</Name>
+				<Directory>BlackArch-Nfc.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Nfc</Category>
+				</Include>
+
+			</Menu>
+		</Menu>
+		<!-- Begin of _Telephony -->
+		<Menu>
+			<Name>_Telephony</Name>
+			<Directory>BlackArch-_Telephony.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-_Telephony</Category>
+			</Include>
+
+					<!-- Begin of Voip -->
+			<Menu>
+				<Name>Voip</Name>
+				<Directory>BlackArch-Voip.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Voip</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Mobile -->
+			<Menu>
+				<Name>Mobile</Name>
+				<Directory>BlackArch-Mobile.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Mobile</Category>
+				</Include>
+
+			</Menu>
+		</Menu>
+		<!-- Begin of _Scanning -->
+		<Menu>
+			<Name>_Scanning</Name>
+			<Directory>BlackArch-_Scanning.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-_Scanning</Category>
+			</Include>
+
+					<!-- Begin of Scanner -->
+			<Menu>
+				<Name>Scanner</Name>
+				<Directory>BlackArch-Scanner.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Scanner</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Fingerprint -->
+			<Menu>
+				<Name>Fingerprint</Name>
+				<Directory>BlackArch-Fingerprint.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Fingerprint</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Fuzzer -->
+			<Menu>
+				<Name>Fuzzer</Name>
+				<Directory>BlackArch-Fuzzer.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Fuzzer</Category>
+				</Include>
+
+			</Menu>
+			<!-- Begin of Recon -->
+			<Menu>
+				<Name>Recon</Name>
+				<Directory>BlackArch-Recon.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Recon</Category>
+				</Include>
+
+			</Menu>
+		</Menu>
+		<!-- Begin of _Sniffing -->
+		<Menu>
+			<Name>_Sniffing</Name>
+			<Directory>BlackArch-_Sniffing.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-_Sniffing</Category>
+			</Include>
+
+					<!-- Begin of Sniffer -->
+			<Menu>
+				<Name>Sniffer</Name>
+				<Directory>BlackArch-Sniffer.directory</Directory>
+				<Include>
+					<Category>X-BlackArch-Sniffer</Category>
+				</Include>
+
+			</Menu>
+		</Menu>
+		<!-- Begin of _Asserted -->
+		<Menu>
+			<Name>_Asserted</Name>
+			<Directory>BlackArch-_Asserted.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-_Asserted</Category>
+			</Include>
+
+				<!-- Begin of Automobile -->
+		<Menu>
+			<Name>Automobile</Name>
+			<Directory>BlackArch-Automobile.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-Automobile</Category>
+			</Include>
+
+		</Menu>
+		<!-- Begin of Config -->
+		<Menu>
+			<Name>Config</Name>
+			<Directory>BlackArch-Config.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-Config</Category>
+			</Include>
+
+		</Menu>
+		<!-- Begin of Cryptography -->
+		<Menu>
+			<Name>Cryptography</Name>
+			<Directory>BlackArch-Cryptography.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-Cryptography</Category>
+			</Include>
+
+		</Menu>
+		<!-- Begin of Database -->
+		<Menu>
+			<Name>Database</Name>
+			<Directory>BlackArch-Database.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-Database</Category>
+			</Include>
+
+		</Menu>
+		<!-- Begin of Drone -->
+		<Menu>
+			<Name>Drone</Name>
+			<Directory>BlackArch-Drone.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-Drone</Category>
+			</Include>
+
+		</Menu>
+		<!-- Begin of Firmware -->
+		<Menu>
+			<Name>Firmware</Name>
+			<Directory>BlackArch-Firmware.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-Firmware</Category>
+			</Include>
+
+		</Menu>
+		<!-- Begin of Gpu -->
+		<Menu>
+			<Name>Gpu</Name>
+			<Directory>BlackArch-Gpu.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-Gpu</Category>
+			</Include>
+
+		</Menu>
+		<!-- Begin of Hardware -->
+		<Menu>
+			<Name>Hardware</Name>
+			<Directory>BlackArch-Hardware.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-Hardware</Category>
+			</Include>
+
+		</Menu>
+		<!-- Begin of Ids -->
+		<Menu>
+			<Name>Ids</Name>
+			<Directory>BlackArch-Ids.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-Ids</Category>
+			</Include>
+
+		</Menu>
+		<!-- Begin of Misc -->
+		<Menu>
+			<Name>Misc</Name>
+			<Directory>BlackArch-Misc.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-Misc</Category>
+			</Include>
+
+		</Menu>
+		<!-- Begin of Mobileblackarch Reversing -->
+		<Menu>
+			<Name>Mobileblackarch Reversing</Name>
+			<Directory>BlackArch-Mobileblackarch-Reversing.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-Mobileblackarch-Reversing</Category>
+			</Include>
+
+		</Menu>
+		<!-- Begin of Radio -->
+		<Menu>
+			<Name>Radio</Name>
+			<Directory>BlackArch-Radio.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-Radio</Category>
+			</Include>
+
+		</Menu>
+		<!-- Begin of Scan -->
+		<Menu>
+			<Name>Scan</Name>
+			<Directory>BlackArch-Scan.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-Scan</Category>
+			</Include>
+
+		</Menu>
+		<!-- Begin of Social -->
+		<Menu>
+			<Name>Social</Name>
+			<Directory>BlackArch-Social.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-Social</Category>
+			</Include>
+
+		</Menu>
+		<!-- Begin of Stego -->
+		<Menu>
+			<Name>Stego</Name>
+			<Directory>BlackArch-Stego.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-Stego</Category>
+			</Include>
+
+		</Menu>
+		<!-- Begin of Webapp -->
+		<Menu>
+			<Name>Webapp</Name>
+			<Directory>BlackArch-Webapp.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-Webapp</Category>
+			</Include>
+
+		</Menu>
+		<!-- Begin of Windows -->
+		<Menu>
+			<Name>Windows</Name>
+			<Directory>BlackArch-Windows.directory</Directory>
+			<Include>
+				<Category>X-BlackArch-Windows</Category>
+			</Include>
+
+		</Menu>
+	</Menu>
+    </Menu>
+</Menu>

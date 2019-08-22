@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cangibrina
+Icon=utilities-terminal
+Comment=Dashboard Finder.
+TryExec=/usr/bin/cangibrina
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cangibrina -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Webapp;

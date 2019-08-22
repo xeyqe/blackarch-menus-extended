@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sn00p
+Icon=utilities-terminal
+Comment=A modular tool written in bourne shell and designed to chain and automate security tools and tests.
+TryExec=/usr/bin/sn00p
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sn00p -H' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Scanner;X-BlackArch-Recon;X-BlackArch-Fingerprint;X-BlackArch-Networking;X-BlackArch-Fuzzer;X-BlackArch-Exploitation;

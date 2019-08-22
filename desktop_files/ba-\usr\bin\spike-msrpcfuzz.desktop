@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=spike-msrpcfuzz
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/spike-msrpcfuzz
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/spike-msrpcfuzz' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bed
+Icon=utilities-terminal
+Comment=Collection of scripts to test for buffer overflows, format string vulnerabilities.
+TryExec=/usr/bin/bed
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bed --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

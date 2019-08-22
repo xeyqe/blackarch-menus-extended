@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cmsmap
+Icon=utilities-terminal
+Comment=A python open source Content Management System scanner that automates the process of detecting security flaws of the most popular CMSs.
+TryExec=/usr/bin/cmsmap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cmsmap -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Automation;X-BlackArch-Webapp;X-BlackArch-Exploitation;

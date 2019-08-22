@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ctunnel
+Icon=utilities-terminal
+Comment=Tunnel and/or proxy TCP or UDP connections via a cryptographic tunnel.
+TryExec=/usr/bin/ctunnel
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ctunnel -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Tunnel;

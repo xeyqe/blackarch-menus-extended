@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=xsss
+Icon=utilities-terminal
+Comment=A brute force cross site scripting scanner.
+TryExec=/usr/bin/xsss
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/xsss' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Fuzzer;X-BlackArch-Scanner;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=svmap
+Icon=utilities-terminal
+Comment=Scans for SIP devices on a given network.
+TryExec=/usr/bin/svmap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/svmap -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Exploitation;

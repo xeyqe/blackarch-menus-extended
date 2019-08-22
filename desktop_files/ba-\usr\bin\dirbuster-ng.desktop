@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dirbuster-ng
+Icon=utilities-terminal
+Comment=C CLI implementation of the Java dirbuster tool.
+TryExec=/usr/bin/dirbuster-ng
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dirbuster-ng' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;

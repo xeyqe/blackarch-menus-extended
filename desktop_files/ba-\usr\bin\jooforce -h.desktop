@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=jooforce
+Icon=utilities-terminal
+Comment=A Joomla password brute force tester.
+TryExec=/usr/bin/jooforce
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/jooforce -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Cracker;

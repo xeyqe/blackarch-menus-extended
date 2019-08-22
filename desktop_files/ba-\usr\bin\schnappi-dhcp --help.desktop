@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=schnappi-dhcp
+Icon=utilities-terminal
+Comment=schnappi can fuck network with no DHCP
+TryExec=/usr/bin/schnappi-dhcp
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/schnappi-dhcp --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

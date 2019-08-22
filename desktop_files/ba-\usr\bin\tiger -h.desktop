@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tiger
+Icon=utilities-terminal
+Comment=A security scanner, that checks computer for known problems. Can also use tripwire, aide and chkrootkit.
+TryExec=/usr/bin/tiger
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/tiger -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Scanner;

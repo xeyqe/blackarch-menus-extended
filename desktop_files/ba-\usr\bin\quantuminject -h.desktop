@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=quantuminject
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/quantuminject
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/quantuminject -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;X-BlackArch-Networking;X-BlackArch-Spoof;X-BlackArch-Defensive;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dripper
+Icon=utilities-terminal
+Comment=A fast, asynchronous DNS scanner; it can be used for enumerating subdomains and enumerating boxes via reverse DNS.
+TryExec=/usr/bin/dripper
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dripper -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

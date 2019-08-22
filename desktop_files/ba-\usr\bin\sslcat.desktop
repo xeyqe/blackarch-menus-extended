@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sslcat
+Icon=utilities-terminal
+Comment=SSLCat is a simple Unix utility that reads and writes data across an SSL enable network connection.
+TryExec=/usr/bin/sslcat
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sslcat' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

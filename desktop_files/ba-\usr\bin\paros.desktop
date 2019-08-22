@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=paros
+Icon=utilities-terminal
+Comment=Java-based HTTP/HTTPS proxy for assessing web app vulnerabilities. Supports editing/viewing HTTP messages on-the-fly, spiders, client certificates, proxy-chaining, intelligent scanning for XSS and SQLi, etc.
+TryExec=/usr/bin/paros
+Exec=/usr/bin/paros
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Webapp;

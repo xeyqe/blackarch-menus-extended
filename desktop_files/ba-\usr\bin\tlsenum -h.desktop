@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tlsenum
+Icon=utilities-terminal
+Comment=A command line tool to enumerate TLS cipher-suites supported by a server.
+TryExec=/usr/bin/tlsenum
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/tlsenum -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;X-BlackArch-Scanner;

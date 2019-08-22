@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=smtp-vrfy
+Icon=utilities-terminal
+Comment=An SMTP Protocol Hacker.
+TryExec=/usr/bin/smtp-vrfy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/smtp-vrfy' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

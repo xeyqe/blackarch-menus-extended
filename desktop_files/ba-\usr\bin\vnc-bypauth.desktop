@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=vnc-bypauth
+Icon=utilities-terminal
+Comment=Multi-threaded bypass authentication scanner for VNC servers <= 4.1.1.
+TryExec=/usr/bin/vnc-bypauth
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/vnc-bypauth' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Exploitation;

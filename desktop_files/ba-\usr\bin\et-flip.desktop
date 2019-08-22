@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=et-flip
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/et-flip
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/et-flip' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;

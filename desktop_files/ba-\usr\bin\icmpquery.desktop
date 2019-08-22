@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=icmpquery
+Icon=utilities-terminal
+Comment=Send and receive ICMP queries for address mask and current time.
+TryExec=/usr/bin/icmpquery
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/icmpquery' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

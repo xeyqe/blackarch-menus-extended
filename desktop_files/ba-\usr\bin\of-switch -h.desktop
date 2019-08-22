@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=of-switch
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/of-switch
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/of-switch -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Scanner;X-BlackArch-Recon;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=stompy
+Icon=utilities-terminal
+Comment=An advanced utility to test the quality of WWW session identifiers and other tokens that are meant to be unpredictable.
+TryExec=/usr/bin/stompy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/stompy' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

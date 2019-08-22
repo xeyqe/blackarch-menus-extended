@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=peepingtom
+Icon=utilities-terminal
+Comment=A tool to take screenshots of websites. Much like eyewitness.
+TryExec=/usr/bin/peepingtom
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/peepingtom -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Recon;

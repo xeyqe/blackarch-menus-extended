@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=driftnet
+Icon=utilities-terminal
+Comment=Listens to network traffic and picks out images from TCP streams it observes.
+TryExec=/usr/bin/driftnet
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/driftnet -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Sniffer;

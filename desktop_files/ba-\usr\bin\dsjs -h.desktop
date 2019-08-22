@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dsjs
+Icon=utilities-terminal
+Comment=A fully functional JavaScript library vulnerability scanner written in under 100 lines of code.
+TryExec=/usr/bin/dsjs
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dsjs -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;

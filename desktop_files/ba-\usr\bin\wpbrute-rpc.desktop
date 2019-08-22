@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wpbrute-rpc
+Icon=utilities-terminal
+Comment=Tool for amplified bruteforce attacks on wordpress based website via xmlrcp API.
+TryExec=/usr/bin/wpbrute-rpc
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wpbrute-rpc' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Webapp;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=netmask
+Icon=utilities-terminal
+Comment=Helps determine network masks
+TryExec=/usr/bin/netmask
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/netmask --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

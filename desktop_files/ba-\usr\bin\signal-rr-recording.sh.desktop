@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=signal-rr-recording.sh
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/signal-rr-recording.sh
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/signal-rr-recording.sh' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Debugger;X-BlackArch-Misc;

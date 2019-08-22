@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=snmpcheck-nothink
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/snmpcheck-nothink
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/snmpcheck-nothink -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Recon;

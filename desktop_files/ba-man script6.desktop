@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=script6
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/script6
+Exec=sh -c '/usr/local/bin/appHelper.sh man script6' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

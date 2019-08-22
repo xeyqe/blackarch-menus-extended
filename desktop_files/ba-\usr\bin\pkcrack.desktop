@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pkcrack
+Icon=utilities-terminal
+Comment=A PkZip encryption cracker.
+TryExec=/usr/bin/pkcrack
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pkcrack' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

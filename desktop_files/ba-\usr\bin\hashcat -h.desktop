@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hashcat
+Icon=utilities-terminal
+Comment=A multithreaded cross platform hash cracker.
+TryExec=/usr/bin/hashcat
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hashcat -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

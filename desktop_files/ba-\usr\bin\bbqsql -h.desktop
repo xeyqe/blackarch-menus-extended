@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bbqsql
+Icon=utilities-terminal
+Comment=SQL injection exploit tool.
+TryExec=/usr/bin/bbqsql
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bbqsql -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Exploitation;

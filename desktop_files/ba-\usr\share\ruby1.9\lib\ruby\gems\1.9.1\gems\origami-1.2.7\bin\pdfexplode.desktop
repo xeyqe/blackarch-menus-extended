@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pdfexplode
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/share/ruby1.9/lib/ruby/gems/1.9.1/gems/origami-1.2.7/bin/pdfexplode
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/share/ruby1.9/lib/ruby/gems/1.9.1/gems/origami-1.2.7/bin/pdfexplode' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Malware;X-BlackArch-Binary;

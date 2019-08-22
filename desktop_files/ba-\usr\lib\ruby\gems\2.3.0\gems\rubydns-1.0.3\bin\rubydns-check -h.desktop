@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rubydns-check
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/lib/ruby/gems/2.3.0/gems/rubydns-1.0.3/bin/rubydns-check
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/lib/ruby/gems/2.3.0/gems/rubydns-1.0.3/bin/rubydns-check -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;X-BlackArch-Exploitation;X-BlackArch-Networking;

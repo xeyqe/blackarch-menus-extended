@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=blindelephant
+Icon=utilities-terminal
+Comment=A web application fingerprinter. Attempts to discover the version of a (known) web application by comparing static files at known locations
+TryExec=/usr/bin/blindelephant
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/blindelephant -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fingerprint;X-BlackArch-Webapp;

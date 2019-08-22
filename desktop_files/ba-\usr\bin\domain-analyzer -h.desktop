@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=domain-analyzer
+Icon=utilities-terminal
+Comment=Finds all the security information for a given domain name.
+TryExec=/usr/bin/domain-analyzer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/domain-analyzer -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

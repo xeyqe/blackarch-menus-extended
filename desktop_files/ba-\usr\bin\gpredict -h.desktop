@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=gpredict
+Icon=utilities-terminal
+Comment=A real-time satellite tracking and orbit prediction application.
+TryExec=/usr/bin/gpredict
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/gpredict -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Radio;X-BlackArch-Scanner;

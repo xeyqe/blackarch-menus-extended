@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=checkpwd
+Icon=utilities-terminal
+Comment=Oracle Password Checker (Cracker).
+TryExec=/usr/bin/checkpwd
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/checkpwd -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

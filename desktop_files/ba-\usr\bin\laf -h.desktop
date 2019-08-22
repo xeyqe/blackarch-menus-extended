@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=laf
+Icon=utilities-terminal
+Comment=Login Area Finder: scans host/s for login panels.
+TryExec=/usr/bin/laf
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/laf -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Webapp;

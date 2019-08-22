@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=magictree
+Icon=utilities-terminal
+Comment=A penetration tester productivity tool designed to allow easy and straightforward data consolidation, querying, external command execution and report generation
+TryExec=/usr/bin/magictree
+Exec=/usr/bin/magictree
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Threat-model;

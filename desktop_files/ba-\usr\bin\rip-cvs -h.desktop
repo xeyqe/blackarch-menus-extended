@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rip-cvs
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rip-cvs
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rip-cvs -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

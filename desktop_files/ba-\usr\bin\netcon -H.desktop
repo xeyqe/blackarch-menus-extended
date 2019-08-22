@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=netcon
+Icon=utilities-terminal
+Comment=A network connection establishment and management script.
+TryExec=/usr/bin/netcon
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/netcon -H' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

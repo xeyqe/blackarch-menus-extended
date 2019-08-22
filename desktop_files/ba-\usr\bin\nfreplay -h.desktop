@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=nfreplay
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/nfreplay
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/nfreplay -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

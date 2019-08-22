@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fuzzap
+Icon=utilities-terminal
+Comment=A python script for obfuscating wireless networks.
+TryExec=/usr/bin/fuzzap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/fuzzap -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

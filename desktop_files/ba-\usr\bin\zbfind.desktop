@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=zbfind
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/zbfind
+Exec=/usr/bin/zbfind
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Wireless;

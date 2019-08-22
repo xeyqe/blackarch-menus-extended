@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=atscan
+Icon=utilities-terminal
+Comment=Server, Site and Dork Scanner.
+TryExec=/usr/bin/atscan
+Exec=sh -c '/usr/local/bin/appHelper.sh perl /usr/bin/atscan --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Webapp;X-BlackArch-Fuzzer;X-BlackArch-Exploitation;X-BlackArch-Automation;

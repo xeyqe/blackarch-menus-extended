@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=irpas-hsrp
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/irpas-hsrp
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/irpas-hsrp' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

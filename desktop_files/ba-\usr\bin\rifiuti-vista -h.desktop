@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rifiuti-vista
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rifiuti-vista
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rifiuti-vista -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Recon;

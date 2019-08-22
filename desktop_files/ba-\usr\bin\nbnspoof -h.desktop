@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=nbnspoof
+Icon=utilities-terminal
+Comment=NBNSpoof - NetBIOS Name Service Spoofer
+TryExec=/usr/bin/nbnspoof
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/nbnspoof -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Spoof;

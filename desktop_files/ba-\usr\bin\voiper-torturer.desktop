@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=voiper-torturer
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/voiper-torturer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/voiper-torturer' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Voip;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=as
+Icon=utilities-terminal
+Comment=
+TryExec=/opt/android-ndk/toolchains/x86-4.8/prebuilt/linux-x86_64/i686-linux-android/bin/as
+Exec=sh -c '/usr/local/bin/appHelper.sh /opt/android-ndk/toolchains/x86-4.8/prebuilt/linux-x86_64/i686-linux-android/bin/as --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;

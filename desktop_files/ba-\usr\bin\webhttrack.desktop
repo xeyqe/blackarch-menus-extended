@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=webhttrack
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/webhttrack
+Exec=/usr/bin/webhttrack
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Misc;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=zbid
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/zbid
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/zbid -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Wireless;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=jnetmap
+Icon=utilities-terminal
+Comment=A network monitor of sorts
+TryExec=/usr/bin/jnetmap
+Exec=sh -c 'gksu /usr/bin/jnetmap' $SHELL
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Networking;

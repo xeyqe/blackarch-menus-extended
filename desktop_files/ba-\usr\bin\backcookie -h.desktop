@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=backcookie
+Icon=utilities-terminal
+Comment=Small backdoor using cookie.
+TryExec=/usr/bin/backcookie
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/backcookie -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Backdoor;X-BlackArch-Webapp;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=webspa
+Icon=utilities-terminal
+Comment=A web knocking tool, sending a single HTTP/S to run O/S commands.
+TryExec=/usr/bin/webspa
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/webspa -help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Backdoor;X-BlackArch-Webapp;

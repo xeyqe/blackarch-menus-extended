@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pr0cks
+Icon=utilities-terminal
+Comment=python script setting up a transparent proxy to forward all TCP and DNS traffic through a SOCKS / SOCKS5 or HTTP(CONNECT) proxy using iptables -j REDIRECT target.
+TryExec=/usr/bin/pr0cks
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pr0cks -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Proxy;X-BlackArch-Tunnel;X-BlackArch-Networking;

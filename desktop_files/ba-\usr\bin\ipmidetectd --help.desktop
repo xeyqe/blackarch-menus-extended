@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ipmidetectd
+Icon=utilities-terminal
+Comment=IPMI node detection daemon
+TryExec=/usr/bin/ipmidetectd
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ipmidetectd --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Misc;

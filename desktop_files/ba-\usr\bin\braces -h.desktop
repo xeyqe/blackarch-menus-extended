@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=braces
+Icon=utilities-terminal
+Comment=A Bluetooth Tracking Utility.
+TryExec=/usr/bin/braces
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/braces -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

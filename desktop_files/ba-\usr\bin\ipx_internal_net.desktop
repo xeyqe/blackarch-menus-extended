@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ipx_internal_net
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ipx_internal_net
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ipx_internal_net' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

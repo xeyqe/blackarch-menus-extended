@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cverules
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/cverules
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cverules' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

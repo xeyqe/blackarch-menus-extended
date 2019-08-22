@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=proxyp
+Icon=utilities-terminal
+Comment=Small multithreaded Perl script written to enumerate latency, port numbers, server names, & geolocations of proxy IP addresses.
+TryExec=/usr/bin/proxyp
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/proxyp -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Proxy;X-BlackArch-Scanner;

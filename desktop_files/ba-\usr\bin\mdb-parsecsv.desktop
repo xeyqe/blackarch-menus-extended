@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mdb-parsecsv
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/mdb-parsecsv
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mdb-parsecsv' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

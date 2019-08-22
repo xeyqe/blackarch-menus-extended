@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=safecopy
+Icon=utilities-terminal
+Comment=A disk data recovery tool to extract data from damaged media.
+TryExec=/usr/bin/safecopy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/safecopy' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

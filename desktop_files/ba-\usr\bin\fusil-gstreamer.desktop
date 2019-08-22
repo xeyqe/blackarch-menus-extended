@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fusil-gstreamer
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/fusil-gstreamer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/fusil-gstreamer' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

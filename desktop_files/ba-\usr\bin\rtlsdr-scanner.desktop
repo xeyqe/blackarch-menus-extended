@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rtlsdr-scanner
+Icon=utilities-terminal
+Comment=A cross platform Python frequency scanning GUI for the OsmoSDR rtl-sdr library.
+TryExec=/usr/bin/rtlsdr-scanner
+Exec=/usr/bin/rtlsdr-scanner
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Scanner;

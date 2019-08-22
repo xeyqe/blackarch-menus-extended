@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=credmap
+Icon=utilities-terminal
+Comment=The Credential mapper - Tool that was created to bring awareness to the dangers of credential reuse.
+TryExec=/usr/bin/credmap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/credmap -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;X-BlackArch-Defensive;

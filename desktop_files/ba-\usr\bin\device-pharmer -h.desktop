@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=device-pharmer
+Icon=utilities-terminal
+Comment=Opens 1K+ IPs or Shodan search results and attempts to login.
+TryExec=/usr/bin/device-pharmer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/device-pharmer -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

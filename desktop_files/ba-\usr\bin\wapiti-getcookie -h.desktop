@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wapiti-getcookie
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/wapiti-getcookie
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wapiti-getcookie -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;X-BlackArch-Scanner;X-BlackArch-Webapp;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=w3af-gui
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/w3af-gui
+Exec=/usr/bin/w3af-gui
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Fuzzer;X-BlackArch-Scanner;X-BlackArch-Webapp;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sandy
+Icon=utilities-terminal
+Comment=An open-source Samsung phone encryption assessment framework
+TryExec=/usr/bin/sandy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sandy -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Crypto;X-BlackArch-Mobile;

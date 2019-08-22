@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wifi-honey
+Icon=utilities-terminal
+Comment=A management tool for wifi honeypots
+TryExec=/usr/bin/wifi-honey
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wifi-honey -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Honeypot;X-BlackArch-Wireless;

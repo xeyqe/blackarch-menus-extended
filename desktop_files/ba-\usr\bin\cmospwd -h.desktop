@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cmospwd
+Icon=utilities-terminal
+Comment=Decrypts password stored in CMOS used to access BIOS setup.
+TryExec=/usr/bin/cmospwd
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cmospwd -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

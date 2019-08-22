@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sergio-proxy
+Icon=utilities-terminal
+Comment=A multi-threaded transparent HTTP proxy for manipulating web traffic
+TryExec=/usr/bin/sergio-proxy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sergio-proxy -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Proxy;X-BlackArch-Spoof;

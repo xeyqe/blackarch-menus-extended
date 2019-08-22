@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=udcli
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/udcli
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/udcli -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Reversing;

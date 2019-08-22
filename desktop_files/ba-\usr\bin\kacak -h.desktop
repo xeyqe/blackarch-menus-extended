@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=kacak
+Icon=utilities-terminal
+Comment=Tools for penetration testers that can enumerate which users logged on windows system.
+TryExec=/usr/bin/kacak
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/kacak -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ifpps
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ifpps
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ifpps' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sparta
+Icon=utilities-terminal
+Comment=Python GUI application which simplifies network infrastructure penetration testing by aiding the penetration tester in the scanning and enumeration phase.
+TryExec=/usr/bin/sparta
+Exec=/usr/bin/sparta
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Cracker;X-BlackArch-Fingerprint;X-BlackArch-Networking;

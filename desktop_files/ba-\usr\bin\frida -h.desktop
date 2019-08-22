@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=frida
+Icon=utilities-terminal
+Comment=An interactive disassembler based on LLVM and Qt.
+TryExec=/usr/bin/frida
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/frida -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Disassembler;

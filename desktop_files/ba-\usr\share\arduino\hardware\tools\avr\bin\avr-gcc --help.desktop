@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=avr-gcc
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/share/arduino/hardware/tools/avr/bin/avr-gcc
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/share/arduino/hardware/tools/avr/bin/avr-gcc --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Hardware;

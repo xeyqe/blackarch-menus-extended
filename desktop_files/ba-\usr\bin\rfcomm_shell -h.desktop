@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rfcomm_shell
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rfcomm_shell
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rfcomm_shell -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

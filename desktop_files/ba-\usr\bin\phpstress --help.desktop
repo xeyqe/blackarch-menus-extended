@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=phpstress
+Icon=utilities-terminal
+Comment=A PHP denial of service / stress test for Web Servers running PHP-FPM or PHP-CGI.
+TryExec=/usr/bin/phpstress
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/phpstress --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Dos;

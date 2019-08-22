@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pacumen_train.py
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/pacumen_train.py
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pacumen_train.py' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;X-BlackArch-Networking;

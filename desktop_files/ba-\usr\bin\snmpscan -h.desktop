@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=snmpscan
+Icon=utilities-terminal
+Comment=A free, multi-processes SNMP scanner
+TryExec=/usr/bin/snmpscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/snmpscan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

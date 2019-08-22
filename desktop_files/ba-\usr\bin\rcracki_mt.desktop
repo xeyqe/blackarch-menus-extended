@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rcracki_mt
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rcracki_mt
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rcracki_mt' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=redirectpoison
+Icon=utilities-terminal
+Comment=A tool to poison a targeted issuer of SIP INVITE requests with 301 (i.e. Moved Permanently) redirection responses.
+TryExec=/usr/bin/redirectpoison
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/redirectpoison' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Voip;

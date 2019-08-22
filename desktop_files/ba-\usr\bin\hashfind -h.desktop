@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hashfind
+Icon=utilities-terminal
+Comment=A tool to search files for matching password hash types and other interesting data.
+TryExec=/usr/bin/hashfind
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hashfind -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;

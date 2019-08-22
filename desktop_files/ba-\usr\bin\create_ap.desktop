@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=create_ap
+Icon=utilities-terminal
+Comment=This script creates a NATed or Bridged WiFi Access Point.
+TryExec=/usr/bin/create_ap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/create_ap' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

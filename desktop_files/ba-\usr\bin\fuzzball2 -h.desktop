@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fuzzball2
+Icon=utilities-terminal
+Comment=A little fuzzer for TCP and IP options. It sends a bunch of more or less bogus packets to the host of your choice.
+TryExec=/usr/bin/fuzzball2
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/fuzzball2 -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

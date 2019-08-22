@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pytbull
+Icon=utilities-terminal
+Comment=A python based flexible IDS/IPS testing framework shipped with more than 300 tests
+TryExec=/usr/bin/pytbull
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pytbull -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Fuzzer;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rfidiot-pn532emulate
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rfidiot-pn532emulate
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rfidiot-pn532emulate -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

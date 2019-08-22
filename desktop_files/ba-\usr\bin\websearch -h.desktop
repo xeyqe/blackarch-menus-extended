@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=websearch
+Icon=utilities-terminal
+Comment=Search vhost names given a host range. Powered by Bing..
+TryExec=/usr/bin/websearch
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/websearch -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=devilzc0de.py
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/devilzc0de.py
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/devilzc0de.py' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

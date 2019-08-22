@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=xpl-search
+Icon=utilities-terminal
+Comment=Search exploits in multiple exploit databases!.
+TryExec=/usr/bin/xpl-search
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/xpl-search --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Misc;

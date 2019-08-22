@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=brutex
+Icon=utilities-terminal
+Comment=Automatically brute force all services running on a target.
+TryExec=/usr/bin/brutex
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/brutex' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Cracker;

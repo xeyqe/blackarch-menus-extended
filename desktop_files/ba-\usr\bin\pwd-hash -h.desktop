@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pwd-hash
+Icon=utilities-terminal
+Comment=A password hashing tool that use the crypt function to generate the hash of a string given on standard input.
+TryExec=/usr/bin/pwd-hash
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pwd-hash -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;

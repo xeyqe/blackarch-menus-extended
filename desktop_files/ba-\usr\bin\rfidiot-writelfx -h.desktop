@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rfidiot-writelfx
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rfidiot-writelfx
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rfidiot-writelfx -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ecfs
+Icon=utilities-terminal
+Comment=Extended core file snapshot format.
+TryExec=/usr/bin/ecfs
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ecfs' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;

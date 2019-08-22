@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rtpbreak
+Icon=utilities-terminal
+Comment=Detects, reconstructs and analyzes any RTP session
+TryExec=/usr/bin/rtpbreak
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rtpbreak -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

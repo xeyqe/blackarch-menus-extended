@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=CAT
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/CAT
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/CAT -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Fuzzer;X-BlackArch-Scanner;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=nimbostratus
+Icon=utilities-terminal
+Comment=Tools for fingerprintinging and exploiting Amazon cloud infrastructures.
+TryExec=/usr/bin/nimbostratus
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/nimbostratus -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fingerprint;X-BlackArch-Exploitation;X-BlackArch-Fuzzer;

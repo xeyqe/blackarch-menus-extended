@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mdb-ver
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/mdb-ver
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mdb-ver' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

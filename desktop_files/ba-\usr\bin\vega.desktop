@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=vega
+Icon=utilities-terminal
+Comment=An open source platform to test the security of web applications.
+TryExec=/usr/bin/vega
+Exec=/usr/bin/vega
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Webapp;

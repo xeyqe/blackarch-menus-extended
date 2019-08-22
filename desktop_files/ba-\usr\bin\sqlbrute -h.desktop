@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sqlbrute
+Icon=utilities-terminal
+Comment=Brute forces data out of databases using blind SQL injection.
+TryExec=/usr/bin/sqlbrute
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sqlbrute -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;X-BlackArch-Webapp;

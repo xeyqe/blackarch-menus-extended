@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wifitap
+Icon=utilities-terminal
+Comment=WiFi injection tool through tun/tap device.
+TryExec=/usr/bin/wifitap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wifitap' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

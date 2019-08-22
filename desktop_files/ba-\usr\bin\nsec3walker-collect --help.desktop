@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=nsec3walker-collect
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/nsec3walker-collect
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/nsec3walker-collect --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=beef
+Icon=utilities-terminal
+Comment=The Browser Exploitation Framework that focuses on the web browser
+TryExec=/usr/bin/beef
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/beef -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wep_keygen
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/wep_keygen
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wep_keygen' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

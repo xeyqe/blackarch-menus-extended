@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=svcrack
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/svcrack
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/svcrack -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Exploitation;

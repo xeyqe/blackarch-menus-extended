@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=airoscript-ng
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/airoscript-ng
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/airoscript-ng' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

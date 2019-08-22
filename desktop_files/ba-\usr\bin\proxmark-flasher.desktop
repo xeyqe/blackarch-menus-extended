@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=proxmark-flasher
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/proxmark-flasher
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/proxmark-flasher' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Radio;X-BlackArch-Recon;X-BlackArch-Scanner;

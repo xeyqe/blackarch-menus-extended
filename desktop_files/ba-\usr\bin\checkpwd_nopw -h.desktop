@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=checkpwd_nopw
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/checkpwd_nopw
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/checkpwd_nopw -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

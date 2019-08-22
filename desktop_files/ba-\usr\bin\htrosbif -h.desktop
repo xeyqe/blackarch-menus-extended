@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=htrosbif
+Icon=utilities-terminal
+Comment=Active HTTP server fingerprinting and recon tool.
+TryExec=/usr/bin/htrosbif
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/htrosbif -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fingerprint;X-BlackArch-Recon;

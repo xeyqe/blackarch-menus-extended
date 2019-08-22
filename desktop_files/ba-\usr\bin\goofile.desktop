@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=goofile
+Icon=utilities-terminal
+Comment=Command line filetype search
+TryExec=/usr/bin/goofile
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/goofile' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

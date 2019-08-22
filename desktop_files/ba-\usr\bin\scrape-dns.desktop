@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=scrape-dns
+Icon=utilities-terminal
+Comment=Searches for interesting cached DNS entries.
+TryExec=/usr/bin/scrape-dns
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/scrape-dns' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

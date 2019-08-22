@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=malheur
+Icon=utilities-terminal
+Comment=A tool for the automatic analyze of malware behavior.
+TryExec=/usr/bin/malheur
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/malheur -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Malware;

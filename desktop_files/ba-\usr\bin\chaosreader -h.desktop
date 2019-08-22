@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=chaosreader
+Icon=utilities-terminal
+Comment=A freeware tool to trace tcp, udp etc. sessions and fetch application data from snoop or tcpdump logs.
+TryExec=/usr/bin/chaosreader
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/chaosreader -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Sniffer;

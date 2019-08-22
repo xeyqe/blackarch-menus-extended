@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dsxs
+Icon=utilities-terminal
+Comment=A fully functional Cross-site scripting vulnerability scanner (supporting GET and POST parameters) written in under 100 lines of code.
+TryExec=/usr/bin/dsxs
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dsxs -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;

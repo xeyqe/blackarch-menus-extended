@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=centry
+Icon=utilities-terminal
+Comment=Cold boot & DMA protection
+TryExec=/usr/bin/centry
+Exec=/usr/bin/centry
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Misc;X-BlackArch-Defensive;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=btftp
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/btftp
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/btftp -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

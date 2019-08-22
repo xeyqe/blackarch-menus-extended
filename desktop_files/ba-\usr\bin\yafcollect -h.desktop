@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=yafcollect
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/yafcollect
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/yafcollect -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

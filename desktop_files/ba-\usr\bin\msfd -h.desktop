@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=msfd
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/msfd
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/msfd -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Fuzzer;X-BlackArch-Scanner;X-BlackArch-Recon;X-BlackArch-Networking;

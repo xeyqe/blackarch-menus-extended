@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tcpcontrol-fuzzer.pl
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/tcpcontrol-fuzzer.pl
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/tcpcontrol-fuzzer.pl' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;X-BlackArch-Networking;

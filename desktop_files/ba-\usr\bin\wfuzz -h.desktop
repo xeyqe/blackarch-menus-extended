@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wfuzz
+Icon=utilities-terminal
+Comment=Utility to bruteforce web applications to find their not linked resources.
+TryExec=/usr/bin/wfuzz
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wfuzz -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;X-BlackArch-Webapp;

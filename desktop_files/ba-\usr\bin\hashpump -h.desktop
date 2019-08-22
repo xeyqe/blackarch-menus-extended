@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hashpump
+Icon=utilities-terminal
+Comment=A tool to exploit the hash length extension attack in various hashing algorithms.
+TryExec=/usr/bin/hashpump
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hashpump -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;X-BlackArch-Cracker;

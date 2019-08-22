@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hashcat-cutb
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/hashcat-cutb
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hashcat-cutb' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

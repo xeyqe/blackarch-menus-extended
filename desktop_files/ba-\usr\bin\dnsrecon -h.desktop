@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dnsrecon
+Icon=utilities-terminal
+Comment=Python script for enumeration of hosts, subdomains and emails from a given domain using google.
+TryExec=/usr/bin/dnsrecon
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dnsrecon -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

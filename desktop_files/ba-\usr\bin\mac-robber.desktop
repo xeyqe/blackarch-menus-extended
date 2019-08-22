@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mac-robber
+Icon=utilities-terminal
+Comment=A digital investigation tool that collects data from allocated files in a mounted file system.
+TryExec=/usr/bin/mac-robber
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mac-robber' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

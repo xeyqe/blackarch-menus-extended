@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fpdns
+Icon=utilities-terminal
+Comment=Program that remotely determines DNS server versions.
+TryExec=/usr/bin/fpdns
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/fpdns' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fingerprint;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ollydbg
+Icon=utilities-terminal
+Comment=A 32-bit assembler-level analysing debugger
+TryExec=/usr/bin/ollydbg
+Exec=/usr/bin/ollydbg
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Debugger;X-BlackArch-Windows;

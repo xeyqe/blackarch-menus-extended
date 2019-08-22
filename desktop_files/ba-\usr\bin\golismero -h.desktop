@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=golismero
+Icon=utilities-terminal
+Comment=Opensource web security testing framework.
+TryExec=/usr/bin/golismero
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/golismero -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

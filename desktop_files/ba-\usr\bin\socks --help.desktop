@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=socks
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/socks
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/socks --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Proxy;

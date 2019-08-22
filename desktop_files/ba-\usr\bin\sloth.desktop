@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sloth
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/sloth
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sloth' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

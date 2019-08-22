@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ubertooth-ego
+Icon=utilities-terminal
+Comment=Yuneec E-GO skateboard sniffing.
+TryExec=/usr/bin/ubertooth-ego
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ubertooth-ego' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=topera
+Icon=utilities-terminal
+Comment=An IPv6 security analysis toolkit, with the particularity that their attacks can't be detected by Snort.
+TryExec=/usr/bin/topera
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/topera -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Networking;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dirscanner
+Icon=utilities-terminal
+Comment=This is a python script that scans webservers looking for administrative directories, php shells, and more.
+TryExec=/usr/bin/dirscanner
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dirscanner -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Webapp;

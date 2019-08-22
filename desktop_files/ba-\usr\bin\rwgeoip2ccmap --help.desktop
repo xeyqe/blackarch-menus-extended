@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rwgeoip2ccmap
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rwgeoip2ccmap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rwgeoip2ccmap --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Scanner;

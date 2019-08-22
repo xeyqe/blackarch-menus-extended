@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=kal
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/kal
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/kal -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;X-BlackArch-Scanner;

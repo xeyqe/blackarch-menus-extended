@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=httrack
+Icon=utilities-terminal
+Comment=An easy-to-use offline browser utility.
+TryExec=/usr/bin/httrack
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/httrack -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

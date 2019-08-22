@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=iosforensic
+Icon=utilities-terminal
+Comment=iOS forensic tool https://www.owasp.org/index.php/Projects/OWASP_iOSForensic
+TryExec=/usr/bin/iosforensic
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/iosforensic -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Mobile;

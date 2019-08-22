@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=poison
+Icon=utilities-terminal
+Comment=A fast, asynchronous syn and udp scanner.
+TryExec=/usr/bin/poison
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/poison' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=db2ge
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/db2ge
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/db2ge -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

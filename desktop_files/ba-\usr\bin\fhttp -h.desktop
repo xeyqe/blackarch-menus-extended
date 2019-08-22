@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fhttp
+Icon=utilities-terminal
+Comment=This is a framework for HTTP related attacks. It is written in Perl with a GTK interface, has a proxy for debugging and manipulation, proxy chaining, evasion rules, and more.
+TryExec=/usr/bin/fhttp
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/fhttp -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;X-BlackArch-Fuzzer;X-BlackArch-Fingerprint;X-BlackArch-Dos;

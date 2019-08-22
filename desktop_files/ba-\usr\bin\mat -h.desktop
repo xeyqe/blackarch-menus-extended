@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mat
+Icon=utilities-terminal
+Comment=Metadata Anonymisation Toolkit composed of a GUI application, a CLI application and a library.
+TryExec=/usr/bin/mat
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mat -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Defensive;X-BlackArch-Misc;

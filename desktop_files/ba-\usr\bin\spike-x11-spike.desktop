@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=spike-x11-spike
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/spike-x11-spike
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/spike-x11-spike' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

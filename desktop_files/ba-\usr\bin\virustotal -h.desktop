@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=virustotal
+Icon=utilities-terminal
+Comment=Command-line utility to automatically lookup on VirusTotal all files recursively contained in a directory.
+TryExec=/usr/bin/virustotal
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/virustotal -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Malware;

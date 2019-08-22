@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=httpsend
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/httpsend
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/httpsend -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;X-BlackArch-Fuzzer;X-BlackArch-Recon;

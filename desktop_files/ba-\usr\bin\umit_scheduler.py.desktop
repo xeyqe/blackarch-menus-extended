@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=umit_scheduler.py
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/umit_scheduler.py
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/umit_scheduler.py' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

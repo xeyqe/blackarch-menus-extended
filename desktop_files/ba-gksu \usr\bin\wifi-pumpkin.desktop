@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wifi-pumpkin
+Icon=utilities-terminal
+Comment=Framework for Rogue Wi-Fi Access Point Attack.
+TryExec=/usr/bin/wifi-pumpkin
+Exec=gksu /usr/bin/wifi-pumpkin
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Wireless;X-BlackArch-Dos;X-BlackArch-Spoof;X-BlackArch-Exploitation;X-BlackArch-Sniffer;X-BlackArch-Social;

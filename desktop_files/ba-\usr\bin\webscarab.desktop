@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=webscarab
+Icon=utilities-terminal
+Comment=Framework for analysing applications that communicate using the HTTP and HTTPS protocols
+TryExec=/usr/bin/webscarab
+Exec=/usr/bin/webscarab
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Fuzzer;X-BlackArch-Proxy;X-BlackArch-Scanner;X-BlackArch-Webapp;

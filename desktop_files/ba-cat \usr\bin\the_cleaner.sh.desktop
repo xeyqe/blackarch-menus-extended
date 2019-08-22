@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=the_cleaner.sh
+Icon=utilities-terminal
+Comment=Part of the secure_data_deletion toolkit.
+TryExec=/usr/bin/the_cleaner.sh
+Exec=sh -c '/usr/local/bin/appHelper.sh cat /usr/bin/the_cleaner.sh' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Anti-Forensic;X-BlackArch-Defensive;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=flamerobin
+Icon=utilities-terminal
+Comment=A tool to handle Firebird database management.
+TryExec=/usr/bin/flamerobin
+Exec=/usr/bin/flamerobin
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Database;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=kautilya
+Icon=utilities-terminal
+Comment=Pwnage with Human Interface Devices using Teensy++2.0 and Teensy 3.0 devices.
+TryExec=/usr/bin/kautilya
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/kautilya' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Hardware;

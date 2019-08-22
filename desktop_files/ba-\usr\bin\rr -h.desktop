@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rr
+Icon=utilities-terminal
+Comment=A Record and Replay Framework.
+TryExec=/usr/bin/rr
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rr -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Debugger;X-BlackArch-Misc;

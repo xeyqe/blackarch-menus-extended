@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=setoolkit
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/setoolkit
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/setoolkit' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Social;X-BlackArch-Exploitation;

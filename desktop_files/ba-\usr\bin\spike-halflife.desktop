@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=spike-halflife
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/spike-halflife
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/spike-halflife' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

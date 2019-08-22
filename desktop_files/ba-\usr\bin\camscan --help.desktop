@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=camscan
+Icon=utilities-terminal
+Comment=A tool which will analyze the CAM table of Cisco switches to look for anamolies.
+TryExec=/usr/bin/camscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/camscan --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Networking;X-BlackArch-Defensive;

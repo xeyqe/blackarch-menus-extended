@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hakabench
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/hakabench
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hakabench -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Sniffer;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=objcopy
+Icon=utilities-terminal
+Comment=
+TryExec=/opt/android-ndk/toolchains/mipsel-linux-android-4.8/prebuilt/linux-x86_64/mipsel-linux-android/bin/objcopy
+Exec=sh -c '/usr/local/bin/appHelper.sh /opt/android-ndk/toolchains/mipsel-linux-android-4.8/prebuilt/linux-x86_64/mipsel-linux-android/bin/objcopy' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=0trace
+Icon=utilities-terminal
+Comment=A hop enumeration tool
+TryExec=/usr/bin/0trace
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/0trace' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

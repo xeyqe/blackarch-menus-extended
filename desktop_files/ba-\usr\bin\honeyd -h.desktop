@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=honeyd
+Icon=utilities-terminal
+Comment=A small daemon that creates virtual hosts on a network.
+TryExec=/usr/bin/honeyd
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/honeyd -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Honeypot;

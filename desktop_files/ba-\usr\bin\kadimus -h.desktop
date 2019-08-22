@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=kadimus
+Icon=utilities-terminal
+Comment=LFI Scan & Exploit Tool.
+TryExec=/usr/bin/kadimus
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/kadimus -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Exploitation;X-BlackArch-Scanner;

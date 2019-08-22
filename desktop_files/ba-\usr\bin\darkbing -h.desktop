@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=darkbing
+Icon=utilities-terminal
+Comment=A tool written in python that leverages bing for mining data on systems that may be susceptible to SQL injection.
+TryExec=/usr/bin/darkbing
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/darkbing -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Fuzzer;X-BlackArch-Webapp;

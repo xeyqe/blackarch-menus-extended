@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cecster
+Icon=utilities-terminal
+Comment=A tool to perform security testing against the HDMI CEC (Consumer Electronics Control) and HEC (HDMI Ethernet Channel) protocols.
+TryExec=/usr/bin/cecster
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cecster' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Fuzzer;

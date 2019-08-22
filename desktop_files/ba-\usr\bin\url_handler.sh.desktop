@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=url_handler.sh
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/url_handler.sh
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/url_handler.sh' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

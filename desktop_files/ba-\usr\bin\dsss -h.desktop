@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dsss
+Icon=utilities-terminal
+Comment=A fully functional SQL injection vulnerability scanner (supporting GET and POST parameters) written in under 100 lines of code.
+TryExec=/usr/bin/dsss
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dsss -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;

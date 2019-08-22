@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wifiphisher
+Icon=utilities-terminal
+Comment=Fast automated phishing attacks against WPA networks.
+TryExec=/usr/share/wifiphisher/bin/wifiphisher
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/share/wifiphisher/bin/wifiphisher -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;X-BlackArch-Social;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ridenum
+Icon=utilities-terminal
+Comment=A null session RID cycle attack for brute forcing domain controllers.
+TryExec=/usr/bin/ridenum
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ridenum -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

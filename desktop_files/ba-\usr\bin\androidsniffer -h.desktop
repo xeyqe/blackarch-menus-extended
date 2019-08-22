@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=androidsniffer
+Icon=utilities-terminal
+Comment=A perl script that lets you search for 3rd party passwords, dump the call log, dump contacts, dump wireless configuration, and more.
+TryExec=/usr/bin/androidsniffer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/androidsniffer -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;X-BlackArch-Scanner;X-BlackArch-Sniffer;

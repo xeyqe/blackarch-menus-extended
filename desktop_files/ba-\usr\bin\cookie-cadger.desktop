@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cookie-cadger
+Icon=utilities-terminal
+Comment=An auditing tool for Wi-Fi or wired Ethernet connections.
+TryExec=/usr/bin/cookie-cadger
+Exec=/usr/bin/cookie-cadger
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Fuzzer;X-BlackArch-Scanner;

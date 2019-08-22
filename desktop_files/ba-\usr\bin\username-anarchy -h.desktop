@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=username-anarchy
+Icon=utilities-terminal
+Comment=Tools for generating usernames when penetration testing.
+TryExec=/usr/bin/username-anarchy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/username-anarchy -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=usernamer
+Icon=utilities-terminal
+Comment=Pentest Tool to generate usernames/logins based on supplied names.
+TryExec=/usr/bin/usernamer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/usernamer -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;X-BlackArch-Automation;

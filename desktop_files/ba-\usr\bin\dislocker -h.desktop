@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dislocker
+Icon=utilities-terminal
+Comment=A tool to exploit the hash length extension attack in various hashing algorithms. With FUSE capabilities built in.
+TryExec=/usr/bin/dislocker
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dislocker -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Crypto;

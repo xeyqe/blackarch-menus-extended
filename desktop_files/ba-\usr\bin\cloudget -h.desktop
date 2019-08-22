@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cloudget
+Icon=utilities-terminal
+Comment=Python script to bypass cloudflare from command line. Built upon cfscrape module.
+TryExec=/usr/bin/cloudget
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cloudget -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

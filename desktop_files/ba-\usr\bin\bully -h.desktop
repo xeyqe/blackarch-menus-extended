@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bully
+Icon=utilities-terminal
+Comment=A wifi-protected-setup (WPS) brute force attack tool.
+TryExec=/usr/bin/bully
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bully -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Wireless;

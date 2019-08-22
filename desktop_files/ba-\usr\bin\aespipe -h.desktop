@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=aespipe
+Icon=utilities-terminal
+Comment=Reads data from stdin and outputs encrypted or decrypted results to stdout.
+TryExec=/usr/bin/aespipe
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/aespipe -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;

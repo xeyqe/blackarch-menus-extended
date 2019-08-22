@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=giskismet
+Icon=utilities-terminal
+Comment=A program to visually represent the Kismet data in a flexible manner.
+TryExec=/usr/bin/giskismet
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/giskismet' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

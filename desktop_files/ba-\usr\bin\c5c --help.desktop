@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=c5c
+Icon=utilities-terminal
+Comment=Cracker for Cisco IOS and PIX MD5 passwords.
+TryExec=/usr/bin/c5c
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/c5c --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Crypto;

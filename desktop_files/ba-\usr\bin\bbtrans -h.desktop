@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bbtrans
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/bbtrans
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bbtrans -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Malware;X-BlackArch-Cracker;X-BlackArch-Reversing;

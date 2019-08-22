@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=spike-generic-web_server_fuzz
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/spike-generic-web_server_fuzz
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/spike-generic-web_server_fuzz' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

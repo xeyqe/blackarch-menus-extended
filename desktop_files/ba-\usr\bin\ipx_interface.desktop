@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ipx_interface
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ipx_interface
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ipx_interface' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

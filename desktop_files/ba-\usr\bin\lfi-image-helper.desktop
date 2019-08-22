@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=lfi-image-helper
+Icon=utilities-terminal
+Comment=A simple script to infect images with PHP Backdoors for local file inclusion attacks.
+TryExec=/usr/bin/lfi-image-helper
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/lfi-image-helper' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Backdoor;

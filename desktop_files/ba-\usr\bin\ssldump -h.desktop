@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ssldump
+Icon=utilities-terminal
+Comment=an SSLv3/TLS network protocol analyzer
+TryExec=/usr/bin/ssldump
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ssldump -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;

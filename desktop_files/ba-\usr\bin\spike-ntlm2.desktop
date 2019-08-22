@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=spike-ntlm2
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/spike-ntlm2
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/spike-ntlm2' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

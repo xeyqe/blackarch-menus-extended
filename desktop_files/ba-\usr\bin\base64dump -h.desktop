@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=base64dump
+Icon=utilities-terminal
+Comment=Extract and decode base64 strings from files.
+TryExec=/usr/bin/base64dump
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/base64dump -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

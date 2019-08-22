@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=opensvp
+Icon=utilities-terminal
+Comment=A security tool implementing "attacks" to be able to the resistance of firewall to protocol level attack.
+TryExec=/usr/bin/opensvp
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/opensvp -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Networking;

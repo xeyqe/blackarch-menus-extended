@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=crackhor
+Icon=utilities-terminal
+Comment=A Password cracking utility.
+TryExec=/usr/bin/crackhor
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/crackhor -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

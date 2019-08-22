@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=na6
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/na6
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/na6' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

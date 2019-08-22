@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mkfs.ext4
+Icon=utilities-terminal
+Comment=
+TryExec=/opt/android-sdk/tools/bin/mkfs.ext4
+Exec=sh -c '/usr/local/bin/appHelper.sh /opt/android-sdk/tools/bin/mkfs.ext4' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pcredz
+Icon=utilities-terminal
+Comment=A tool that extracts credit card numbers, NTLM(DCE-RPC, HTTP, SQL, LDAP, etc), Kerberos (AS-REQ Pre-Auth etype 23), HTTP Basic, SNMP, POP, SMTP, FTP, IMAP, and more from a pcap file or from a live interface.
+TryExec=/usr/bin/pcredz
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pcredz -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

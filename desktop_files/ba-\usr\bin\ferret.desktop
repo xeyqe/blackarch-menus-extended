@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ferret
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ferret
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ferret' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

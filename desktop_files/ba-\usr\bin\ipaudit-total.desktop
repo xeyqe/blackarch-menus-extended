@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ipaudit-total
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ipaudit-total
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ipaudit-total' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

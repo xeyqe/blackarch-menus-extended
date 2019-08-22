@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=backdoor-factory
+Icon=utilities-terminal
+Comment=Patch win32/64 binaries with shellcode.
+TryExec=/usr/bin/backdoor-factory
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/backdoor-factory -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Backdoor;X-BlackArch-Binary;

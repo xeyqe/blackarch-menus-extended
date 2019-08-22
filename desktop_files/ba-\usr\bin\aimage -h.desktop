@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=aimage
+Icon=utilities-terminal
+Comment=A program to create aff-images.
+TryExec=/usr/bin/aimage
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/aimage -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

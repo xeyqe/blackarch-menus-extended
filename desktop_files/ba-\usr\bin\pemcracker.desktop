@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pemcracker
+Icon=utilities-terminal
+Comment=Tool to crack encrypted PEM files.
+TryExec=/usr/bin/pemcracker
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pemcracker' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

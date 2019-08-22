@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hashcat-strip-bsr
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/hashcat-strip-bsr
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hashcat-strip-bsr --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

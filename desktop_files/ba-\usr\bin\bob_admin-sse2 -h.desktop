@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bob_admin-sse2
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/bob_admin-sse2
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bob_admin-sse2 -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

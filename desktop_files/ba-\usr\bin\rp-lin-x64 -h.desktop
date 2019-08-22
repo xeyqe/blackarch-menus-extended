@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rp-lin-x64
+Icon=utilities-terminal
+Comment=rp++ allows you to find ROP gadgets in pe/elf/mach-o x86/x64 binaries. NB: The original idea comes from (@jonathansalwan) and his 'ROPGadget' tool.
+TryExec=/usr/bin/rp-lin-x64
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rp-lin-x64 -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Binary;

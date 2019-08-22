@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mp3nema
+Icon=utilities-terminal
+Comment=A tool aimed at analyzing and capturing data that is hidden between frames in an MP3 file or stream, otherwise noted as "out of band" data.
+TryExec=/usr/bin/mp3nema
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mp3nema' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=spike-gopherd
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/spike-gopherd
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/spike-gopherd' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=chromefreak
+Icon=utilities-terminal
+Comment=A Cross-Platform Forensic Framework for Google Chrome
+TryExec=/usr/bin/chromefreak
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/chromefreak -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

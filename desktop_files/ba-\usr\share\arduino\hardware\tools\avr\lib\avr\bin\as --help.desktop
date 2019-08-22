@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=as
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/share/arduino/hardware/tools/avr/lib/avr/bin/as
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/share/arduino/hardware/tools/avr/lib/avr/bin/as --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Hardware;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cisco-snmp-slap
+Icon=utilities-terminal
+Comment=IP address spoofing tool in order to bypass an ACL protecting an SNMP service on Cisco IOS devices.
+TryExec=/usr/bin/cisco-snmp-slap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cisco-snmp-slap -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Spoof;X-BlackArch-Networking;X-BlackArch-Exploitation;

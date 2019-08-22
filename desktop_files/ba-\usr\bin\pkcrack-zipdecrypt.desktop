@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pkcrack-zipdecrypt
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/pkcrack-zipdecrypt
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pkcrack-zipdecrypt' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

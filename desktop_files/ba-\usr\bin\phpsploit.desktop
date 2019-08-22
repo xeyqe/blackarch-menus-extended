@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=phpsploit
+Icon=utilities-terminal
+Comment=Stealth post-exploitation framework.
+TryExec=/usr/bin/phpsploit
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/phpsploit' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

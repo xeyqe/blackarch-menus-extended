@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=snmpbrute
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/snmpbrute
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/snmpbrute' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Networking;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=creak
+Icon=utilities-terminal
+Comment=Poison, reset, spoof, redirect MITM script.
+TryExec=/usr/bin/creak
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/creak -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Exploitation;X-BlackArch-Sniffer;

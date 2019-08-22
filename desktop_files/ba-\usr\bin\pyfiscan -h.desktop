@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pyfiscan
+Icon=utilities-terminal
+Comment=Free web-application vulnerability and version scanner.
+TryExec=/usr/bin/pyfiscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pyfiscan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;

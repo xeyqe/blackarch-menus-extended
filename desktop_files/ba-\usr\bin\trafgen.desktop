@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=trafgen
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/trafgen
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/trafgen' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;

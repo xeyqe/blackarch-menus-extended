@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bettercap
+Icon=utilities-terminal
+Comment=A complete, modular, portable and easily extensible MITM framework.
+TryExec=/usr/lib/ruby/gems/2.3.0/gems/bettercap-1.5.4b/bin/bettercap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/lib/ruby/gems/2.3.0/gems/bettercap-1.5.4b/bin/bettercap -h ' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;X-BlackArch-Exploitation;X-BlackArch-Networking;

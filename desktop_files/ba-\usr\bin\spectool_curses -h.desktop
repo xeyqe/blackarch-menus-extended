@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=spectool_curses
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/spectool_curses
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/spectool_curses -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

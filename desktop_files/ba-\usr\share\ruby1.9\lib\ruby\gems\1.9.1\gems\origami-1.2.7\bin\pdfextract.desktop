@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pdfextract
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/share/ruby1.9/lib/ruby/gems/1.9.1/gems/origami-1.2.7/bin/pdfextract
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/share/ruby1.9/lib/ruby/gems/1.9.1/gems/origami-1.2.7/bin/pdfextract' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Malware;X-BlackArch-Binary;

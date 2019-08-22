@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=witchxtool
+Icon=utilities-terminal
+Comment=A perl script that consists of a port scanner, LFI scanner, MD5 bruteforcer, dork SQL injection scanner, fresh proxy scanner, and a dork LFI scanner.
+TryExec=/usr/bin/witchxtool
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/witchxtool -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;X-BlackArch-Exploitation;X-BlackArch-Fuzzer;

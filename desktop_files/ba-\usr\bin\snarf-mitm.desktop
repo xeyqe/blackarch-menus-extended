@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=snarf-mitm
+Icon=utilities-terminal
+Comment=SMB Man in the Middle Attack Engine / relay suite.
+TryExec=/usr/bin/snarf-mitm
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/snarf-mitm' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Proxy;

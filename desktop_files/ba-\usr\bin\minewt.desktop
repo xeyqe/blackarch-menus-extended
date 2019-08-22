@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=minewt
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/minewt
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/minewt' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

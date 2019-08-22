@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=patator
+Icon=utilities-terminal
+Comment=A multi-purpose bruteforcer.
+TryExec=/usr/bin/patator
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/patator --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

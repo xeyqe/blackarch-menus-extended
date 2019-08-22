@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dnsenum
+Icon=utilities-terminal
+Comment=Script that enumerates DNS information from a domain, attempts zone transfers, performs a brute force dictionary style attack, and then performs reverse look-ups on the results.
+TryExec=/usr/bin/dnsenum
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dnsenum' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;X-BlackArch-Scanner;

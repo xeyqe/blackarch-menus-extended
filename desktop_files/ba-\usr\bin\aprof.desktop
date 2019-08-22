@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=aprof
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/aprof
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/aprof' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fingerprint;X-BlackArch-Webapp;

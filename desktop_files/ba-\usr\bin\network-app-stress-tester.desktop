@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=network-app-stress-tester
+Icon=utilities-terminal
+Comment=Network Application Stress Testing Yammer.
+TryExec=/usr/bin/network-app-stress-tester
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/network-app-stress-tester' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Dos;X-BlackArch-Networking;X-BlackArch-Fuzzer;

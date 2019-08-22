@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=trinity
+Icon=utilities-terminal
+Comment=A Linux System call fuzzer.
+TryExec=/usr/bin/trinity
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/trinity -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

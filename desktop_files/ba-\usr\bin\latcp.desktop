@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=latcp
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/latcp
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/latcp' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Misc;

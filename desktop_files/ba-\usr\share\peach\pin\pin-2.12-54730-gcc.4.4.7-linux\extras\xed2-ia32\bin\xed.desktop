@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=xed
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/share/peach/pin/pin-2.12-54730-gcc.4.4.7-linux/extras/xed2-ia32/bin/xed
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/share/peach/pin/pin-2.12-54730-gcc.4.4.7-linux/extras/xed2-ia32/bin/xed' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

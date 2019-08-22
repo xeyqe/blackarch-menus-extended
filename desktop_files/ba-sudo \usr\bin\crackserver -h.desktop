@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=crackserver
+Icon=utilities-terminal
+Comment=An XMLRPC server for password cracking.
+TryExec=/usr/bin/crackserver
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/crackserver -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

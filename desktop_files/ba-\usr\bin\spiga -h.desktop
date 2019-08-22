@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=spiga
+Icon=utilities-terminal
+Comment=Configurable web resource scanner.
+TryExec=/usr/bin/spiga
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/spiga -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;

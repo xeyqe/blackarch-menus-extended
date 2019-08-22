@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rinetd
+Icon=utilities-terminal
+Comment=internet redirection server
+TryExec=/usr/bin/rinetd
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rinetd -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

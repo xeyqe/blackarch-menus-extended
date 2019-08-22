@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mitmer
+Icon=utilities-terminal
+Comment=A man-in-the-middle and phishing attack tool that steals the victim's credentials of some web services like Facebook.
+TryExec=/usr/bin/mitmer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mitmer -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;X-BlackArch-Networking;

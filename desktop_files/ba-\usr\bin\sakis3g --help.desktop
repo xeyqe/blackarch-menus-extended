@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sakis3g
+Icon=utilities-terminal
+Comment=An all-in-one script for connecting with 3G
+TryExec=/usr/bin/sakis3g
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sakis3g --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Misc;

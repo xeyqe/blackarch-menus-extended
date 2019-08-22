@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=netsniff-ng
+Icon=utilities-terminal
+Comment=A high performance Linux network sniffer for packet inspection.
+TryExec=/usr/bin/netsniff-ng
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/netsniff-ng -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;

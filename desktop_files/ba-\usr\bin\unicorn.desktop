@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=unicorn
+Icon=utilities-terminal
+Comment=A simple tool for using a PowerShell downgrade attack and inject shellcode straight into memory.
+TryExec=/usr/bin/unicorn
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/unicorn' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Backdoor;X-BlackArch-Exploitation;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=olebrowse
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/olebrowse
+Exec=/usr/bin/olebrowse
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Binary;X-BlackArch-Forensic;

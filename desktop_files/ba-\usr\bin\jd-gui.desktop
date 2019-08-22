@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=jd-gui
+Icon=utilities-terminal
+Comment=A standalone graphical utility that displays Java source codes of .class files.
+TryExec=/usr/bin/jd-gui
+Exec=/usr/bin/jd-gui
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Decompiler;X-BlackArch-Reversing;

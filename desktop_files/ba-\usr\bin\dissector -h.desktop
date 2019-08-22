@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dissector
+Icon=utilities-terminal
+Comment=This code dissects the internal data structures in ELF files. It supports x86 and x86_64 archs and runs under Linux.
+TryExec=/usr/bin/dissector
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dissector -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;

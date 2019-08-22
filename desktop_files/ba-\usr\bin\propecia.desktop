@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=propecia
+Icon=utilities-terminal
+Comment=A fast class scanner that scans for a specified open port with banner grabbing
+TryExec=/usr/bin/propecia
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/propecia' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fingerprint;X-BlackArch-Scanner;

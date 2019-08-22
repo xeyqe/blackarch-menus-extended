@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rwrtd2split
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rwrtd2split
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rwrtd2split --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Scanner;

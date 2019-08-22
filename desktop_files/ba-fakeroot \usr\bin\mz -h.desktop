@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mz
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/mz
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/mz -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Dos;X-BlackArch-Networking;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rfidiot-froschtest
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rfidiot-froschtest
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rfidiot-froschtest -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

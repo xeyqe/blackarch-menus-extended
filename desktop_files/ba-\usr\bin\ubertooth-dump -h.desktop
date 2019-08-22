@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ubertooth-dump
+Icon=utilities-terminal
+Comment=Output a continuous stream of received bits.
+TryExec=/usr/bin/ubertooth-dump
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ubertooth-dump -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

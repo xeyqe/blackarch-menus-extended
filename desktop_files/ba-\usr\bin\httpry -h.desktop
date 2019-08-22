@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=httpry
+Icon=utilities-terminal
+Comment=A specialized packet sniffer designed for displaying and logging HTTP traffic.
+TryExec=/usr/bin/httpry
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/httpry -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;

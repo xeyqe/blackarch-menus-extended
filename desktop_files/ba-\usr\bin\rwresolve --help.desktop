@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rwresolve
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rwresolve
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rwresolve --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Scanner;

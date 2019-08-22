@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=synner
+Icon=utilities-terminal
+Comment=A custom eth->ip->tcp packet generator (spoofer) for testing firewalls and dos attacks.
+TryExec=/usr/bin/synner
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/synner -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Spoof;X-BlackArch-Dos;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=msvpwn
+Icon=utilities-terminal
+Comment=Bypass Windows' authentication via binary patching.
+TryExec=/usr/bin/msvpwn
+Exec=sh -c '/usr/local/bin/appHelper.sh man /usr/bin/msvpwn' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Windows;X-BlackArch-Binary;X-BlackArch-Backdoor;

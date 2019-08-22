@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=androick
+Icon=utilities-terminal
+Comment=A python tool to help in forensics analysis on android.
+TryExec=/usr/bin/androick
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/androick -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;X-BlackArch-Forensic;

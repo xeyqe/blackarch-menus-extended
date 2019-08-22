@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=zarp
+Icon=utilities-terminal
+Comment=A network attack tool centered around the exploitation of local networks.
+TryExec=/usr/bin/zarp
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/zarp -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Networking;

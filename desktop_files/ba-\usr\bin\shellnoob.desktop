@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=shellnoob
+Icon=utilities-terminal
+Comment=A toolkit that eases the writing and debugging of shellcode
+TryExec=/usr/bin/shellnoob
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/shellnoob' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Debugger;X-BlackArch-Exploitation;

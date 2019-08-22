@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=beholder
+Icon=utilities-terminal
+Comment=A wireless intrusion detection tool that looks for anomalies in a wifi environment.
+TryExec=/usr/bin/beholder
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/beholder -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;X-BlackArch-Defensive;

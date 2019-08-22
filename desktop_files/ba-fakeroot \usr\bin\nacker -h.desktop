@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=nacker
+Icon=utilities-terminal
+Comment=A tool to circumvent 802.1x Network Access Control on a wired LAN.
+TryExec=/usr/bin/nacker
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/nacker -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

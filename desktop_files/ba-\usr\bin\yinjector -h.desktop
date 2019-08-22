@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=yinjector
+Icon=utilities-terminal
+Comment=A MySQL injection penetration tool. It has multiple features, proxy support, and multiple exploitation methods.
+TryExec=/usr/bin/yinjector
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/yinjector -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Webapp;X-BlackArch-Automation;

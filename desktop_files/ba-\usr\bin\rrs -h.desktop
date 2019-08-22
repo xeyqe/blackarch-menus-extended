@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rrs
+Icon=utilities-terminal
+Comment=A reverse (connecting) remote shell. Instead of listening for incoming connections it will connect out to a listener (rrs in listen mode). With tty support and more.
+TryExec=/usr/bin/rrs
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rrs -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Backdoor;

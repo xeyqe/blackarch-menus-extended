@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ratimerange
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ratimerange
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ratimerange -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Defensive;X-BlackArch-Sniffer;

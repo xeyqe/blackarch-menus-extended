@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bing-ip2hosts
+Icon=utilities-terminal
+Comment=Enumerates all hostnames which Bing has indexed for a specific IP address.
+TryExec=/usr/bin/bing-ip2hosts
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bing-ip2hosts' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

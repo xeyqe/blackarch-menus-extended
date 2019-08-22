@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=domi-owned
+Icon=utilities-terminal
+Comment=A tool used for compromising IBM/Lotus Domino servers.
+TryExec=/usr/bin/domi-owned
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/domi-owned -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Cracker;X-BlackArch-Fingerprint;

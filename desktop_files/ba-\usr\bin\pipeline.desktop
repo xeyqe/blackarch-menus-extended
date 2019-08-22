@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pipeline
+Icon=utilities-terminal
+Comment=Designed to aid in targeted brute force password cracking attacks.
+TryExec=/usr/bin/pipeline
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pipeline' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

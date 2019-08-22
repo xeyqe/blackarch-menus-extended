@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=vbscan
+Icon=utilities-terminal
+Comment=A black box vBulletin vulnerability scanner written in perl.
+TryExec=/usr/bin/vbscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/vbscan' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Fuzzer;X-BlackArch-Scanner;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sparty
+Icon=utilities-terminal
+Comment=An open source tool written in python to audit web applications using sharepoint and frontpage architecture.
+TryExec=/usr/bin/sparty
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sparty -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rtlizer
+Icon=utilities-terminal
+Comment=Simple spectrum analyzer.
+TryExec=/usr/bin/rtlizer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rtlizer -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Radio;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=owabf
+Icon=utilities-terminal
+Comment=Outlook Web Access bruteforcer tool.
+TryExec=/usr/bin/owabf
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/owabf -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=waidps
+Icon=utilities-terminal
+Comment=Wireless Auditing, Intrusion Detection & Prevention System.
+TryExec=/usr/bin/waidps
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/waidps' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

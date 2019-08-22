@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=BEViewer
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/BEViewer
+Exec=/usr/bin/BEViewer
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Misc;

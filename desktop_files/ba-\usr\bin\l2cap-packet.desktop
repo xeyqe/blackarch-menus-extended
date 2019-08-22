@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=l2cap-packet
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/l2cap-packet
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/l2cap-packet' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=aesfix
+Icon=utilities-terminal
+Comment=A tool to find AES key in RAM
+TryExec=/usr/bin/aesfix
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/aesfix' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Cracker;

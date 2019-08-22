@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cupp
+Icon=utilities-terminal
+Comment=Common User Password Profiler
+TryExec=/usr/bin/cupp
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cupp -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dns2geoip
+Icon=utilities-terminal
+Comment=A simple python script that brute forces DNS and subsequently geolocates the found subdomains.
+TryExec=/usr/bin/dns2geoip
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dns2geoip -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Recon;

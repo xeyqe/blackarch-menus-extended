@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=nmbscan
+Icon=utilities-terminal
+Comment=Tool to scan the shares of a SMB/NetBIOS network, using the NMB/SMB/NetBIOS protocols.
+TryExec=/usr/bin/nmbscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/nmbscan' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

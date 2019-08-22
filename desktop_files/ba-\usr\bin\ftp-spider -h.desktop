@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ftp-spider
+Icon=utilities-terminal
+Comment=FTP investigation tool - Scans ftp server for the following: reveal entire directory tree structures, detect anonymous access, detect directories with write permissions, find user specified data within repository.
+TryExec=/usr/bin/ftp-spider
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ftp-spider -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Cracker;

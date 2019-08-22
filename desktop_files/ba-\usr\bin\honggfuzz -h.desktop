@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=honggfuzz
+Icon=utilities-terminal
+Comment=A general-purpose fuzzer with simple, command-line interface.
+TryExec=/usr/bin/honggfuzz
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/honggfuzz -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;X-BlackArch-Hardware;

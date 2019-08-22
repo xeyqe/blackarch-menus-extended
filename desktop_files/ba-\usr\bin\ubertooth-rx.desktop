@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ubertooth-rx
+Icon=utilities-terminal
+Comment=Passive Bluetooth discovery/decode.
+TryExec=/usr/bin/ubertooth-rx
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ubertooth-rx' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dpscan
+Icon=utilities-terminal
+Comment=Drupal Vulnerabilty Scanner.
+TryExec=/usr/bin/dpscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dpscan' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Webapp;X-BlackArch-Fuzzer;

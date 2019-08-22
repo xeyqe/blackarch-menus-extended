@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=snapception
+Icon=utilities-terminal
+Comment=Intercept and decrypt all snapchats received over your network.
+TryExec=/usr/bin/snapception
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/snapception --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;X-BlackArch-Crypto;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=metacoretex
+Icon=utilities-terminal
+Comment=MetaCoretex is an entirely JAVA vulnerability scanning framework for databases.
+TryExec=/usr/bin/metacoretex
+Exec=/usr/bin/metacoretex
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Database;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rva2ofs
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rva2ofs
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rva2ofs' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Reversing;

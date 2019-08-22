@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=0d1n
+Icon=utilities-terminal
+Comment=Web security tool to make fuzzing at HTTP inputs, made in C with libCurl.
+TryExec=/usr/bin/0d1n
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/0d1n' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Fuzzer;X-BlackArch-Scanner;

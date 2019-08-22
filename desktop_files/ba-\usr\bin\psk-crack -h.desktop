@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=psk-crack
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/psk-crack
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/psk-crack -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

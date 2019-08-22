@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=melkor
+Icon=utilities-terminal
+Comment=An ELF fuzzer that mutates the existing data in an ELF sample given to create orcs (malformed ELFs), however, it does not change values randomly (dumb fuzzing), instead, it fuzzes certain metadata with semi-valid values through the use of fuzzing rules (knowledge base).
+TryExec=/usr/bin/melkor
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/melkor -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;X-BlackArch-Binary;

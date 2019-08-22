@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=replayproxy
+Icon=utilities-terminal
+Comment=Forensic tool to replay web-based attacks (and also general HTTP traffic) that were captured in a pcap file.
+TryExec=/usr/bin/replayproxy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/replayproxy -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Proxy;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bh
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/bh
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bh' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=php_mt_seed
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/php_mt_seed
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/php_mt_seed' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cisco-scanner
+Icon=utilities-terminal
+Comment=Multithreaded Cisco HTTP vulnerability scanner. Tested on Linux, OpenBSD and Solaris.
+TryExec=/usr/bin/cisco-scanner
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cisco-scanner -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Scanner;

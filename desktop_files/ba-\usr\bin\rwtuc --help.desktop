@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rwtuc
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rwtuc
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rwtuc --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Scanner;

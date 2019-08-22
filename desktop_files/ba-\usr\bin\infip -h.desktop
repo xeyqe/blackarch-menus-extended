@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=infip
+Icon=utilities-terminal
+Comment=A python script that checks output from netstat against RBLs from Spamhaus.
+TryExec=/usr/bin/infip
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/infip -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Misc;

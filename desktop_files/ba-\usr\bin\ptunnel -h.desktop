@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ptunnel
+Icon=utilities-terminal
+Comment=A tool for reliably tunneling TCP connections over ICMP echo request and reply packets
+TryExec=/usr/bin/ptunnel
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ptunnel -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Tunnel;X-BlackArch-Networking;

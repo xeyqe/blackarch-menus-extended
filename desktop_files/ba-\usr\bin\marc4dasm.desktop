@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=marc4dasm
+Icon=utilities-terminal
+Comment=This python-based tool is a disassembler for the Atmel MARC4 (a 4 bit Harvard micro).
+TryExec=/usr/bin/marc4dasm
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/marc4dasm' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Disassembler;X-BlackArch-Hardware;X-BlackArch-Reversing;

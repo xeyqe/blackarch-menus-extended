@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ipmimonitoring
+Icon=utilities-terminal
+Comment=displays IPMI sensor information
+TryExec=/usr/bin/ipmimonitoring
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ipmimonitoring --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Misc;

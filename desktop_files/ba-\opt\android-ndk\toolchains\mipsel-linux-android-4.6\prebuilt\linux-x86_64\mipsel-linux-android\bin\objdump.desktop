@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=objdump
+Icon=utilities-terminal
+Comment=
+TryExec=/opt/android-ndk/toolchains/mipsel-linux-android-4.6/prebuilt/linux-x86_64/mipsel-linux-android/bin/objdump
+Exec=sh -c '/usr/local/bin/appHelper.sh /opt/android-ndk/toolchains/mipsel-linux-android-4.6/prebuilt/linux-x86_64/mipsel-linux-android/bin/objdump' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=snmpfuzz
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/snmpfuzz
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/snmpfuzz' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;X-BlackArch-Networking;

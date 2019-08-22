@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ysoserial
+Icon=utilities-terminal
+Comment=A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.
+TryExec=/usr/bin/ysoserial
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ysoserial' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Exploitation;

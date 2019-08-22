@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cintruder
+Icon=utilities-terminal
+Comment=An automatic pentesting tool to bypass captchas.
+TryExec=/usr/bin/cintruder
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cintruder -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Webapp;

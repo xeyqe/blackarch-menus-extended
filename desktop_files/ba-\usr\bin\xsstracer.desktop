@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=xsstracer
+Icon=utilities-terminal
+Comment=Python script that checks remote web servers for Clickjacking, Cross-Frame Scripting, Cross-Site Tracing and Host Header Injection.
+TryExec=/usr/bin/xsstracer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/xsstracer' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

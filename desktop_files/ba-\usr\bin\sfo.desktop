@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sfo
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/sfo
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sfo' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

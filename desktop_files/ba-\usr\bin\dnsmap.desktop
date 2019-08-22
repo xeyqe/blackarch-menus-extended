@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dnsmap
+Icon=utilities-terminal
+Comment=Passive DNS network mapper
+TryExec=/usr/bin/dnsmap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dnsmap' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fingerprint;

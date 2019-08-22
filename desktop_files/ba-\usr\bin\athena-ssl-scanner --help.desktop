@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=athena-ssl-scanner
+Icon=utilities-terminal
+Comment=a SSL cipher scanner that checks all cipher codes. It can identify about 150 different ciphers.
+TryExec=/usr/bin/athena-ssl-scanner
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/athena-ssl-scanner --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Crypto;

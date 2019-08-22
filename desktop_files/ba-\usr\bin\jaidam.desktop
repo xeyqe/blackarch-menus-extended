@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=jaidam
+Icon=utilities-terminal
+Comment=Penetration testing tool that would take as input a list of domain names, scan them, determine if wordpress or joomla platform was used and finally check them automatically, for web vulnerabilities using two well-known open source tools, WPScan and Joomscan.
+TryExec=/usr/bin/jaidam
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/jaidam' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Automation;X-BlackArch-Exploitation;

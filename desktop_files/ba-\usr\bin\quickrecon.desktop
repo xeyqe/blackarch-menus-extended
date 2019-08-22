@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=quickrecon
+Icon=utilities-terminal
+Comment=A python script for simple information gathering. It attempts to find subdomain names, perform zone transfers and gathers emails from Google and Bing.
+TryExec=/usr/bin/quickrecon
+Exec=/usr/bin/quickrecon
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Recon;X-BlackArch-Scanner;

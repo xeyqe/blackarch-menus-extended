@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=casefile
+Icon=utilities-terminal
+Comment=The little brother to Maltego without transforms, but combines graph and link analysis to examine links between manually added data to mind map your information
+TryExec=/usr/bin/casefile
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/casefile --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Recon;X-BlackArch-Scanner;

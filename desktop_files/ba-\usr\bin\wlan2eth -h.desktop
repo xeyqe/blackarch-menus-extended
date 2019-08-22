@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wlan2eth
+Icon=utilities-terminal
+Comment=Re-writes 802.11 captures into standard Ethernet frames.
+TryExec=/usr/bin/wlan2eth
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wlan2eth -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

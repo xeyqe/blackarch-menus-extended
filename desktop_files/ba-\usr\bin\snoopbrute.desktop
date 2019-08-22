@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=snoopbrute
+Icon=utilities-terminal
+Comment=Multithreaded DNS recursive host brute-force tool.
+TryExec=/usr/bin/snoopbrute
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/snoopbrute' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Recon;

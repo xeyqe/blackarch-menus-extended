@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=blueranger
+Icon=utilities-terminal
+Comment=A simple Bash script which uses Link Quality to locate Bluetooth device radios.
+TryExec=/usr/bin/blueranger
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/blueranger' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Bluetooth;

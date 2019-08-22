@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=oledump
+Icon=utilities-terminal
+Comment=Analyze OLE files (Compound File Binary Format). These files contain streams of data. This tool allows you to analyze these streams.
+TryExec=/usr/bin/oledump
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/oledump -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;X-BlackArch-Malware;

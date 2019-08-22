@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=k2db
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/k2db
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/k2db -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

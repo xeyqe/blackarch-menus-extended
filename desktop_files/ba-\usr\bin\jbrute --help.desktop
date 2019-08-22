@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=jbrute
+Icon=utilities-terminal
+Comment=Open Source Security tool to audit hashed passwords.
+TryExec=/usr/bin/jbrute
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/jbrute --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

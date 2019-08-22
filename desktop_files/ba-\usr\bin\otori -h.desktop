@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=otori
+Icon=utilities-terminal
+Comment=A python-based toolbox intended to allow useful exploitation of XML external entity ("XXE") vulnerabilities.
+TryExec=/usr/bin/otori
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/otori -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Webapp;

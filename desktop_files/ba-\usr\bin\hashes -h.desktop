@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hashes
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/hashes
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hashes -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Crypto;

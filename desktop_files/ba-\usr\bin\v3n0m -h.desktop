@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=v3n0m
+Icon=utilities-terminal
+Comment=A tool to automate mass SQLi d0rk scans and Metasploit Vulns.
+TryExec=/usr/bin/v3n0m
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/v3n0m -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=proxmark-fpga-compress
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/proxmark-fpga-compress
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/proxmark-fpga-compress' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Radio;X-BlackArch-Recon;X-BlackArch-Scanner;

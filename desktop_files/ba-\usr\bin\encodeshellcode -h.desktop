@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=encodeshellcode
+Icon=utilities-terminal
+Comment=This is an encoding tool for 32-bit x86 shellcode that assists a researcher when dealing with character filter or byte restrictions in a buffer overflow vulnerability or some kind of IDS/IPS/AV blocking your code.
+TryExec=/usr/bin/encodeshellcode
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/encodeshellcode -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

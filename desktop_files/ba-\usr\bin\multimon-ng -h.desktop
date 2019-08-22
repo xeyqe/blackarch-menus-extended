@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=multimon-ng
+Icon=utilities-terminal
+Comment=An sdr decoder, supports pocsag, ufsk, clipfsk, afsk, hapn, fsk, dtmf, zvei.
+TryExec=/usr/bin/multimon-ng
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/multimon-ng -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Radio;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sockstat
+Icon=utilities-terminal
+Comment=A tool to let you view information about open connections. It is similar to the tool of the same name that is included in FreeBSD, trying to faithfully reproduce as much functionality as is possible.
+TryExec=/usr/bin/sockstat
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sockstat -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

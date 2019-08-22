@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=xcavator
+Icon=utilities-terminal
+Comment=Man-In-The-Middle and phishing attack tool that steals the victim's credentials of some web services like Facebook.
+TryExec=/usr/bin/xcavator
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/xcavator -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;X-BlackArch-Spoof;

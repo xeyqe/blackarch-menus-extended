@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=decode-g72x
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/decode-g72x
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/decode-g72x -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=u2spewfoo
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/u2spewfoo
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/u2spewfoo' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Defensive;X-BlackArch-Networking;X-BlackArch-Forensic;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ntp-ip-enum
+Icon=utilities-terminal
+Comment=Script to pull addresses from a NTP server using the monlist command. Can also output Maltego resultset.
+TryExec=/usr/bin/ntp-ip-enum
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ntp-ip-enum' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

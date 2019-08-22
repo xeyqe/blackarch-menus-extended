@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tcppm
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/tcppm
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/tcppm --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Proxy;

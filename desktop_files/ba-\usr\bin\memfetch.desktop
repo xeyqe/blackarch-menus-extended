@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=memfetch
+Icon=utilities-terminal
+Comment=Dumps any userspace process memory without affecting its execution.
+TryExec=/usr/bin/memfetch
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/memfetch' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

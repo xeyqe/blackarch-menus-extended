@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bitdump
+Icon=utilities-terminal
+Comment=A tool to extract database data from a blind SQL injection vulnerability.
+TryExec=/usr/bin/bitdump
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bitdump -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Webapp;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ldapenum
+Icon=utilities-terminal
+Comment=Enumerate domain controllers using LDAP.
+TryExec=/usr/bin/ldapenum
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ldapenum' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;X-BlackArch-Scanner;

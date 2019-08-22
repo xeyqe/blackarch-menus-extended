@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=net-creds
+Icon=utilities-terminal
+Comment=Sniffs sensitive data from interface or pcap.
+TryExec=/usr/bin/net-creds
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/net-creds -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;X-BlackArch-Proxy;

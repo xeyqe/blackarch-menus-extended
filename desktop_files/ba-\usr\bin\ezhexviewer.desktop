@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ezhexviewer
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ezhexviewer
+Exec=/usr/bin/ezhexviewer
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Binary;X-BlackArch-Forensic;

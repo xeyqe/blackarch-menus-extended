@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=yafscii
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/yafscii
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/yafscii --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

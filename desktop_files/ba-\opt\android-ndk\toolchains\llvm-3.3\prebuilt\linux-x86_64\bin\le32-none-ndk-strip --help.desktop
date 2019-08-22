@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=le32-none-ndk-strip
+Icon=utilities-terminal
+Comment=
+TryExec=/opt/android-ndk/toolchains/llvm-3.3/prebuilt/linux-x86_64/bin/le32-none-ndk-strip
+Exec=sh -c '/usr/local/bin/appHelper.sh /opt/android-ndk/toolchains/llvm-3.3/prebuilt/linux-x86_64/bin/le32-none-ndk-strip --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;

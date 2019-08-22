@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hackersh
+Icon=utilities-terminal
+Comment=A shell for with Pythonect-like syntax, including wrappers for commonly used security tools.
+TryExec=/usr/bin/hackersh
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hackersh -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Misc;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pdfid
+Icon=utilities-terminal
+Comment=Scan a file to look for certain PDF keywords.
+TryExec=/usr/bin/pdfid
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pdfid -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

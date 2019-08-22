@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mipsel-linux-android-strip
+Icon=utilities-terminal
+Comment=
+TryExec=/opt/android-ndk/toolchains/mipsel-linux-android-4.6/prebuilt/linux-x86_64/bin/mipsel-linux-android-strip
+Exec=sh -c '/usr/local/bin/appHelper.sh /opt/android-ndk/toolchains/mipsel-linux-android-4.6/prebuilt/linux-x86_64/bin/mipsel-linux-android-strip' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;

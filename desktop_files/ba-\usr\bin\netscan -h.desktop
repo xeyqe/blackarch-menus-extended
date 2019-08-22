@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=netscan
+Icon=utilities-terminal
+Comment=Tcp/Udp/Tor port scanner with: synpacket, connect TCP/UDP and socks5 (tor connection).
+TryExec=/usr/bin/netscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/netscan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Networking;

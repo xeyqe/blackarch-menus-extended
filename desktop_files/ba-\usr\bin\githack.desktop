@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=githack
+Icon=utilities-terminal
+Comment=A `.git` folder disclosure exploit.
+TryExec=/usr/bin/githack
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/githack' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

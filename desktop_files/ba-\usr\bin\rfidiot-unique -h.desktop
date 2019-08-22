@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rfidiot-unique
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rfidiot-unique
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rfidiot-unique -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

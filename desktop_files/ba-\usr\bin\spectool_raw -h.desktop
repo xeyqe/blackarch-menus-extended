@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=spectool_raw
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/spectool_raw
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/spectool_raw -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

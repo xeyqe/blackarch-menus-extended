@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dnschef
+Icon=utilities-terminal
+Comment=A highly configurable DNS proxy for pentesters.
+TryExec=/usr/bin/dnschef
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dnschef -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Proxy;

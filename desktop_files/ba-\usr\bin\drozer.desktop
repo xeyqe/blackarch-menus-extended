@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=drozer
+Icon=utilities-terminal
+Comment=A security testing framework for Android - Precompiled binary from official repository.
+TryExec=/usr/bin/drozer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/drozer' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;X-BlackArch-Scanner;X-BlackArch-Fuzzer;

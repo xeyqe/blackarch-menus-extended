@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=facebrute
+Icon=utilities-terminal
+Comment=This script tries to guess passwords for a given facebook account using a list of passwords (dictionary).
+TryExec=/usr/bin/facebrute
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/facebrute -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Webapp;

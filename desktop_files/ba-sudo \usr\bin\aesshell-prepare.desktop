@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=aesshell-prepare
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/aesshell-prepare
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/aesshell-prepare' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Backdoor;X-BlackArch-Windows;

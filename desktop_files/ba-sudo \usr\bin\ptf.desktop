@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ptf
+Icon=utilities-terminal
+Comment=The Penetration Testers Framework is a way for modular support for up-to-date tools.
+TryExec=/usr/bin/ptf
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/ptf' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Scanner;X-BlackArch-Recon;X-BlackArch-Automation;

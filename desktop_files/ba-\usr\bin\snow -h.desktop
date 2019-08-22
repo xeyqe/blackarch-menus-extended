@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=snow
+Icon=utilities-terminal
+Comment=Steganography program for concealing messages in text files.
+TryExec=/usr/bin/snow
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/snow -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;X-BlackArch-Misc;

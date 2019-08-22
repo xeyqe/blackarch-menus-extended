@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=lfi_fuzzploit
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/lfi_fuzzploit
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/lfi_fuzzploit' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Fuzzer;X-BlackArch-Exploitation;

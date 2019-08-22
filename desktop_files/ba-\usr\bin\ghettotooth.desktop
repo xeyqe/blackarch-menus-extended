@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ghettotooth
+Icon=utilities-terminal
+Comment=Ghettodriving for bluetooth
+TryExec=/usr/bin/ghettotooth
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ghettotooth' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

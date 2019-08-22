@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sees
+Icon=utilities-terminal
+Comment=Increase the success rate of phishing attacks by sending emails to company users as if they are coming from the very same company's domain.
+TryExec=/usr/bin/sees
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sees -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Social;

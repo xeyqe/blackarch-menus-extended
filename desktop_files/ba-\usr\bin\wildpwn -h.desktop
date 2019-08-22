@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wildpwn
+Icon=utilities-terminal
+Comment=Unix wildcard attacks.
+TryExec=/usr/bin/wildpwn
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wildpwn -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

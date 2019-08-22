@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=scanrand
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/scanrand
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/scanrand' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

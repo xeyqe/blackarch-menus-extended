@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=vstt-reader
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/vstt-reader
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/vstt-reader' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Tunnel;

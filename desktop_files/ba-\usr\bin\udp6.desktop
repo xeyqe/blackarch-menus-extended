@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=udp6
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/udp6
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/udp6' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

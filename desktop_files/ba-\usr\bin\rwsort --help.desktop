@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rwsort
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rwsort
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rwsort --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Scanner;

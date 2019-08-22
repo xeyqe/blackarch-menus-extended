@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wapiti
+Icon=utilities-terminal
+Comment=A vulnerability scanner for web applications. It currently search vulnerabilities like XSS, SQL and XPath injections, file inclusions, command execution, LDAP injections, CRLF injections...
+TryExec=/usr/bin/wapiti
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wapiti -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;X-BlackArch-Scanner;X-BlackArch-Webapp;

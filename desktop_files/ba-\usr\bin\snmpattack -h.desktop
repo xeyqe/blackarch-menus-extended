@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=snmpattack
+Icon=utilities-terminal
+Comment=SNMP scanner and attacking tool.
+TryExec=/usr/bin/snmpattack
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/snmpattack -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Scanner;

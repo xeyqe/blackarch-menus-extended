@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=forkingportscanner
+Icon=utilities-terminal
+Comment=Simple and fast forking port scanner written in perl. Can only scan on host at a time, the forking is done on the specified port range. Or on the default range of 1-65535. Has the ability to scan UDP or TCP, defaults to tcp.
+TryExec=/usr/bin/forkingportscanner
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/forkingportscanner' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fern
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/fern
+Exec=gksu /usr/bin/fern
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Wireless;

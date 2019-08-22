@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=suricata
+Icon=utilities-terminal
+Comment=An Open Source Next Generation Intrusion Detection and Prevention Engine.
+TryExec=/usr/bin/suricata
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/suricata' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Defensive;

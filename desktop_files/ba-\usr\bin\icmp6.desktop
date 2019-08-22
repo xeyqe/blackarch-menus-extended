@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=icmp6
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/icmp6
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/icmp6' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

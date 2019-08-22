@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=xxeinjector
+Icon=utilities-terminal
+Comment=Tool for automatic exploitation of XXE vulnerability using direct and different out of band methods.
+TryExec=/usr/bin/xxeinjector
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/xxeinjector -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Webapp;

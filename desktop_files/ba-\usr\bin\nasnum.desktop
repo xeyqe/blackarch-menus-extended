@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=nasnum
+Icon=utilities-terminal
+Comment=Script to enumerate network attached storages.
+TryExec=/usr/bin/nasnum
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/nasnum' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

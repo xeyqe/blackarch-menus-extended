@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=webhandler
+Icon=utilities-terminal
+Comment=A handler for PHP system functions & also an alternative 'netcat' handler.
+TryExec=/usr/bin/webhandler
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/webhandler' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

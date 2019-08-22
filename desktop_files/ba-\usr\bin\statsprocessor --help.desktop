@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=statsprocessor
+Icon=utilities-terminal
+Comment=A high-performance word-generator based on per-position Markov-attack.
+TryExec=/usr/bin/statsprocessor
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/statsprocessor --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ubertooth-specan
+Icon=utilities-terminal
+Comment=Output a continuous stream of signal strengths.
+TryExec=/usr/bin/ubertooth-specan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ubertooth-specan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

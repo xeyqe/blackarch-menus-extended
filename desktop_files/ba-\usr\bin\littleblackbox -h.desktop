@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=littleblackbox
+Icon=utilities-terminal
+Comment=Penetration testing tool, search in a collection of thousands of private SSL keys extracted from various embedded devices.
+TryExec=/usr/bin/littleblackbox
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/littleblackbox -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Fuzzer;X-BlackArch-Crypto;

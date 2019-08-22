@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=packetsender
+Icon=utilities-terminal
+Comment=An open source utility to allow sending and receiving TCP and UDP packets.
+TryExec=/usr/bin/packetsender
+Exec=/usr/bin/packetsender
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Networking;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=haystack-find-heap
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/haystack-find-heap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/haystack-find-heap -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;X-BlackArch-Forensic;

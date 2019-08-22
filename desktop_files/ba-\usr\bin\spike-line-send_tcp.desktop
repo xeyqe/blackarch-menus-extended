@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=spike-line-send_tcp
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/spike-line-send_tcp
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/spike-line-send_tcp' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

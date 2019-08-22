@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dnsa
+Icon=utilities-terminal
+Comment=DNSA is a dns security swiss army knife
+TryExec=/usr/bin/dnsa
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dnsa' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

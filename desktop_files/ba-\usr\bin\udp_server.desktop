@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=udp_server
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/udp_server
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/udp_server' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Backdoor;

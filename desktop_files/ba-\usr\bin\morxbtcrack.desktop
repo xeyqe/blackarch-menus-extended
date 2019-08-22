@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=morxbtcrack
+Icon=utilities-terminal
+Comment=Single Bitcoin private key cracking tool released.
+TryExec=/usr/bin/morxbtcrack
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/morxbtcrack' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

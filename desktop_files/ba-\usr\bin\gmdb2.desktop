@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=gmdb2
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/gmdb2
+Exec=/usr/bin/gmdb2
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Forensic;

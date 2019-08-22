@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pipal
+Icon=utilities-terminal
+Comment=A password analyser
+TryExec=/usr/bin/pipal
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pipal -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

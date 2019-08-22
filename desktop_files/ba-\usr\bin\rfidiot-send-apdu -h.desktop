@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rfidiot-send-apdu
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rfidiot-send-apdu
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rfidiot-send-apdu -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

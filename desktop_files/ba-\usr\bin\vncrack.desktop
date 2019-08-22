@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=vncrack
+Icon=utilities-terminal
+Comment=What it looks like: crack VNC.
+TryExec=/usr/bin/vncrack
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/vncrack' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=khc
+Icon=utilities-terminal
+Comment=A small tool designed to recover hashed known_hosts fiels back to their plain-text equivalents.
+TryExec=/usr/bin/khc
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/khc' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

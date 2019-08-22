@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=uw-offish
+Icon=utilities-terminal
+Comment=Clear-text protocol simulator.
+TryExec=/usr/bin/uw-offish
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/uw-offish' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

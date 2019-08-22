@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=moprc
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/moprc
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/moprc' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Misc;

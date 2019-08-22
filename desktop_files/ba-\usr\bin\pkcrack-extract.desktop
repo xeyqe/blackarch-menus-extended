@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pkcrack-extract
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/pkcrack-extract
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pkcrack-extract' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

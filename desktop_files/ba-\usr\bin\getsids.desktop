@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=getsids
+Icon=utilities-terminal
+Comment=Getsids tries to enumerate Oracle Sids by sending the services command to the Oracle TNS listener. Like doing ‘lsnrctl service’.
+TryExec=/usr/bin/getsids
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/getsids' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Database;

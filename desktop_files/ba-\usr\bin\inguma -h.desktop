@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=inguma
+Icon=utilities-terminal
+Comment=A free penetration testing and vulnerability discovery toolkit entirely written in python. Framework includes modules to discover hosts, gather information about, fuzz targets, brute force usernames and passwords, exploits, and a disassembler.
+TryExec=/usr/bin/inguma
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/inguma -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Disassembler;X-BlackArch-Exploitation;X-BlackArch-Fuzzer;X-BlackArch-Scanner;

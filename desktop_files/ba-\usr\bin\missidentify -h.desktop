@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=missidentify
+Icon=utilities-terminal
+Comment=A program to find Win32 applications.
+TryExec=/usr/bin/missidentify
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/missidentify -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;X-BlackArch-Windows;

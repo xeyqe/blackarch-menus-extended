@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=snmpenum
+Icon=utilities-terminal
+Comment=snmp enumerator
+TryExec=/usr/bin/snmpenum
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/snmpenum' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

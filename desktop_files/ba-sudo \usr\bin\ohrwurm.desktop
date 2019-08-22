@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ohrwurm
+Icon=utilities-terminal
+Comment=A small and simple RTP fuzzer.
+TryExec=/usr/bin/ohrwurm
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/ohrwurm' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

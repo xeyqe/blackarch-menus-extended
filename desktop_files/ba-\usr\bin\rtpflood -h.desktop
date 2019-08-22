@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rtpflood
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rtpflood
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rtpflood -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Voip;

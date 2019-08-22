@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=flowinspect
+Icon=utilities-terminal
+Comment=A network traffic inspection tool.
+TryExec=/usr/bin/flowinspect
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/flowinspect -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Sniffer;

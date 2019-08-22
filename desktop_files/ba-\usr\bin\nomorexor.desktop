@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=nomorexor
+Icon=utilities-terminal
+Comment=Tool to help guess a files 256 byte XOR key by using frequency analysis
+TryExec=/usr/bin/nomorexor
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/nomorexor' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=middler
+Icon=utilities-terminal
+Comment=A Man in the Middle tool to demonstrate protocol middling attacks.
+TryExec=/usr/bin/middler
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/middler -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

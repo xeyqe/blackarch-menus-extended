@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sslcaudit
+Icon=utilities-terminal
+Comment=Utility to perform security audits of SSL/TLS clients.
+TryExec=/usr/bin/sslcaudit
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sslcaudit -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Crypto;

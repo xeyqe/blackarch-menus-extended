@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=jcrack
+Icon=utilities-terminal
+Comment=A utility to create dictionary files that will crack the default passwords of select wireless gateways
+TryExec=/usr/bin/jcrack
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/jcrack' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=d2j-std-apk
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/d2j-std-apk
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/d2j-std-apk -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Hardware;X-BlackArch-Reversing;

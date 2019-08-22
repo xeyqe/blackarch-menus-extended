@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fbht
+Icon=utilities-terminal
+Comment=A Facebook Hacking Tool
+TryExec=/usr/bin/fbht
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/fbht' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

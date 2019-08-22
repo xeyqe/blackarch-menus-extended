@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=recoverjpeg
+Icon=utilities-terminal
+Comment=Recover jpegs from damaged devices.
+TryExec=/usr/bin/recoverjpeg
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/recoverjpeg' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

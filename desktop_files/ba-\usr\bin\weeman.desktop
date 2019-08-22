@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=weeman
+Icon=utilities-terminal
+Comment=HTTP Server for phishing in Python.
+TryExec=/usr/bin/weeman
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/weeman' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Social;

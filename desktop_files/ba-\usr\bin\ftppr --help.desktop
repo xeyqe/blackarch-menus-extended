@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ftppr
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ftppr
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ftppr --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Proxy;

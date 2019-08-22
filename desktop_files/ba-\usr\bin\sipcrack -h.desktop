@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sipcrack
+Icon=utilities-terminal
+Comment=A SIP protocol login cracker.
+TryExec=/usr/bin/sipcrack
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sipcrack -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Voip;

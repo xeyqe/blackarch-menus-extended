@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=reverseraider
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/reverseraider
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/reverseraider' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fingerprint;X-BlackArch-Scanner;

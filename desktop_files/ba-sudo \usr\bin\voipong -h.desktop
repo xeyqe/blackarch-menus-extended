@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=voipong
+Icon=utilities-terminal
+Comment=A utility which detects all Voice Over IP calls on a pipeline, and for those which are G711 encoded, dumps actual conversation to seperate wave files.
+TryExec=/usr/bin/voipong
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/voipong -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Voip;

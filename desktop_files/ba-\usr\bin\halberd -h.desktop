@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=halberd
+Icon=utilities-terminal
+Comment=Halberd discovers HTTP load balancers. It is useful for web application security auditing and for load balancer configuration testing.
+TryExec=/usr/bin/halberd
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/halberd -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Webapp;

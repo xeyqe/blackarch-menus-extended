@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=androlyze
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/androlyze
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/androlyze -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;X-BlackArch-Disassembler;X-BlackArch-Malware;

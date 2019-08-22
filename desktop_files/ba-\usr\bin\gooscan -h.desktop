@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=gooscan
+Icon=utilities-terminal
+Comment=A tool that automates queries against Google search appliances, but with a twist.
+TryExec=/usr/bin/gooscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/gooscan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;

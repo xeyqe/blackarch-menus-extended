@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=linset
+Icon=utilities-terminal
+Comment=Evil Twin Attack Bash script - An automated WPA/WPA2 hacker.
+TryExec=/usr/bin/linset
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/linset' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Wireless;X-BlackArch-Cracker;

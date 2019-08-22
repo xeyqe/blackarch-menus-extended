@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=maltego
+Icon=utilities-terminal
+Comment=An open source intelligence and forensics application, enabling to easily gather information about DNS, domains, IP addresses, websites, persons, etc.
+TryExec=/usr/bin/maltego
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/maltego --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Recon;X-BlackArch-Scanner;

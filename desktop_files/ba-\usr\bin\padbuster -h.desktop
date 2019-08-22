@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=padbuster
+Icon=utilities-terminal
+Comment=Automated script for performing Padding Oracle attacks.
+TryExec=/usr/bin/padbuster
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/padbuster -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

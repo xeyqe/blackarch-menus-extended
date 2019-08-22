@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=panhunt
+Icon=utilities-terminal
+Comment=Searches for credit card numbers (PANs) in directories.
+TryExec=/usr/bin/panhunt
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/panhunt -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

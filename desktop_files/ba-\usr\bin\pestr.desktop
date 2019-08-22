@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pestr
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/pestr
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pestr' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Reversing;

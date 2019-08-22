@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rfidiot-q5reset
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rfidiot-q5reset
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rfidiot-q5reset -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

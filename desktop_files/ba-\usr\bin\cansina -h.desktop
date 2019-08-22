@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cansina
+Icon=utilities-terminal
+Comment=A python-based Web Content Discovery Tool.
+TryExec=/usr/bin/cansina
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cansina -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;

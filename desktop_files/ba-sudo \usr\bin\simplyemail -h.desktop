@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=simplyemail
+Icon=utilities-terminal
+Comment=Email recon made fast and easy, with a framework to build on http://CyberSyndicates.com.
+TryExec=/usr/bin/simplyemail
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/simplyemail -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

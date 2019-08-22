@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dissy
+Icon=utilities-terminal
+Comment=A graphical frontend to the objdump disassembler for compiler-generated code.
+TryExec=/usr/bin/dissy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dissy -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Disassembler;X-BlackArch-Reversing;

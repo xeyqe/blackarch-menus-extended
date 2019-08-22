@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=autopsy
+Icon=utilities-terminal
+Comment=A GUI for The Sleuth Kit.
+TryExec=/usr/bin/autopsy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/autopsy -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

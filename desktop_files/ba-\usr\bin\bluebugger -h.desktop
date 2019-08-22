@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bluebugger
+Icon=utilities-terminal
+Comment=An implementation of the bluebug technique which was discovered by Martin Herfurt.
+TryExec=/usr/bin/bluebugger
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bluebugger -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

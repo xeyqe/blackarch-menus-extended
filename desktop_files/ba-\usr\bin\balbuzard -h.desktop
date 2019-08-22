@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=balbuzard
+Icon=utilities-terminal
+Comment=A package of malware analysis tools in python to extract patterns of interest from suspicious files (IP addresses, domain names, known file headers, interesting strings, etc).
+TryExec=/usr/bin/balbuzard
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/balbuzard -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Malware;X-BlackArch-Cracker;X-BlackArch-Reversing;

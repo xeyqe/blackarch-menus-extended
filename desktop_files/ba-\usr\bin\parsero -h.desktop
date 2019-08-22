@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=parsero
+Icon=utilities-terminal
+Comment=A robots.txt audit tool.
+TryExec=/usr/bin/parsero
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/parsero -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

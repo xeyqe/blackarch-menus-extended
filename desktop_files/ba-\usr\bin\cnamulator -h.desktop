@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cnamulator
+Icon=utilities-terminal
+Comment=A phone CNAM lookup utility using the OpenCNAM API.
+TryExec=/usr/bin/cnamulator
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cnamulator -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;X-BlackArch-Recon;

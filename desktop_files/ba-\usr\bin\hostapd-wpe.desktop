@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hostapd-wpe
+Icon=utilities-terminal
+Comment=IEEE 802.11 AP, IEEE 802.1X/WPA/WPA2/EAP/RADIUS Authenticator - Wireless Pwnage Edition.
+TryExec=/usr/bin/hostapd-wpe
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hostapd-wpe' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

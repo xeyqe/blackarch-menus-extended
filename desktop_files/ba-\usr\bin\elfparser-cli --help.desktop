@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=elfparser-cli
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/elfparser-cli
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/elfparser-cli --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;

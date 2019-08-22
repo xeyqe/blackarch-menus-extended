@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mwebymsg
+Icon=utilities-terminal
+Comment=
+TryExec=/opt/xplico/bin/mwebymsg
+Exec=sh -c '/usr/local/bin/appHelper.sh /opt/xplico/bin/mwebymsg' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Networking;

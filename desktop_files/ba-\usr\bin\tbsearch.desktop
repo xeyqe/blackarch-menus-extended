@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tbsearch
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/tbsearch
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/tbsearch' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

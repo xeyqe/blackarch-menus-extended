@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=iax-scan-hosts
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/iax-scan-hosts
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/iax-scan-hosts -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Cracker;

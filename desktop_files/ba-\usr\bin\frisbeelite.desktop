@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=frisbeelite
+Icon=utilities-terminal
+Comment=A GUI-based USB device fuzzer.
+TryExec=/usr/bin/frisbeelite
+Exec=/usr/bin/frisbeelite
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Fuzzer;

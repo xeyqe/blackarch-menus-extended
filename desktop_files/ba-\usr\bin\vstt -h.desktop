@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=vstt
+Icon=utilities-terminal
+Comment=VSTT is a multi-protocol tunneling tool. It accepts input by TCP stream sockets and FIFOs, and can send data via TCP, POP3, and ICMP tunneling.
+TryExec=/usr/bin/vstt
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/vstt -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Tunnel;

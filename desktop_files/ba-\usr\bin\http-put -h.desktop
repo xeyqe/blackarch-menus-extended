@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=http-put
+Icon=utilities-terminal
+Comment=Simple http put perl script
+TryExec=/usr/bin/http-put
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/http-put -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

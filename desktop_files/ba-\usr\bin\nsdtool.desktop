@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=nsdtool
+Icon=utilities-terminal
+Comment=A netgear switch discovery tool. It contains some extra features like bruteoforce and setting a new password.
+TryExec=/usr/bin/nsdtool
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/nsdtool' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Scanner;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=em-proxy
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/lib/ruby/gems/2.3.0/gems/em-proxy-0.1.8/bin/em-proxy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/lib/ruby/gems/2.3.0/gems/em-proxy-0.1.8/bin/em-proxy -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;X-BlackArch-Exploitation;X-BlackArch-Networking;

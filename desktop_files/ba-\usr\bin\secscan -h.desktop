@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=secscan
+Icon=utilities-terminal
+Comment=Web Apps Scanner and Much more utilities.
+TryExec=/usr/bin/secscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/secscan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;

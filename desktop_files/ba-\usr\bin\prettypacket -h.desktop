@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=prettypacket
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/prettypacket
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/prettypacket -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;

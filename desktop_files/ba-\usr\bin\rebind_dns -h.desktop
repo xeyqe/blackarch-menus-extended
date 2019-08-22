@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rebind_dns
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rebind_dns
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rebind_dns -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=outguess
+Icon=utilities-terminal
+Comment=A universal steganographic tool.
+TryExec=/usr/bin/outguess
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/outguess' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;X-BlackArch-Misc;

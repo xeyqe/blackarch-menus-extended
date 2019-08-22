@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wordpot
+Icon=utilities-terminal
+Comment=A Wordpress Honeypot.
+TryExec=/usr/bin/wordpot
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/wordpot -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Honeypot;X-BlackArch-Defensive;

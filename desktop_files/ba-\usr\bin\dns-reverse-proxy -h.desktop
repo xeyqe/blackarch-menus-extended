@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dns-reverse-proxy
+Icon=utilities-terminal
+Comment=A reverse DNS proxy written in Go.
+TryExec=/usr/bin/dns-reverse-proxy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dns-reverse-proxy -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Proxy;X-BlackArch-Networking;

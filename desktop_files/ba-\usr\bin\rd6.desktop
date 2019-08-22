@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rd6
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rd6
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rd6' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

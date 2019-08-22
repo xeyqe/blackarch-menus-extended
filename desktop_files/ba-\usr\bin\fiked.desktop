@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fiked
+Icon=utilities-terminal
+Comment=Fake IDE daemon
+TryExec=/usr/bin/fiked
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/fiked' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Honeypot;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sfill
+Icon=utilities-terminal
+Comment=A secure free disk and inode space wiper (secure_deletion toolkit)
+TryExec=/usr/bin/sfill
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sfill -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Anti-Forensic;X-BlackArch-Defensive;

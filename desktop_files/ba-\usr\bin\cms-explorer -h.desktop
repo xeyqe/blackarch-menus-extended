@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cms-explorer
+Icon=utilities-terminal
+Comment=Designed to reveal the specific modules, plugins, components and themes that various cms driven websites are running
+TryExec=/usr/bin/cms-explorer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cms-explorer -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fingerprint;X-BlackArch-Webapp;

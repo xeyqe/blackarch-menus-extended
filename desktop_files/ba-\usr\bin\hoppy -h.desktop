@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hoppy
+Icon=utilities-terminal
+Comment=A python script which tests http methods for configuration issues leaking information or just to see if they are enabled.
+TryExec=/usr/bin/hoppy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hoppy -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Recon;

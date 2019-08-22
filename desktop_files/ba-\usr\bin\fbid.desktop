@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fbid
+Icon=utilities-terminal
+Comment=Show info about the author by facebook photo url.
+TryExec=/usr/bin/fbid
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/fbid' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;X-BlackArch-Social;

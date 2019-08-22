@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=birp
+Icon=utilities-terminal
+Comment=A tool that will assist in the security assessment of mainframe applications served over TN3270.
+TryExec=/usr/bin/birp
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/birp -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Recon;X-BlackArch-Fuzzer;

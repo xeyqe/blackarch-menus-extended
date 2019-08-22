@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=aranea
+Icon=utilities-terminal
+Comment=A fast and clean dns spoofing tool.
+TryExec=/usr/bin/aranea
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/aranea -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Spoof;

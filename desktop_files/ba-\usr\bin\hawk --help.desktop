@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hawk
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/hawk
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hawk --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Dos;X-BlackArch-Fuzzer;X-BlackArch-Scanner;X-BlackArch-Wireless;

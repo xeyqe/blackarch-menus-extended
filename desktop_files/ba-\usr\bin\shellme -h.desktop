@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=shellme
+Icon=utilities-terminal
+Comment=Because sometimes you just need shellcode and opcodes quickly. This essentially just wraps some nasm/objdump calls into a neat script.
+TryExec=/usr/bin/shellme
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/shellme -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Automation;

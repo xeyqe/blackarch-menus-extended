@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=netscan2-ipwhois
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/netscan2-ipwhois
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/netscan2-ipwhois -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Recon;

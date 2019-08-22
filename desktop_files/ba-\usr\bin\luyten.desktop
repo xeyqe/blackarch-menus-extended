@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=luyten
+Icon=utilities-terminal
+Comment=An Open Source Java Decompiler Gui for Procyon.
+TryExec=/usr/bin/luyten
+Exec=/usr/bin/luyten
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Decompiler;X-BlackArch-Misc;

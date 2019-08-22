@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fprotlogparser
+Icon=utilities-terminal
+Comment=This is a utility to parse a F-Prot Anti Virus log file, in order to sort them into a malware archive for easier maintanence of your collection.
+TryExec=/usr/bin/fprotlogparser
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/fprotlogparser' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Malware;

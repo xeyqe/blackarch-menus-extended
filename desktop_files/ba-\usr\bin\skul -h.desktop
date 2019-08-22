@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=skul
+Icon=utilities-terminal
+Comment=A PoC to bruteforce the Cryptsetup implementation of Linux Unified Key Setup (LUKS).
+TryExec=/usr/bin/skul
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/skul -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Cryptography;

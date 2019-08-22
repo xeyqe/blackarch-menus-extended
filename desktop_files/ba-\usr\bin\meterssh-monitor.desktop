@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=meterssh-monitor
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/meterssh-monitor
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/meterssh-monitor' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Backdoor;X-BlackArch-Networking;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wsuspect-proxy
+Icon=utilities-terminal
+Comment=A tool for MITM'ing insecure WSUS connections.
+TryExec=/usr/bin/wsuspect-proxy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wsuspect-proxy' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Proxy;

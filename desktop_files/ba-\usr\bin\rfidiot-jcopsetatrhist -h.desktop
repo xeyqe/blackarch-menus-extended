@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rfidiot-jcopsetatrhist
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rfidiot-jcopsetatrhist
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rfidiot-jcopsetatrhist -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=alfred-gpsd
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/alfred-gpsd
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/alfred-gpsd -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

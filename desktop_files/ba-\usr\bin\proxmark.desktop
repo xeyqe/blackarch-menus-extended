@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=proxmark
+Icon=utilities-terminal
+Comment=A powerful general purpose RFID tool, the size of a deck of cards, designed to snoop, listen and emulate everything from Low Frequency (125kHz) to High Frequency (13.56MHz) tags.
+TryExec=/usr/bin/proxmark
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/proxmark' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Radio;X-BlackArch-Recon;X-BlackArch-Scanner;

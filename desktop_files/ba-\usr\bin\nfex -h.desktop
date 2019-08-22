@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=nfex
+Icon=utilities-terminal
+Comment=A tool for extracting files from the network in real-time or post-capture from an offline tcpdump pcap savefile.
+TryExec=/usr/bin/nfex
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/nfex -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Networking;

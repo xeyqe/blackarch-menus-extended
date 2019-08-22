@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bsqlbf
+Icon=utilities-terminal
+Comment=Blind SQL Injection Brute Forcer.
+TryExec=/usr/bin/bsqlbf
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bsqlbf' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=yafMeta2Pcap
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/yafMeta2Pcap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/yafMeta2Pcap --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

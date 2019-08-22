@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sfuzz
+Icon=utilities-terminal
+Comment=A simple fuzzer.
+TryExec=/usr/bin/sfuzz
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sfuzz -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

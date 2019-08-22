@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=speedport-arcadyan
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/speedport-arcadyan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/speedport-arcadyan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Wireless;

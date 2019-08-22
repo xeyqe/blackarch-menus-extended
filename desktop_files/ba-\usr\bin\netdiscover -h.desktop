@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=netdiscover
+Icon=utilities-terminal
+Comment=An active/passive address reconnaissance tool, mainly developed for those wireless networks without dhcp server, when you are wardriving. It can be also used on hub/switched networks.
+TryExec=/usr/bin/netdiscover
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/netdiscover -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;X-BlackArch-Wireless;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=d2j-dex-recompute-checksum
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/d2j-dex-recompute-checksum
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/d2j-dex-recompute-checksum' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Hardware;X-BlackArch-Reversing;

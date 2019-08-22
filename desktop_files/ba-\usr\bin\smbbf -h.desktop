@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=smbbf
+Icon=utilities-terminal
+Comment=SMB password bruteforcer.
+TryExec=/usr/bin/smbbf
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/smbbf -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

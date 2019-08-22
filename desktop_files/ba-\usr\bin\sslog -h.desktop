@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sslog
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/sslog
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sslog -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=conpot
+Icon=utilities-terminal
+Comment=ICS honeypot with the goal to collect intelligence about the motives and methods of adversaries targeting industrial control systems url="http://conpot.org"
+TryExec=/usr/bin/conpot
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/conpot --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Honeypot;

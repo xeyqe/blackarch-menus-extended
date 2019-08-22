@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rwdedupe
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rwdedupe
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rwdedupe --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Scanner;

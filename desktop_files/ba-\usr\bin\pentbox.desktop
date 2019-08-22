@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pentbox
+Icon=utilities-terminal
+Comment=A security suite that packs security and stability testing oriented tools for networks and systems.
+TryExec=/usr/bin/pentbox
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pentbox' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;X-BlackArch-Scanner;

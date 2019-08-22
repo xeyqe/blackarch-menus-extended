@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rfidiot-rfidiot-cli
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rfidiot-rfidiot-cli
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rfidiot-rfidiot-cli -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

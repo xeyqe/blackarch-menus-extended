@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=nbquery
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/nbquery
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/nbquery -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Recon;X-BlackArch-Scanner;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=quantumdetect
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/quantumdetect
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/quantumdetect -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;X-BlackArch-Networking;X-BlackArch-Spoof;X-BlackArch-Defensive;

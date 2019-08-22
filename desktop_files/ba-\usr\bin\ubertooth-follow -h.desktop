@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ubertooth-follow
+Icon=utilities-terminal
+Comment=Active(bluez) CLK discovery and follow for a particular UAP/LAP.
+TryExec=/usr/bin/ubertooth-follow
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ubertooth-follow -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

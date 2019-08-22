@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=binflow
+Icon=utilities-terminal
+Comment=POSIX function tracing. Much better and faster than ftrace.
+TryExec=/usr/bin/binflow
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/binflow' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;X-BlackArch-Debugger;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ADMdnsfuckr
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ADMdnsfuckr
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ADMdnsfuckr' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Spoof;

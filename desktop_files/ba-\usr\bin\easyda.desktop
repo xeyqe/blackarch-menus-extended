@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=easyda
+Icon=utilities-terminal
+Comment=Easy Windows Domain Access Script.
+TryExec=/usr/bin/easyda
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/easyda' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Scanner;X-BlackArch-Recon;

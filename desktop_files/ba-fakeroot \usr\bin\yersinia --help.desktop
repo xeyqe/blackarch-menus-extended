@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=yersinia
+Icon=utilities-terminal
+Comment=A network tool designed to take advantage of some weakness in different network protocols.
+TryExec=/usr/bin/yersinia
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/yersinia --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Scanner;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bokken
+Icon=utilities-terminal
+Comment=GUI for radare2 and pyew.
+TryExec=/usr/bin/bokken
+Exec=/usr/bin/bokken
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Misc;X-BlackArch-Reversing;X-BlackArch-Disassembler;

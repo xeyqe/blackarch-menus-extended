@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bulk_extractor
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/bulk_extractor
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bulk_extractor' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Misc;

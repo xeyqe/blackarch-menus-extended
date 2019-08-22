@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ike-scan
+Icon=utilities-terminal
+Comment=A tool that uses IKE protocol to discover, fingerprint and test IPSec VPN servers
+TryExec=/usr/bin/ike-scan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ike-scan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

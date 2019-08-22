@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=lfifreak
+Icon=utilities-terminal
+Comment=A unique automated LFi Exploiter with Bind/Reverse Shells.
+TryExec=/usr/bin/lfifreak
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/lfifreak' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Exploitation;

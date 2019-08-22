@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=psm_scan
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/psm_scan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/psm_scan' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;X-BlackArch-Fuzzer;

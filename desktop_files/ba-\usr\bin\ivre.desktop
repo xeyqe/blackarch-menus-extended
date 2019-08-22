@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ivre
+Icon=utilities-terminal
+Comment=Network recon framework.
+TryExec=/usr/bin/ivre
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ivre' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;X-BlackArch-Networking;

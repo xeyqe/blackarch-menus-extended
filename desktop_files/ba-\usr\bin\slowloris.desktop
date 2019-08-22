@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=slowloris
+Icon=utilities-terminal
+Comment=A tool which is written in perl to test http-server vulnerabilites for connection exhaustion denial of service (DoS) attacks so you can enhance the security of your webserver.
+TryExec=/usr/bin/slowloris
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/slowloris' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Dos;

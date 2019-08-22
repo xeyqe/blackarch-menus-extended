@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sasm
+Icon=utilities-terminal
+Comment=A simple crossplatform IDE for NASM, MASM, GAS and FASM assembly languages.
+TryExec=/usr/bin/sasm
+Exec=/usr/bin/sasm
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Misc;

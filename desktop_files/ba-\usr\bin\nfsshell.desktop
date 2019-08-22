@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=nfsshell
+Icon=utilities-terminal
+Comment=Userland NFS command tool.
+TryExec=/usr/bin/nfsshell
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/nfsshell' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Networking;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=htsserver
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/htsserver
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/htsserver' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

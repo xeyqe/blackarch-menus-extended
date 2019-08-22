@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ent
+Icon=utilities-terminal
+Comment=Pseudorandom number sequence test.
+TryExec=/usr/bin/ent
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ent --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

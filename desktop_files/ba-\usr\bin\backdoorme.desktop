@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=backdoorme
+Icon=utilities-terminal
+Comment=A powerful utility capable of backdooring Unix machines with a slew of backdoors.
+TryExec=/usr/bin/backdoorme
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/backdoorme' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Backdoor;X-BlackArch-Automation;

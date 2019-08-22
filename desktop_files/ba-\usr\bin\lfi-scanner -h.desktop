@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=lfi-scanner
+Icon=utilities-terminal
+Comment=This is a simple perl script that enumerates local file inclusion attempts when given a specific target.
+TryExec=/usr/bin/lfi-scanner
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/lfi-scanner -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Fuzzer;X-BlackArch-Webapp;

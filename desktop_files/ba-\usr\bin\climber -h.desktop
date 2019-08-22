@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=climber
+Icon=utilities-terminal
+Comment=Check UNIX/Linux systems for privilege escalation.
+TryExec=/usr/bin/climber
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/climber -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

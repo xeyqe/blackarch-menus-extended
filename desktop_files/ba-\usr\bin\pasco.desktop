@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pasco
+Icon=utilities-terminal
+Comment=Examines the contents of Internet Explorer's cache files for forensic purposes
+TryExec=/usr/bin/pasco
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pasco' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

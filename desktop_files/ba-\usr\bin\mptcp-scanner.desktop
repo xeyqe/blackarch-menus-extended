@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mptcp-scanner
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/mptcp-scanner
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mptcp-scanner' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Recon;X-BlackArch-Scanner;

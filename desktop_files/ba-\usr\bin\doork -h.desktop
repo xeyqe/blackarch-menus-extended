@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=doork
+Icon=utilities-terminal
+Comment=Passive Vulnerability Auditor.
+TryExec=/usr/bin/doork
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/doork -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Recon;

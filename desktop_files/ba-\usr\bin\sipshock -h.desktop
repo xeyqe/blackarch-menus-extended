@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sipshock
+Icon=utilities-terminal
+Comment=A scanner for SIP proxies vulnerable to Shellshock.
+TryExec=/usr/bin/sipshock
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sipshock -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Voip;

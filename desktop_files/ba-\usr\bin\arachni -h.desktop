@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=arachni
+Icon=utilities-terminal
+Comment=A feature-full, modular, high-performance Ruby framework aimed towards helping penetration testers and administrators evaluate the security of web applications.
+TryExec=/usr/bin/arachni
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/arachni -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

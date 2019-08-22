@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hidattack
+Icon=utilities-terminal
+Comment=HID Attack (attacking HID host implementations)
+TryExec=/usr/bin/hidattack
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hidattack -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

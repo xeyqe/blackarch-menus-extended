@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wireless-ids
+Icon=utilities-terminal
+Comment=Ability to detect suspicious activity such as (WEP/WPA/WPS) attack by sniffing the air for wireless packets.
+TryExec=/usr/bin/wireless-ids
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/wireless-ids -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;X-BlackArch-Sniffer;X-BlackArch-Defensive;

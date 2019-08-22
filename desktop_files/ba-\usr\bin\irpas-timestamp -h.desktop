@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=irpas-timestamp
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/irpas-timestamp
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/irpas-timestamp -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

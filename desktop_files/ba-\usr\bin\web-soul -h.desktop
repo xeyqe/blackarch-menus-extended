@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=web-soul
+Icon=utilities-terminal
+Comment=A plugin based scanner for attacking and data mining web sites written in Perl.
+TryExec=/usr/bin/web-soul
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/web-soul -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

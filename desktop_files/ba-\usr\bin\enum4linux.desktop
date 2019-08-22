@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=enum4linux
+Icon=utilities-terminal
+Comment=A tool for enumerating information from Windows and Samba systems.
+TryExec=/usr/bin/enum4linux
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/enum4linux' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;X-BlackArch-Scanner;

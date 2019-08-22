@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=netmap
+Icon=utilities-terminal
+Comment=Can be used to make a graphical representation of the surounding network.
+TryExec=/usr/bin/netmap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/netmap -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

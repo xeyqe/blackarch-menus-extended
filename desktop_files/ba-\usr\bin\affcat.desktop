@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=affcat
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/affcat
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/affcat' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

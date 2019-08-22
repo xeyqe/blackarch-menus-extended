@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ld.mcld
+Icon=utilities-terminal
+Comment=
+TryExec=/opt/android-ndk/toolchains/llvm-3.3/prebuilt/linux-x86_64/bin/ld.mcld
+Exec=sh -c '/usr/local/bin/appHelper.sh /opt/android-ndk/toolchains/llvm-3.3/prebuilt/linux-x86_64/bin/ld.mcld --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;

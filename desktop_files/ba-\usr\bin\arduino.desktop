@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=arduino
+Icon=utilities-terminal
+Comment=Arduino SDK (includes patched avrdude and librxtx)
+TryExec=/usr/bin/arduino
+Exec=/usr/bin/arduino
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Hardware;

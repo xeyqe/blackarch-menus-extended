@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sniffjokectl
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/sniffjokectl
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sniffjokectl -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Defensive;X-BlackArch-Networking;X-BlackArch-Sniffer;

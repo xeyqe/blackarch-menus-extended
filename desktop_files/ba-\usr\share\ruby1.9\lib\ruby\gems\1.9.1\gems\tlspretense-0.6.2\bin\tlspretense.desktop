@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tlspretense
+Icon=utilities-terminal
+Comment=SSL/TLS client testing framework
+TryExec=/usr/share/ruby1.9/lib/ruby/gems/1.9.1/gems/tlspretense-0.6.2/bin/tlspretense
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/share/ruby1.9/lib/ruby/gems/1.9.1/gems/tlspretense-0.6.2/bin/tlspretense' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;X-BlackArch-Scanner;

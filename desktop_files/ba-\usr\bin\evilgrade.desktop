@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=evilgrade
+Icon=utilities-terminal
+Comment=Modular framework that takes advantage of poor upgrade implementations by injecting fake updates
+TryExec=/usr/bin/evilgrade
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/evilgrade' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bro
+Icon=utilities-terminal
+Comment=A powerful network analysis framework that is much different from the typical IDS you may know.
+TryExec=/usr/bin/bro
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bro -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Defensive;X-BlackArch-Sniffer;

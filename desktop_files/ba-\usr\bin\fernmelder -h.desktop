@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fernmelder
+Icon=utilities-terminal
+Comment=Asynchronous mass DNS scanner.
+TryExec=/usr/bin/fernmelder
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/fernmelder -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Recon;

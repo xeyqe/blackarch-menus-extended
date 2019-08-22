@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cirt-fuzzer
+Icon=utilities-terminal
+Comment=A simple TCP/UDP protocol fuzzer.
+TryExec=/usr/bin/cirt-fuzzer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cirt-fuzzer -help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

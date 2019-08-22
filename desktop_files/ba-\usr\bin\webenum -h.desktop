@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=webenum
+Icon=utilities-terminal
+Comment=Tool to enumerate http responses using dynamically generated queries and more. Useful for penetration tests against web servers.
+TryExec=/usr/bin/webenum
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/webenum -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Webapp;

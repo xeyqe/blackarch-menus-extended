@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=t50
+Icon=utilities-terminal
+Comment=Experimental Multi-protocol Packet Injector Tool.
+TryExec=/usr/bin/t50
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/t50 --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Dos;X-BlackArch-Networking;

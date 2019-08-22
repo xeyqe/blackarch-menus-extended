@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wificurse
+Icon=utilities-terminal
+Comment=WiFi jamming tool.
+TryExec=/usr/bin/wificurse
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wificurse -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

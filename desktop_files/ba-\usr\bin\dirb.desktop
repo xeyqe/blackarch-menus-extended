@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dirb
+Icon=utilities-terminal
+Comment=A web content scanner, brute forceing for hidden files.
+TryExec=/usr/bin/dirb
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dirb' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Webapp;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=msfrop
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/msfrop
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/msfrop -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Fuzzer;X-BlackArch-Scanner;X-BlackArch-Recon;X-BlackArch-Networking;

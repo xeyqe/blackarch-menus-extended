@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dsd
+Icon=utilities-terminal
+Comment=Digital Speech Decoder
+TryExec=/usr/bin/dsd
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dsd -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

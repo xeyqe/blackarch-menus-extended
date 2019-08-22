@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bittwist
+Icon=utilities-terminal
+Comment=A simple yet powerful libpcap-based Ethernet packet generator. It is designed to complement tcpdump, which by itself has done a great job at capturing network traffic.
+TryExec=/usr/bin/bittwist
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bittwist -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;X-BlackArch-Networking;

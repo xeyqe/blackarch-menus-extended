@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=iphoneanalyzer
+Icon=utilities-terminal
+Comment=Allows you to forensically examine or recover date from in iOS device.
+TryExec=/usr/bin/iphoneanalyzer
+Exec=/usr/bin/iphoneanalyzer
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Mobile;

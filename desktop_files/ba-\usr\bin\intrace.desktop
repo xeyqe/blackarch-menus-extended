@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=intrace
+Icon=utilities-terminal
+Comment=Traceroute-like application piggybacking on existing TCP connections
+TryExec=/usr/bin/intrace
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/intrace' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

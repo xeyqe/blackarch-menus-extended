@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=enum-shares
+Icon=utilities-terminal
+Comment=Tool that enumerates shared folders across the network and under a custom user account.
+TryExec=/usr/bin/enum-shares
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/enum-shares -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

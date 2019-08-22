@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=skypefreak
+Icon=utilities-terminal
+Comment=A Cross Platform Forensic Framework for Skype.
+TryExec=/usr/bin/skypefreak
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/skypefreak' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

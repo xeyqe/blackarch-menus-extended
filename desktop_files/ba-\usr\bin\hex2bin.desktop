@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hex2bin
+Icon=utilities-terminal
+Comment=Converts Motorola and Intel hex files to binary.
+TryExec=/usr/bin/hex2bin
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hex2bin' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dns-spoof
+Icon=utilities-terminal
+Comment=Yet another DNS spoof utility.
+TryExec=/usr/bin/dns-spoof
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dns-spoof -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Spoof;

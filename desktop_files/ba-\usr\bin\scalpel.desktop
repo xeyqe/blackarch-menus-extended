@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=scalpel
+Icon=utilities-terminal
+Comment=A frugal, high performance file carver
+TryExec=/usr/bin/scalpel
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/scalpel' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

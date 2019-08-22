@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=snoopy
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/snoopy
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/snoopy -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Drone;X-BlackArch-Exploitation;X-BlackArch-Sniffer;

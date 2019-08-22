@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bbscan
+Icon=utilities-terminal
+Comment=A tiny Batch weB vulnerability Scanner.
+TryExec=/usr/bin/bbscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bbscan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;X-BlackArch-Fuzzer;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=logkeys-kill.sh
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/logkeys-kill.sh
+Exec=sh -c 'gksu /usr/bin/logkeys-kill.sh' $SHELL
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Keylogger;

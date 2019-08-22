@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=configpush
+Icon=utilities-terminal
+Comment=This is a tool to span /8-sized networks quickly sending snmpset requests with default or otherwise specified community string to Cisco devices.
+TryExec=/usr/bin/configpush
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/configpush' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

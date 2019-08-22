@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=websploit
+Icon=utilities-terminal
+Comment=An Open Source Project For, Social Engineering Works, Scan, Crawler & Analysis Web, Automatic Exploiter, Support Network Attacks
+TryExec=/usr/bin/websploit
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/websploit' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Fuzzer;X-BlackArch-Scanner;X-BlackArch-Social;

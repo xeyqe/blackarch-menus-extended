@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=maskprocessor
+Icon=utilities-terminal
+Comment=A High-Performance word generator with a per-position configurable charset.
+TryExec=/usr/bin/maskprocessor
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/maskprocessor -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Misc;

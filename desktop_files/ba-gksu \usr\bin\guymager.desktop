@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=guymager
+Icon=utilities-terminal
+Comment=A forensic imager for media acquisition.
+TryExec=/usr/bin/guymager
+Exec=gksu /usr/bin/guymager
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Forensic;

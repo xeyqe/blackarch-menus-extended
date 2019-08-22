@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=matahari
+Icon=utilities-terminal
+Comment=A reverse HTTP shell to execute commands on remote machines behind firewalls.
+TryExec=/usr/bin/matahari
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/matahari' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Tunnel;

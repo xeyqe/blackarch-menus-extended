@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=find-dns
+Icon=utilities-terminal
+Comment=A tool that scans networks looking for DNS servers.
+TryExec=/usr/bin/find-dns
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/find-dns -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

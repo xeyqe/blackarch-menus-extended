@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pdfbook-analyzer
+Icon=utilities-terminal
+Comment=Utility for facebook memory forensics.
+TryExec=/usr/bin/pdfbook-analyzer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pdfbook-analyzer -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

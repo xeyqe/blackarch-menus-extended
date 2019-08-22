@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=morxbook
+Icon=utilities-terminal
+Comment=A password cracking tool written in perl to perform a dictionary-based attack on a specific Facebook user through HTTPS.
+TryExec=/usr/bin/morxbook
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/morxbook' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=magicsort
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/magicsort
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/magicsort' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

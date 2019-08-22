@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=checkiban
+Icon=utilities-terminal
+Comment=Checks the validity of an International Bank Account Number (IBAN).
+TryExec=/usr/bin/checkiban
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/checkiban' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

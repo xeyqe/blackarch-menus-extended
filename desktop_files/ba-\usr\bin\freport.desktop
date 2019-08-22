@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=freport
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/freport
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/freport' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

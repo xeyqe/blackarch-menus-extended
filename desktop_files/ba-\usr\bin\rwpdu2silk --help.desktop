@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rwpdu2silk
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rwpdu2silk
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rwpdu2silk --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Scanner;

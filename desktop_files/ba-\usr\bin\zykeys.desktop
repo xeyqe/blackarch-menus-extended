@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=zykeys
+Icon=utilities-terminal
+Comment=Demonstrates how default wireless settings are derived on some models of ZyXEL routers.
+TryExec=/usr/bin/zykeys
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/zykeys' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;X-BlackArch-Cracker;

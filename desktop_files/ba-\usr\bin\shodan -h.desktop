@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=shodan
+Icon=utilities-terminal
+Comment=Python library for Shodan (https://developer.shodan.io).
+TryExec=/usr/bin/shodan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/shodan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;

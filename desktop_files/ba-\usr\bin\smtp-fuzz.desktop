@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=smtp-fuzz
+Icon=utilities-terminal
+Comment=Simple smtp fuzzer
+TryExec=/usr/bin/smtp-fuzz
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/smtp-fuzz' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

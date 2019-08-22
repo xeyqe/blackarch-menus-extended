@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=arachni_rpc
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/arachni_rpc
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/arachni_rpc -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

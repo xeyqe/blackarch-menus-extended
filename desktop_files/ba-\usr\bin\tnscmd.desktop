@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tnscmd
+Icon=utilities-terminal
+Comment=a lame tool to prod the oracle tnslsnr process (1521/tcp)
+TryExec=/usr/bin/tnscmd
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/tnscmd' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

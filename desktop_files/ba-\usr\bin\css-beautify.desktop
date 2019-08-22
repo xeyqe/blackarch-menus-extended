@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=css-beautify
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/css-beautify
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/css-beautify' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Reversing;X-BlackArch-Unpacker;

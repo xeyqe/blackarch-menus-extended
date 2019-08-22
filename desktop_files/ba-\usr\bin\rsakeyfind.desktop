@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rsakeyfind
+Icon=utilities-terminal
+Comment=A tool to find RSA key in RAM.
+TryExec=/usr/bin/rsakeyfind
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rsakeyfind' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Forensic;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rsmangler
+Icon=utilities-terminal
+Comment=rsmangler takes a wordlist and mangle it
+TryExec=/usr/bin/rsmangler
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rsmangler -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;

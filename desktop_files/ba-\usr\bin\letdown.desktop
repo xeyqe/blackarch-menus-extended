@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=letdown
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/letdown
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/letdown' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fingerprint;X-BlackArch-Scanner;

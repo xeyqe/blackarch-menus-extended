@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=gtp-scan
+Icon=utilities-terminal
+Comment=A small python script that scans for GTP (GPRS tunneling protocol) speaking hosts.
+TryExec=/usr/bin/gtp-scan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/gtp-scan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Networking;X-BlackArch-Mobile;

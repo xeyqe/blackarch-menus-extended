@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=nfdump
+Icon=utilities-terminal
+Comment=A set of tools to collect and process netflow data.
+TryExec=/usr/bin/nfdump
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/nfdump -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

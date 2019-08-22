@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=aesshell-listen
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/aesshell-listen
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/aesshell-listen -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Backdoor;X-BlackArch-Windows;

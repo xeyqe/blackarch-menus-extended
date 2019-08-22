@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fusil-clamav
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/fusil-clamav
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/fusil-clamav' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

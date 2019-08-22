@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=spaf
+Icon=utilities-terminal
+Comment=Static Php Analysis and Fuzzer.
+TryExec=/usr/bin/spaf
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/spaf -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Fuzzer;X-BlackArch-Code-audit;

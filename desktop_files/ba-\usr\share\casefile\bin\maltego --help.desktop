@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=maltego
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/share/casefile/bin/maltego
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/share/casefile/bin/maltego --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Recon;X-BlackArch-Scanner;

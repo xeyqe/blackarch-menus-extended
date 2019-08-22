@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=spipe
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/spipe
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/spipe' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Crypto;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hcraft
+Icon=utilities-terminal
+Comment=HTTP Vuln Request Crafter
+TryExec=/usr/bin/hcraft
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hcraft' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

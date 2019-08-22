@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tcpextract
+Icon=utilities-terminal
+Comment=Extracts files from captured TCP sessions. Support live streams and pcap files.
+TryExec=/usr/bin/tcpextract
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/tcpextract -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

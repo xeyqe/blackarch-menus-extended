@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cisco-torch
+Icon=utilities-terminal
+Comment=Cisco Torch mass scanning, fingerprinting, and exploitation tool.
+TryExec=/usr/bin/cisco-torch
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cisco-torch -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Fingerprint;X-BlackArch-Scanner;

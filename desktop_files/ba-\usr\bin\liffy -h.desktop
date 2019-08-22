@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=liffy
+Icon=utilities-terminal
+Comment=A Local File Inclusion Exploitation tool.
+TryExec=/usr/bin/liffy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/liffy -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Exploitation;X-BlackArch-Fuzzer;

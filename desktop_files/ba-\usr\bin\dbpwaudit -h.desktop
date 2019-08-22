@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dbpwaudit
+Icon=utilities-terminal
+Comment=A Java tool that allows you to perform online audits of password quality for several database engines
+TryExec=/usr/bin/dbpwaudit
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dbpwaudit -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Defensive;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ipx_route
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ipx_route
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ipx_route' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

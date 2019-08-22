@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=linenum
+Icon=utilities-terminal
+Comment=Scripted Local Linux Enumeration & Privilege Escalation Checks
+TryExec=/usr/bin/linenum
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/linenum -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Recon;

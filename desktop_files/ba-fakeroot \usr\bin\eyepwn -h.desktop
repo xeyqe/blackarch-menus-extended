@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=eyepwn
+Icon=utilities-terminal
+Comment=Exploit for Eye-Fi Helper directory traversal vulnerability
+TryExec=/usr/bin/eyepwn
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/eyepwn -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Wireless;

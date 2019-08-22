@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=procyon
+Icon=utilities-terminal
+Comment=A suite of Java metaprogramming tools focused on code generation and analysis.
+TryExec=/usr/bin/procyon
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/procyon --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Decompiler;X-BlackArch-Code-audit;

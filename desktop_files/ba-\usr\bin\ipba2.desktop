@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ipba2
+Icon=utilities-terminal
+Comment=IOS Backup Analyzer
+TryExec=/usr/bin/ipba2
+Exec=/usr/bin/ipba2
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Forensic;

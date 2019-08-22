@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rfidiot-formatmifare1kvalue
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rfidiot-formatmifare1kvalue
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rfidiot-formatmifare1kvalue -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

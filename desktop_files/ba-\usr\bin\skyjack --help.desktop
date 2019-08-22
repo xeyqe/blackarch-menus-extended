@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=skyjack
+Icon=utilities-terminal
+Comment=Takes over Parrot drones, deauthenticating their true owner and taking over control, turning them into zombie drones under your own control.
+TryExec=/usr/bin/skyjack
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/skyjack --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Drone;

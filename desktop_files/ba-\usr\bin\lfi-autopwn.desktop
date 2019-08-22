@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=lfi-autopwn
+Icon=utilities-terminal
+Comment=A Perl script to try to gain code execution on a remote server via LFI
+TryExec=/usr/bin/lfi-autopwn
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/lfi-autopwn' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Fuzzer;

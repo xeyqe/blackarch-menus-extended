@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hashcat-gate
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/hashcat-gate
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hashcat-gate -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

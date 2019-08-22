@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sqid
+Icon=utilities-terminal
+Comment=A SQL injection digger.
+TryExec=/usr/bin/sqid
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sqid -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

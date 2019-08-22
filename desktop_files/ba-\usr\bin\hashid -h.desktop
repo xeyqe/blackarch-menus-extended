@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hashid
+Icon=utilities-terminal
+Comment=Software to identify the different types of hashes used to encrypt data.
+TryExec=/usr/bin/hashid
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hashid -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;

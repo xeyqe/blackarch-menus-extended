@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=svn-extractor
+Icon=utilities-terminal
+Comment=A simple script to extract all web resources by means of .SVN folder exposed over network.
+TryExec=/usr/bin/svn-extractor
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/svn-extractor -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

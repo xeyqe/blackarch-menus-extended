@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=proguardgui.sh
+Icon=utilities-terminal
+Comment=
+TryExec=/opt/android-sdk/tools/proguard/bin/proguardgui.sh
+Exec=sh -c '/opt/android-sdk/tools/proguard/bin/proguardgui.sh' $SHELL
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Mobile;

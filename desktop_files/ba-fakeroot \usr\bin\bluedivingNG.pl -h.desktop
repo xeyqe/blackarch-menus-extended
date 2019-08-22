@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bluedivingNG.pl
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/bluedivingNG.pl
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/bluedivingNG.pl -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

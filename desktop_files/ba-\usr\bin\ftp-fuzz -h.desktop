@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ftp-fuzz
+Icon=utilities-terminal
+Comment=The master of all master fuzzing scripts specifically targeted towards FTP server sofware.
+TryExec=/usr/bin/ftp-fuzz
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ftp-fuzz -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

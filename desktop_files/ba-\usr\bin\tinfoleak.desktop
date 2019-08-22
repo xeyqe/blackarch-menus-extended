@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tinfoleak
+Icon=utilities-terminal
+Comment=Get detailed information about a Twitter user activity.
+TryExec=/usr/bin/tinfoleak
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/tinfoleak' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;X-BlackArch-Social;X-BlackArch-Webapp;

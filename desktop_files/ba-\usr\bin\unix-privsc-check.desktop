@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=unix-privsc-check
+Icon=utilities-terminal
+Comment=This script checks file permissions and other settings that could allow
+local users to escalate privileges.
+TryExec=/usr/bin/unix-privsc-check
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/unix-privsc-check' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Scanner;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cmsfuzz
+Icon=utilities-terminal
+Comment=Fuzzer for wordpress, cold fusion, drupal, joomla, and phpnuke.
+TryExec=/usr/bin/cmsfuzz
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cmsfuzz' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;X-BlackArch-Fuzzer;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cvereport
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/cvereport
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cvereport' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

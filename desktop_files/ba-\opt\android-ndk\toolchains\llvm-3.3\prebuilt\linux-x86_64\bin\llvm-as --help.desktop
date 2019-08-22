@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=llvm-as
+Icon=utilities-terminal
+Comment=
+TryExec=/opt/android-ndk/toolchains/llvm-3.3/prebuilt/linux-x86_64/bin/llvm-as
+Exec=sh -c '/usr/local/bin/appHelper.sh /opt/android-ndk/toolchains/llvm-3.3/prebuilt/linux-x86_64/bin/llvm-as --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tcptraceroute
+Icon=utilities-terminal
+Comment=A traceroute implementation using TCP packets.
+TryExec=/usr/bin/tcptraceroute
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/tcptraceroute' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

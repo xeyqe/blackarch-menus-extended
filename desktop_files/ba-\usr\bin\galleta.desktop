@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=galleta
+Icon=utilities-terminal
+Comment=Examine the contents of the IE's cookie files for forensic purposes
+TryExec=/usr/bin/galleta
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/galleta' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

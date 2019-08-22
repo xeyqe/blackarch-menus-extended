@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wordbrutepress
+Icon=utilities-terminal
+Comment=Python script that performs brute forcing against WordPress installs using a wordlist.
+TryExec=/usr/bin/wordbrutepress
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wordbrutepress' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Webapp;

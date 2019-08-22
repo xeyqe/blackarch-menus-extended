@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=lfimap
+Icon=utilities-terminal
+Comment=This script is used to take the highest beneficts of the local file include vulnerability in a webserver.
+TryExec=/usr/bin/lfimap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/lfimap -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Fuzzer;

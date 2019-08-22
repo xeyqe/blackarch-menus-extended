@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=of-check
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/of-check
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/of-check -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Scanner;X-BlackArch-Recon;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=subscan2.py
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/subscan2.py
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/subscan2.py' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hashcat-hcstatgen
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/hashcat-hcstatgen
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hashcat-hcstatgen' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

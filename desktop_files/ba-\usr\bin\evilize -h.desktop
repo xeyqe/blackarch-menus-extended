@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=evilize
+Icon=utilities-terminal
+Comment=Tool to create MD5 colliding binaries.
+TryExec=/usr/bin/evilize
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/evilize -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Binary;X-BlackArch-Crypto;

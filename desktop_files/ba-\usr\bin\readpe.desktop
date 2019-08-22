@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=readpe
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/readpe
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/readpe' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Reversing;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=python2.7
+Icon=utilities-terminal
+Comment=
+TryExec=/opt/android-ndk/prebuilt/linux-x86_64/bin/python2.7
+Exec=sh -c '/usr/local/bin/appHelper.sh /opt/android-ndk/prebuilt/linux-x86_64/bin/python2.7' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;

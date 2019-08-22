@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=neglected
+Icon=utilities-terminal
+Comment=Facebook CDN Photo Resolver.
+TryExec=/usr/bin/neglected
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/neglected' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

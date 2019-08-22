@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=stripx
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/stripx
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/stripx' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Packer;X-BlackArch-Binary;X-BlackArch-Crypto;X-BlackArch-Backdoor;

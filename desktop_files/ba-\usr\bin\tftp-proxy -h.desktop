@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tftp-proxy
+Icon=utilities-terminal
+Comment=This tool accepts connection on tftp and reloads requested content from an upstream tftp server. Meanwhile modifications to the content can be done by pluggable modules. So this one's nice if your mitm with some embedded devices.
+TryExec=/usr/bin/tftp-proxy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/tftp-proxy -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Proxy;X-BlackArch-Networking;

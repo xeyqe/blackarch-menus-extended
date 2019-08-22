@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=passivedns
+Icon=utilities-terminal
+Comment=A network sniffer that logs all DNS server replies for use in a passive DNS setup.
+TryExec=/usr/bin/passivedns
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/passivedns -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;

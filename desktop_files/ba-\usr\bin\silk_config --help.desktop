@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=silk_config
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/silk_config
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/silk_config --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Scanner;

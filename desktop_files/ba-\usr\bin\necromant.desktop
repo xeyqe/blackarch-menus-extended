@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=necromant
+Icon=utilities-terminal
+Comment=Python Script that search unused Virtual Hosts in Web Servers.
+TryExec=/usr/bin/necromant
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/necromant' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

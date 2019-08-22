@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=damm
+Icon=utilities-terminal
+Comment=Differential Analysis of Malware in Memory.
+TryExec=/usr/bin/damm
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/damm -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Malware;X-BlackArch-Binary;X-BlackArch-Reversing;

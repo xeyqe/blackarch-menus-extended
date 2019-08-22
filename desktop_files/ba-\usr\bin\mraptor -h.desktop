@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mraptor
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/mraptor
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mraptor -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;X-BlackArch-Forensic;

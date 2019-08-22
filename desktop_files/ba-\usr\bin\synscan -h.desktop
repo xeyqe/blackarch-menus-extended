@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=synscan
+Icon=utilities-terminal
+Comment=fast asynchronous half-open TCP portscanner
+TryExec=/usr/bin/synscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/synscan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

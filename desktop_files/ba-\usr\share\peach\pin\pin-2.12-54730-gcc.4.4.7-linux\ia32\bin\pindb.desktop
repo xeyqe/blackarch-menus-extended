@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pindb
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/share/peach/pin/pin-2.12-54730-gcc.4.4.7-linux/ia32/bin/pindb
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/share/peach/pin/pin-2.12-54730-gcc.4.4.7-linux/ia32/bin/pindb' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=conscan
+Icon=utilities-terminal
+Comment=A blackbox vulnerability scanner for the Concre5 CMS.
+TryExec=/usr/bin/conscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/conscan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;X-BlackArch-Scanner;X-BlackArch-Webapp;

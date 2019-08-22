@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=urldigger
+Icon=utilities-terminal
+Comment=A python tool to extract URL addresses from different HOT sources and/or detect SPAM and malicious code
+TryExec=/usr/bin/urldigger
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/urldigger -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;

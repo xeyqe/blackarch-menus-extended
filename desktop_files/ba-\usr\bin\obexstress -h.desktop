@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=obexstress
+Icon=utilities-terminal
+Comment=Script for testing remote OBEX service for some potential vulnerabilities.
+TryExec=/usr/bin/obexstress
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/obexstress -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

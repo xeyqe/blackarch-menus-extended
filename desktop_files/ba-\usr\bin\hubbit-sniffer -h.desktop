@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hubbit-sniffer
+Icon=utilities-terminal
+Comment=Simple application that listens for WIFI-frames and records the mac-address of the sender and posts them to a REST-api.
+TryExec=/usr/bin/hubbit-sniffer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hubbit-sniffer -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;X-BlackArch-Wireless;

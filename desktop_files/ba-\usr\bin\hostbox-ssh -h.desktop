@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hostbox-ssh
+Icon=utilities-terminal
+Comment=A ssh password/account scanner.
+TryExec=/usr/bin/hostbox-ssh
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hostbox-ssh -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Scanner;

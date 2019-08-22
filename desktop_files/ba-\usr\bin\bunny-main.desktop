@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bunny-main
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/bunny-main
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bunny-main' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

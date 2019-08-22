@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=osinterator
+Icon=utilities-terminal
+Comment=Open Source Toolkit for Open Source Intelligence Gathering.
+TryExec=/usr/bin/osinterator
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/osinterator -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

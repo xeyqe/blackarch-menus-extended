@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=themole
+Icon=utilities-terminal
+Comment=Automatic SQL injection exploitation tool.
+TryExec=/usr/bin/themole
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/themole -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

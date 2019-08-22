@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=arpoison
+Icon=utilities-terminal
+Comment=The UNIX arp cache update utility
+TryExec=/usr/bin/arpoison
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/arpoison -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Spoof;

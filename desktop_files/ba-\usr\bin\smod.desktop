@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=smod
+Icon=utilities-terminal
+Comment=A modular framework with every kind of diagnostic and offensive feature you could need in order to pentest modbus protocol.
+TryExec=/usr/bin/smod
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/smod' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Fuzzer;X-BlackArch-Recon;X-BlackArch-Dos;

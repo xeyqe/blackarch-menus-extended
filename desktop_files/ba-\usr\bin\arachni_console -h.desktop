@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=arachni_console
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/arachni_console
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/arachni_console -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

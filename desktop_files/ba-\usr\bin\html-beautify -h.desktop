@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=html-beautify
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/html-beautify
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/html-beautify -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Reversing;X-BlackArch-Unpacker;

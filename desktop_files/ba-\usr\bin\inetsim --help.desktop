@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=inetsim
+Icon=utilities-terminal
+Comment=A software suite for simulating common internet services in a lab environment, e.g. for analyzing the network behaviour of unknown malware samples.
+TryExec=/usr/bin/inetsim
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/inetsim --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Defensive;X-BlackArch-Honeypot;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=peach
+Icon=utilities-terminal
+Comment=A SmartFuzzer that is capable of performing both generation and mutation based fuzzing.
+TryExec=/usr/bin/peach
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/peach -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

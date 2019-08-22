@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tftp-fuzz
+Icon=utilities-terminal
+Comment=Master TFTP fuzzing script as part of the ftools series of fuzzers.
+TryExec=/usr/bin/tftp-fuzz
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/tftp-fuzz -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

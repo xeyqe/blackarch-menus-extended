@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=nfspysh
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/nfspysh
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/nfspysh -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;

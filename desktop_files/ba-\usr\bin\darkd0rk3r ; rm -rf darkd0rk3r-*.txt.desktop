@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=darkd0rk3r
+Icon=utilities-terminal
+Comment=Python script that performs dork searching and searches for local file inclusion and SQL injection errors.
+TryExec=/usr/bin/darkd0rk3r
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/darkd0rk3r ; rm -rf darkd0rk3r-*.txt' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Webapp;

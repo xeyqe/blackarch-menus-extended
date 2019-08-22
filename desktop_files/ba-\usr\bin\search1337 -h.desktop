@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=search1337
+Icon=utilities-terminal
+Comment=1337Day Online Exploit Scanner.
+TryExec=/usr/bin/search1337
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/search1337 -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Exploitation;

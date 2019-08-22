@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=smtp-test
+Icon=utilities-terminal
+Comment=Automated testing of SMTP servers for penetration testing.
+TryExec=/usr/bin/smtp-test
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/smtp-test -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

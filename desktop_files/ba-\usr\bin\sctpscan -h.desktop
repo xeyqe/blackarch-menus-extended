@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sctpscan
+Icon=utilities-terminal
+Comment=A network scanner for discovery and security.
+TryExec=/usr/bin/sctpscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sctpscan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;X-BlackArch-Scanner;

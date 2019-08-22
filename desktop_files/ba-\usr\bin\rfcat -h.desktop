@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rfcat
+Icon=utilities-terminal
+Comment=RF ChipCon-based Attack Toolset.
+TryExec=/usr/bin/rfcat
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rfcat -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

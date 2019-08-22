@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=gwcheck
+Icon=utilities-terminal
+Comment=A simple program that checks if a host in an ethernet network is a gateway to Internet.
+TryExec=/usr/bin/gwcheck
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/gwcheck' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Scanner;

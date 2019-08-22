@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=perl
+Icon=utilities-terminal
+Comment=
+TryExec=/opt/android-ndk/prebuilt/linux-x86_64/bin/perl
+Exec=sh -c '/usr/local/bin/appHelper.sh /opt/android-ndk/prebuilt/linux-x86_64/bin/perl -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;

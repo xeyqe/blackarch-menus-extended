@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=openstego
+Icon=utilities-terminal
+Comment=A tool implemented in Java for generic steganography, with support for password-based encryption of the data.
+TryExec=/usr/bin/openstego
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/openstego -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;X-BlackArch-Backdoor;X-BlackArch-Misc;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=easy-creds
+Icon=utilities-terminal
+Comment=A bash script that leverages ettercap and other tools to obtain credentials.
+TryExec=/usr/bin/easy-creds
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/easy-creds' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Networking;

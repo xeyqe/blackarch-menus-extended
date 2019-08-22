@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=viper-web
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/viper-web
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/viper-web -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Disassembler;X-BlackArch-Binary;X-BlackArch-Malware;

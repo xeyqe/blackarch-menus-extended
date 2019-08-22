@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bkhive
+Icon=utilities-terminal
+Comment=Program for dumping the syskey bootkey from a Windows NT/2K/XP system hive.
+TryExec=/usr/bin/bkhive
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bkhive' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

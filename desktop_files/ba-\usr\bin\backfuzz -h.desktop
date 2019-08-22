@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=backfuzz
+Icon=utilities-terminal
+Comment=A network protocol fuzzing toolkit.
+TryExec=/usr/bin/backfuzz
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/backfuzz -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;X-BlackArch-Networking;

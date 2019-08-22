@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=videosnarf
+Icon=utilities-terminal
+Comment=A new security assessment tool for pcap analysis
+TryExec=/usr/bin/videosnarf
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/videosnarf' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

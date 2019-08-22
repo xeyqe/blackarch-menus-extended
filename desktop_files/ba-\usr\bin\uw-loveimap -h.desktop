@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=uw-loveimap
+Icon=utilities-terminal
+Comment=Multi threaded imap bounce scanner.
+TryExec=/usr/bin/uw-loveimap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/uw-loveimap -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

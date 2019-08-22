@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=reglookup-timeline
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/reglookup-timeline
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/reglookup-timeline' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=l2cap_headersize_overflow
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/l2cap_headersize_overflow
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/l2cap_headersize_overflow' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

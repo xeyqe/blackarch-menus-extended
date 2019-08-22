@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=make-pdf-javascript
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/make-pdf-javascript
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/make-pdf-javascript' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

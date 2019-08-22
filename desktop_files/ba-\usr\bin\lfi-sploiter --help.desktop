@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=lfi-sploiter
+Icon=utilities-terminal
+Comment=This tool helps you exploit LFI (Local File Inclusion) vulnerabilities. Post discovery, simply pass the affected URL and vulnerable parameter to this tool. You can also use this tool to scan a URL for LFI vulnerabilities.
+TryExec=/usr/bin/lfi-sploiter
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/lfi-sploiter --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Fuzzer;X-BlackArch-Exploitation;

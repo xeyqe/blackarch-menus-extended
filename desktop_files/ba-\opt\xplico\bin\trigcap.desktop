@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=trigcap
+Icon=utilities-terminal
+Comment=
+TryExec=/opt/xplico/bin/trigcap
+Exec=sh -c '/usr/local/bin/appHelper.sh /opt/xplico/bin/trigcap' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Networking;

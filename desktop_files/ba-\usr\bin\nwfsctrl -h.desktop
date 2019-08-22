@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=nwfsctrl
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/nwfsctrl
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/nwfsctrl -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

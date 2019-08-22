@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=plown
+Icon=utilities-terminal
+Comment=A security scanner for Plone CMS.
+TryExec=/usr/bin/plown
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/plown -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=http-traceroute
+Icon=utilities-terminal
+Comment=This is a python script that uses the Max-Forwards header in HTTP and SIP to perform a traceroute-like scanning functionality.
+TryExec=/usr/bin/http-traceroute
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/http-traceroute -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Recon;

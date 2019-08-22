@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=inviteflood
+Icon=utilities-terminal
+Comment=Flood a device with INVITE requests
+TryExec=/usr/bin/inviteflood
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/inviteflood -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Dos;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=changeme
+Icon=utilities-terminal
+Comment=A default credential scanner.
+TryExec=/usr/bin/changeme
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/changeme -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=clusterd
+Icon=utilities-terminal
+Comment=Automates the fingerprinting, reconnaissance, and exploitation phases of an application server attack.
+TryExec=/usr/bin/clusterd
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/clusterd -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;

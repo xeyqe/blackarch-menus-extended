@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=smtmap
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/smtmap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/smtmap' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fingerprint;

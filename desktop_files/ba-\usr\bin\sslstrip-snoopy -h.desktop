@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sslstrip-snoopy
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/sslstrip-snoopy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sslstrip-snoopy -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Drone;X-BlackArch-Exploitation;X-BlackArch-Sniffer;

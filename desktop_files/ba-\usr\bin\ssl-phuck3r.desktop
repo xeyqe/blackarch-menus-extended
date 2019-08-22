@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ssl-phuck3r
+Icon=utilities-terminal
+Comment=All in one script for Man-In-The-Middle attacks.
+TryExec=/usr/bin/ssl-phuck3r
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ssl-phuck3r' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;X-BlackArch-Networking;X-BlackArch-Automation;

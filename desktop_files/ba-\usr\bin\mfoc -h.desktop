@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mfoc
+Icon=utilities-terminal
+Comment=Mifare Classic Offline Cracker
+TryExec=/usr/bin/mfoc
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mfoc -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Wireless;

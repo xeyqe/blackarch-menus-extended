@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sb0x
+Icon=utilities-terminal
+Comment=A simple and Lightweight framework for Penetration testing.
+TryExec=/usr/bin/sb0x
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sb0x -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Fuzzer;X-BlackArch-Cracker;X-BlackArch-Backdoor;X-BlackArch-Recon;

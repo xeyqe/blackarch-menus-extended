@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pxedump
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/pxedump
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pxedump' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Forensic;

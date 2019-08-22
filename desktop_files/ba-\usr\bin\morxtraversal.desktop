@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=morxtraversal
+Icon=utilities-terminal
+Comment=Path Traversal checking tool.
+TryExec=/usr/bin/morxtraversal
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/morxtraversal' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;

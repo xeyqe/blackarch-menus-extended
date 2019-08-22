@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=xssless
+Icon=utilities-terminal
+Comment=An automated XSS payload generator written in python.
+TryExec=/usr/bin/xssless
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/xssless' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=praeda
+Icon=utilities-terminal
+Comment=An automated data/information harvesting tool designed to gather critical information from various embedded devices.
+TryExec=/usr/bin/praeda
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/praeda --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

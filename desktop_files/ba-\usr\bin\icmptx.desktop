@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=icmptx
+Icon=utilities-terminal
+Comment=IP over ICMP tunnel.
+TryExec=/usr/bin/icmptx
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/icmptx' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Tunnel;X-BlackArch-Networking;

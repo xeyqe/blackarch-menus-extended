@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tailer
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/tailer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/tailer --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

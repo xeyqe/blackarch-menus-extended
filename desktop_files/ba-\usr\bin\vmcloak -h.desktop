@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=vmcloak
+Icon=utilities-terminal
+Comment=Automated Virtual Machine Generation and Cloaking for Cuckoo Sandbox.
+TryExec=/usr/bin/vmcloak
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/vmcloak -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-malware;

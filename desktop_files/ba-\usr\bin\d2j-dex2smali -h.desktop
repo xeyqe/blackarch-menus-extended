@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=d2j-dex2smali
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/d2j-dex2smali
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/d2j-dex2smali -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Hardware;X-BlackArch-Reversing;

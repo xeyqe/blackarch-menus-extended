@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cnark
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/cnark
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cnark' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;

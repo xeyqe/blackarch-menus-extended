@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=posttester
+Icon=utilities-terminal
+Comment=A jar file that will send POST requests to servers in order to test for the hash collision vulnerability discussed at the Chaos Communication Congress in Berlin.
+TryExec=/usr/bin/posttester
+Exec=/usr/bin/posttester
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Crypto;

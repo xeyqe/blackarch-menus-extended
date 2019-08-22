@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=zbgoodfind
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/zbgoodfind
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/zbgoodfind' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Wireless;

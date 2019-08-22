@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fierce.pl
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/fierce.pl
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/fierce.pl -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

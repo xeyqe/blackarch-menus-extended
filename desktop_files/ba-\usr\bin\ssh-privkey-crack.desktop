@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ssh-privkey-crack
+Icon=utilities-terminal
+Comment=A SSH private key cracker.
+TryExec=/usr/bin/ssh-privkey-crack
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ssh-privkey-crack' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

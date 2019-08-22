@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=joomlascan
+Icon=utilities-terminal
+Comment=Joomla scanner scans for known vulnerable remote file inclusion paths and files.
+TryExec=/usr/bin/joomlascan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/joomlascan' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;

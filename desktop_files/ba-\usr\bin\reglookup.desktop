@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=reglookup
+Icon=utilities-terminal
+Comment=Command line utility for reading and querying Windows NT registries
+TryExec=/usr/bin/reglookup
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/reglookup' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

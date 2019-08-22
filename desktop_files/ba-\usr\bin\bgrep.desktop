@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bgrep
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/bgrep
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bgrep' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Backdoor;

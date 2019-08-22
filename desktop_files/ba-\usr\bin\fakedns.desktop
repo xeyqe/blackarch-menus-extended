@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fakedns
+Icon=utilities-terminal
+Comment=A regular-expression based python MITM DNS server with correct DNS request passthrough and "Not Found" responses.
+TryExec=/usr/bin/fakedns
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/fakedns' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Proxy;X-BlackArch-Spoof;

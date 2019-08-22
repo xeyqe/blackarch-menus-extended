@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fang
+Icon=utilities-terminal
+Comment=A multi service threaded MD5 cracker.
+TryExec=/usr/bin/fang
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/fang -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

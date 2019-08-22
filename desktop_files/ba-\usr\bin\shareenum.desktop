@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=shareenum
+Icon=utilities-terminal
+Comment=Tool to enumerate shares from Windows hosts.
+TryExec=/usr/bin/shareenum
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/shareenum' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

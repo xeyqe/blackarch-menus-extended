@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tree_mft.py
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/tree_mft.py
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/tree_mft.py -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

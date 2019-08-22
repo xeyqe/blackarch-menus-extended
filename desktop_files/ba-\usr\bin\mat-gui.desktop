@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mat-gui
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/mat-gui
+Exec=/usr/bin/mat-gui
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Defensive;X-BlackArch-Misc;

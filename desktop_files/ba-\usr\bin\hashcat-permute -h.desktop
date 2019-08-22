@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hashcat-permute
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/hashcat-permute
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hashcat-permute -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

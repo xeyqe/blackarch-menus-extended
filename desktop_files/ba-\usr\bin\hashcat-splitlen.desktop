@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hashcat-splitlen
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/hashcat-splitlen
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hashcat-splitlen' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

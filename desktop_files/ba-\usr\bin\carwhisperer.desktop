@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=carwhisperer
+Icon=utilities-terminal
+Comment=Intends to sensibilise manufacturers of carkits and other Bluetooth appliances without display and keyboard for the possible security threat evolving from the use of standard passkeys.
+TryExec=/usr/bin/carwhisperer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/carwhisperer' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hackredis
+Icon=utilities-terminal
+Comment=A simple tool to scan and exploit redis servers.
+TryExec=/usr/bin/hackredis
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hackredis -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Scanner;

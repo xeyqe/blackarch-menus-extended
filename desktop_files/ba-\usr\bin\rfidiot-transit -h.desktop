@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rfidiot-transit
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rfidiot-transit
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rfidiot-transit -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

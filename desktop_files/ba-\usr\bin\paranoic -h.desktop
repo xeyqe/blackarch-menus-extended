@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=paranoic
+Icon=utilities-terminal
+Comment=A simple vulnerability scanner written in Perl.
+TryExec=/usr/bin/paranoic
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/paranoic -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Scanner;X-BlackArch-Webapp;

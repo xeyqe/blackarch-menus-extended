@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=oletimes
+Icon=utilities-terminal
+Comment=A script to parse OLE files such as MS Office documents (e.g. Word, Excel), to extract creation and modification times of all streams and storages in the OLE file.
+TryExec=/usr/bin/oletimes
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/oletimes' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;X-BlackArch-Forensic;

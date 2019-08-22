@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dnsbf
+Icon=utilities-terminal
+Comment=Search for available domain names in an IP range.
+TryExec=/usr/bin/dnsbf
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dnsbf' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

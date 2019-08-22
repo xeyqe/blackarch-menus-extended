@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=affrecover
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/affrecover
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/affrecover' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

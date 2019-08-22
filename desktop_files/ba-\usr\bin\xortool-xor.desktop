@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=xortool-xor
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/xortool-xor
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/xortool-xor' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;

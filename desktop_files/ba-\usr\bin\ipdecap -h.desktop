@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ipdecap
+Icon=utilities-terminal
+Comment=Can decapsulate traffic encapsulated within GRE, IPIP, 6in4, ESP (ipsec) protocols, and can also remove IEEE 802.1Q (virtual lan) header.
+TryExec=/usr/bin/ipdecap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ipdecap -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

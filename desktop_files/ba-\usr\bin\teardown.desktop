@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=teardown
+Icon=utilities-terminal
+Comment=Command line tool to send a BYE request to tear down a call.
+TryExec=/usr/bin/teardown
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/teardown' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Voip;

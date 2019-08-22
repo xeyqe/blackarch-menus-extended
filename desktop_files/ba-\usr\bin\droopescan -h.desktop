@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=droopescan
+Icon=utilities-terminal
+Comment=A plugin-based scanner that aids security researchers in identifying issues with several CMSs, mainly Drupal & Silverstripe.
+TryExec=/usr/bin/droopescan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/droopescan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Webapp;

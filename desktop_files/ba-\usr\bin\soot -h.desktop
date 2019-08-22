@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=soot
+Icon=utilities-terminal
+Comment=A Java Bytecode Analysis and Transformation Framework.
+TryExec=/usr/bin/soot
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/soot -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;

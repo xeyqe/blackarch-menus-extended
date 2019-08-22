@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=faraday
+Icon=utilities-terminal
+Comment=A new concept (IPE) Integrated Penetration-Test Environment a multiuser Penetration test IDE. Designed for distribution, indexation and analyze of the generated data during the process of a security audit.
+TryExec=/usr/bin/faraday
+Exec=gksu /usr/bin/faraday
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Exploitation;X-BlackArch-Fuzzer;X-BlackArch-Fingerprint;X-BlackArch-Automation;X-BlackArch-Misc;

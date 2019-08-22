@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rubydns-check
+Icon=utilities-terminal
+Comment=This script is designed to test and check DNS servers.
+TryExec=/usr/bin/rubydns-check
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rubydns-check -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;X-BlackArch-Exploitation;X-BlackArch-Networking;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=luksipc
+Icon=utilities-terminal
+Comment=A tool to convert unencrypted block devices to encrypted LUKS devices in-place.
+TryExec=/usr/bin/luksipc
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/luksipc' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;

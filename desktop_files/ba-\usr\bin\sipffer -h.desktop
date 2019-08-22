@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sipffer
+Icon=utilities-terminal
+Comment=SIP protocol command line sniffer.
+TryExec=/usr/bin/sipffer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sipffer -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;X-BlackArch-Voip;

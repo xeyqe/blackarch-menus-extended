@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=vmcloak-register
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/vmcloak-register
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/vmcloak-register -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-malware;

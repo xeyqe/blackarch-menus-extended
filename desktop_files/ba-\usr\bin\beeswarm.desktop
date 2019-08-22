@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=beeswarm
+Icon=utilities-terminal
+Comment=Honeypot deployment made easy http://www.beeswarm-ids.org/
+TryExec=/usr/bin/beeswarm
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/beeswarm' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Honeypot;

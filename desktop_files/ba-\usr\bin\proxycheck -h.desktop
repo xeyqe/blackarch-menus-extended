@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=proxycheck
+Icon=utilities-terminal
+Comment=This is a simple proxy tool that checks for the HTTP CONNECT method and grabs verbose output from a webserver.
+TryExec=/usr/bin/proxycheck
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/proxycheck -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Proxy;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cisco-ocs
+Icon=utilities-terminal
+Comment=Cisco Router Default Password Scanner.
+TryExec=/usr/bin/cisco-ocs
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cisco-ocs -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

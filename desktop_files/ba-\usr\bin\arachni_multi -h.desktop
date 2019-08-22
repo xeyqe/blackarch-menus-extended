@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=arachni_multi
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/arachni_multi
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/arachni_multi -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

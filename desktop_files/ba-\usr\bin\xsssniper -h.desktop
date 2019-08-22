@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=xsssniper
+Icon=utilities-terminal
+Comment=An automatic XSS discovery tool
+TryExec=/usr/bin/xsssniper
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/xsssniper -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Fuzzer;

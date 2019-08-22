@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=countersutil
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/countersutil
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/countersutil' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Proxy;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=morxcrack
+Icon=utilities-terminal
+Comment=A cracking tool written in Perl to perform a dictionary-based attack on various hashing algorithm and CMS salted-passwords.
+TryExec=/usr/bin/morxcrack
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/morxcrack -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Crypto;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hdcp-genkey
+Icon=utilities-terminal
+Comment=Generate HDCP source and sink keys from the leaked master key.
+TryExec=/usr/bin/hdcp-genkey
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hdcp-genkey -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;X-BlackArch-Cracker;

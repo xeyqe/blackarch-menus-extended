@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=doona
+Icon=utilities-terminal
+Comment=A fork of the Bruteforce Exploit Detector Tool (BED).
+TryExec=/usr/bin/doona
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/doona -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;X-BlackArch-Exploitation;

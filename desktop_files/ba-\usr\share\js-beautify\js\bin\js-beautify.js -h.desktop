@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=js-beautify.js
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/share/js-beautify/js/bin/js-beautify.js
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/share/js-beautify/js/bin/js-beautify.js -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Reversing;X-BlackArch-Unpacker;

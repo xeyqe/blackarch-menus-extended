@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sessionlist
+Icon=utilities-terminal
+Comment=Sniffer that intents to sniff HTTP packets and attempts to reconstruct interesting authentication data from websites that do not employ proper secure cookie auth.
+TryExec=/usr/bin/sessionlist
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sessionlist' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Sniffer;

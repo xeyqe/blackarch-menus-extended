@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bunny-flow
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/bunny-flow
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bunny-flow' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

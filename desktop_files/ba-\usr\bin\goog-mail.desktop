@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=goog-mail
+Icon=utilities-terminal
+Comment=Enumerate domain emails from google.
+TryExec=/usr/bin/goog-mail
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/goog-mail' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

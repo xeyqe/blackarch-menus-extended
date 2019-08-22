@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ipmi-console
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ipmi-console
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ipmi-console --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Misc;

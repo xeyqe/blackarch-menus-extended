@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=irpas-igrp
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/irpas-igrp
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/irpas-igrp' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

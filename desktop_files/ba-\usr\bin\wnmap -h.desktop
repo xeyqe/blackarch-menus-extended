@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wnmap
+Icon=utilities-terminal
+Comment=A shell script written with the purpose to automate and chain scans via nmap. You can run nmap with a custom mode written by user and create directories for every mode with the xml/nmap files inside.
+TryExec=/usr/bin/wnmap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wnmap -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Scanner;

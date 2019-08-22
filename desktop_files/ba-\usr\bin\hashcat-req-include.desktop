@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hashcat-req-include
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/hashcat-req-include
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hashcat-req-include' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bmc-watchdog
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/bmc-watchdog
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bmc-watchdog' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Misc;

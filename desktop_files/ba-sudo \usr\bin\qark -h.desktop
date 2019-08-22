@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=qark
+Icon=utilities-terminal
+Comment=Tool to look for several security related Android application vulnerabilities.
+TryExec=/usr/bin/qark
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/qark -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;X-BlackArch-Fuzzer;X-BlackArch-Scanner;X-BlackArch-Exploitation;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=panoptic
+Icon=utilities-terminal
+Comment=A tool that automates the process of search and retrieval of content for common log and config files through LFI vulnerability.
+TryExec=/usr/bin/panoptic
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/panoptic -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;

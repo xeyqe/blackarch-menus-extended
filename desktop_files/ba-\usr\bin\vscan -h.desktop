@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=vscan
+Icon=utilities-terminal
+Comment=HTTPS / Vulnerability scanner.
+TryExec=/usr/bin/vscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/vscan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

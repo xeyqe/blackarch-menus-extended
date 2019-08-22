@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=captipper
+Icon=utilities-terminal
+Comment=Malicious HTTP traffic explorer tool.
+TryExec=/usr/bin/captipper
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/captipper' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Malware;X-BlackArch-Sniffer;

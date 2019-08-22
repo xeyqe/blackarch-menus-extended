@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=owasp-bywaf
+Icon=utilities-terminal
+Comment=A web application penetration testing framework (WAPTF).
+TryExec=/usr/bin/owasp-bywaf
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/owasp-bywaf -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;

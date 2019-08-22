@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=paketto-lc
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/paketto-lc
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/paketto-lc' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

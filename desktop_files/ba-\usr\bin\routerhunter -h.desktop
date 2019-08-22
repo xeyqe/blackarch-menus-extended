@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=routerhunter
+Icon=utilities-terminal
+Comment=Tool used to find vulnerable routers and devices on the Internet and perform tests.
+TryExec=/usr/bin/routerhunter
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/routerhunter -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Networking;

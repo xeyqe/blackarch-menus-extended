@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rdesktop-brute
+Icon=utilities-terminal
+Comment=It connects to windows terminal servers - Bruteforce patch included.
+TryExec=/usr/bin/rdesktop-brute
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rdesktop-brute -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

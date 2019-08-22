@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=flare
+Icon=utilities-terminal
+Comment=Flare processes an SWF and extracts all scripts from it.
+TryExec=/usr/bin/flare
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/flare -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=goldeneye
+Icon=utilities-terminal
+Comment=A HTTP DoS test tool. Attack Vector exploited: HTTP Keep Alive + NoCache.
+TryExec=/usr/bin/goldeneye
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/goldeneye -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Dos;

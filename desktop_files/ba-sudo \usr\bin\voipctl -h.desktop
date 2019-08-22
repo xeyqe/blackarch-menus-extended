@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=voipctl
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/voipctl
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/voipctl -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Voip;

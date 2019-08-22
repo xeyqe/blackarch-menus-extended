@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=thc-pptp-bruter
+Icon=utilities-terminal
+Comment=A brute force program that works against pptp vpn endpoints (tcp port 1723).
+TryExec=/usr/bin/thc-pptp-bruter
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/thc-pptp-bruter' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

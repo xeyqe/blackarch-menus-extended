@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hyenaed
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/hyenaed
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/hyenaed --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

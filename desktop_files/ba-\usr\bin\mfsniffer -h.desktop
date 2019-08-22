@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mfsniffer
+Icon=utilities-terminal
+Comment=A python script for capturing unencrypted TSO login credentials. 
+TryExec=/usr/bin/mfsniffer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mfsniffer -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;

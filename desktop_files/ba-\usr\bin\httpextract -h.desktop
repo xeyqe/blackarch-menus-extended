@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=httpextract
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/httpextract
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/httpextract -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;X-BlackArch-Fuzzer;X-BlackArch-Recon;

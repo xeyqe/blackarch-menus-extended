@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rww-attack
+Icon=utilities-terminal
+Comment=The Remote Web Workplace Attack tool will perform a dictionary attack against a live Microsoft Windows Small Business Server's 'Remote Web Workplace' portal. It currently supports both SBS 2003 and SBS 2008 and includes features to avoid account lock out.
+TryExec=/usr/bin/rww-attack
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rww-attack' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

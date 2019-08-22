@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=imagejs
+Icon=utilities-terminal
+Comment=Small tool to package javascript into a valid image file.
+TryExec=/usr/bin/imagejs
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/imagejs' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;X-BlackArch-Webapp;

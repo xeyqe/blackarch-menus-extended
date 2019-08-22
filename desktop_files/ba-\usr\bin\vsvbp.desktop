@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=vsvbp
+Icon=utilities-terminal
+Comment=Black box tool for Vulnerability detection in web applications.
+TryExec=/usr/bin/vsvbp
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/vsvbp' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;

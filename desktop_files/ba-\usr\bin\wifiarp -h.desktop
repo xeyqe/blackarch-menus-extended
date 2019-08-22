@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wifiarp
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/wifiarp
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wifiarp -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

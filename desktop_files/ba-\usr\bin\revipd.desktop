@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=revipd
+Icon=utilities-terminal
+Comment=A simple reverse IP domain scanner.
+TryExec=/usr/bin/revipd
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/revipd' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;X-BlackArch-Scanner;

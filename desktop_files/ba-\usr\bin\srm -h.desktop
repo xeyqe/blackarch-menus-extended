@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=srm
+Icon=utilities-terminal
+Comment=Secure overwrite/rename/delete of the target file(s).
+TryExec=/usr/bin/srm
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/srm -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Anti-Forensic;X-BlackArch-Defensive;

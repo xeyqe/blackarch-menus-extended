@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ADMnOg00d
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ADMnOg00d
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/ADMnOg00d' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Spoof;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=elite-proxy-finder
+Icon=utilities-terminal
+Comment=Finds public elite anonymity proxies and concurrently tests them.
+TryExec=/usr/bin/elite-proxy-finder
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/elite-proxy-finder -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Proxy;

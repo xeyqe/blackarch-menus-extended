@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=webpwn3r
+Icon=utilities-terminal
+Comment=A python based Web Applications Security Scanner.
+TryExec=/usr/bin/webpwn3r
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/webpwn3r -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Webapp;

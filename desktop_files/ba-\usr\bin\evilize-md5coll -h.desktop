@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=evilize-md5coll
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/evilize-md5coll
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/evilize-md5coll -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Binary;X-BlackArch-Crypto;

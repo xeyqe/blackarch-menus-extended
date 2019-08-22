@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=vmcloak-iptables
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/vmcloak-iptables
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/vmcloak-iptables -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-malware;

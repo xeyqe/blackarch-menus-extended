@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=machinae
+Icon=utilities-terminal
+Comment=A tool for collecting intelligence from public sites/feeds about various security-related pieces of data.
+TryExec=/usr/bin/machinae
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/machinae -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

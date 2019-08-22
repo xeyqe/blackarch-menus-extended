@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=gcc
+Icon=utilities-terminal
+Comment=
+TryExec=/opt/android-ndk/toolchains/x86-4.6/prebuilt/linux-x86_64/i686-linux-android/bin/gcc
+Exec=sh -c '/usr/local/bin/appHelper.sh /opt/android-ndk/toolchains/x86-4.6/prebuilt/linux-x86_64/i686-linux-android/bin/gcc --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;

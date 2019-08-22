@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ftpmap
+Icon=utilities-terminal
+Comment=Scans remote FTP servers to identify what software and what versions they are running.
+TryExec=/usr/bin/ftpmap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ftpmap -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fingerprint;X-BlackArch-Scanner;

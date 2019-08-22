@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=uw-udpscan
+Icon=utilities-terminal
+Comment=Multi threaded udp scanner.
+TryExec=/usr/bin/uw-udpscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/uw-udpscan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

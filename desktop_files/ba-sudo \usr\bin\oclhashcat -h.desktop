@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=oclhashcat
+Icon=utilities-terminal
+Comment=Worlds fastest WPA cracker with dictionary mutation engine.
+TryExec=/usr/bin/oclhashcat
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/oclhashcat -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

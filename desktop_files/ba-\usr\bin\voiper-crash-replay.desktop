@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=voiper-crash-replay
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/voiper-crash-replay
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/voiper-crash-replay' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Voip;

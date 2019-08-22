@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pyrasite
+Icon=utilities-terminal
+Comment=Code injection and introspection of running Python processes.
+TryExec=/usr/bin/pyrasite
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pyrasite -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Backdoor;

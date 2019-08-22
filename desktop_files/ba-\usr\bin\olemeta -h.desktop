@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=olemeta
+Icon=utilities-terminal
+Comment=A script to parse OLE files such as MS Office documents (e.g. Word, Excel), to extract all standard properties present in the OLE file.
+TryExec=/usr/bin/olemeta
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/olemeta -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;X-BlackArch-Forensic;

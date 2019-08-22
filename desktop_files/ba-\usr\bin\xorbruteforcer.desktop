@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=xorbruteforcer
+Icon=utilities-terminal
+Comment=Script that implements a XOR bruteforcing of a given file, although a specific key can be used too.
+TryExec=/usr/bin/xorbruteforcer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/xorbruteforcer' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;X-BlackArch-Cracker;

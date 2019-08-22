@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=binex
+Icon=utilities-terminal
+Comment=Format String exploit building tool.
+TryExec=/usr/bin/binex
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/binex -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Automation;

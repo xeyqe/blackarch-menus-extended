@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=enabler
+Icon=utilities-terminal
+Comment=Attempts to find the enable password on a cisco system via brute force.
+TryExec=/usr/bin/enabler
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/enabler -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

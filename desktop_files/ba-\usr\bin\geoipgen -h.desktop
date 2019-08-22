@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=geoipgen
+Icon=utilities-terminal
+Comment=GeoIPgen is a country to IP addresses generator.
+TryExec=/usr/bin/geoipgen
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/geoipgen -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

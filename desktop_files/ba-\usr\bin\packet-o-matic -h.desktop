@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=packet-o-matic
+Icon=utilities-terminal
+Comment=A real time packet processor. Reads the packet from an input module, match the packet using rules and connection tracking information and then send it to a target module.
+TryExec=/usr/bin/packet-o-matic
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/packet-o-matic -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Tunnel;

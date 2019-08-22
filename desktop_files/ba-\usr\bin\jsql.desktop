@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=jsql
+Icon=utilities-terminal
+Comment=A lightweight application used to find database information from a distant server.
+TryExec=/usr/bin/jsql
+Exec=/usr/bin/jsql
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Scanner;

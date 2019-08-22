@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=lsrtunnel
+Icon=utilities-terminal
+Comment=Spoofs connections using source routed packets.
+TryExec=/usr/bin/lsrtunnel
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/lsrtunnel' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Spoof;

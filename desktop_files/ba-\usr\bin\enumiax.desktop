@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=enumiax
+Icon=utilities-terminal
+Comment=An IAX enumerator.
+TryExec=/usr/bin/enumiax
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/enumiax' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

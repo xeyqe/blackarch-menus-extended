@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=malybuzz
+Icon=utilities-terminal
+Comment=A Python tool focused in discovering programming faults in network software.
+TryExec=/usr/bin/malybuzz
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/malybuzz -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

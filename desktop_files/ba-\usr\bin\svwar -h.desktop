@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=svwar
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/svwar
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/svwar -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Exploitation;

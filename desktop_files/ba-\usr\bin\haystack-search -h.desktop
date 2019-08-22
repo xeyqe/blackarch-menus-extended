@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=haystack-search
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/haystack-search
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/haystack-search -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;X-BlackArch-Forensic;

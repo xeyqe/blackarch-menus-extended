@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=vmcloak-gethwconf
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/vmcloak-gethwconf
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/vmcloak-gethwconf -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-malware;

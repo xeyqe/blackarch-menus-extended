@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dirs3arch
+Icon=utilities-terminal
+Comment=HTTP(S) directory/file brute forcer.
+TryExec=/usr/bin/dirs3arch
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dirs3arch -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;

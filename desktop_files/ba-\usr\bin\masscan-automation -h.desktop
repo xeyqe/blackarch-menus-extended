@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=masscan-automation
+Icon=utilities-terminal
+Comment=Masscan integrated with Shodan API.
+TryExec=/usr/bin/masscan-automation
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/masscan-automation -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;

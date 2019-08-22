@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cipherscan
+Icon=utilities-terminal
+Comment=A very simple way to find out which SSL ciphersuites are supported by a target.
+TryExec=/usr/bin/cipherscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cipherscan' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Crypto;

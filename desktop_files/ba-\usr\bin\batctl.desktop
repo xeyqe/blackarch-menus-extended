@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=batctl
+Icon=utilities-terminal
+Comment=B.A.T.M.A.N. advanced control and management tool.
+TryExec=/usr/bin/batctl
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/batctl' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

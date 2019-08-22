@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sps
+Icon=utilities-terminal
+Comment=A Linux packet crafting tool. Supports IPv4, IPv6 including extension headers, and tunneling IPv6 over IPv4.
+TryExec=/usr/bin/sps
+Exec=/usr/bin/sps
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Dos;X-BlackArch-Fuzzer;

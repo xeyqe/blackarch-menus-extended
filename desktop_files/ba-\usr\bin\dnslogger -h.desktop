@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dnslogger
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/dnslogger
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dnslogger -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Recon;X-BlackArch-Scanner;

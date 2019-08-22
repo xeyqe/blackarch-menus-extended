@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dinouml
+Icon=utilities-terminal
+Comment=A network simulation tool, based on UML (User Mode Linux) that can simulate big Linux networks on a single PC
+TryExec=/usr/bin/dinouml
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dinouml -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

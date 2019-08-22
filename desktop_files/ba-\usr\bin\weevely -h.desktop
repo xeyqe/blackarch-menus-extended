@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=weevely
+Icon=utilities-terminal
+Comment=Weaponized web shell.
+TryExec=/usr/bin/weevely
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/weevely -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Backdoor;X-BlackArch-Webapp;

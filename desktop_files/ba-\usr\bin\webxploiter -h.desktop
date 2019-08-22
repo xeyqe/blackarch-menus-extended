@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=webxploiter
+Icon=utilities-terminal
+Comment=An OWASP Top 10 Security scanner.
+TryExec=/usr/bin/webxploiter
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/webxploiter -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Exploitation;X-BlackArch-Fuzzer;X-BlackArch-Scanner;

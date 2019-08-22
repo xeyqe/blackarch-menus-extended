@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sherlocked
+Icon=utilities-terminal
+Comment=Universal script packer-- transforms any type of script into a protected ELF executable, encrypted with anti-debugging.
+TryExec=/usr/bin/sherlocked
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sherlocked' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Packer;X-BlackArch-Binary;X-BlackArch-Crypto;X-BlackArch-Backdoor;

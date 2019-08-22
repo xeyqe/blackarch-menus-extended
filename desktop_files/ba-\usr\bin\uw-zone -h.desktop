@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=uw-zone
+Icon=utilities-terminal
+Comment=Multi threaded, randomized IP zoner.
+TryExec=/usr/bin/uw-zone
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/uw-zone -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

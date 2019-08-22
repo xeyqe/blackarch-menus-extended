@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hoover
+Icon=utilities-terminal
+Comment=Wireless Probe Requests Sniffer.
+TryExec=/usr/bin/hoover
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hoover -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;X-BlackArch-Sniffer;

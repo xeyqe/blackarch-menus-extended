@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=unicornscan
+Icon=utilities-terminal
+Comment=A new information gathering and correlation engine.
+TryExec=/usr/bin/unicornscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/unicornscan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

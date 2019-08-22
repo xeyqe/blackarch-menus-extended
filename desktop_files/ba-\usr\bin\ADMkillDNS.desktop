@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ADMkillDNS
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ADMkillDNS
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ADMkillDNS' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Spoof;

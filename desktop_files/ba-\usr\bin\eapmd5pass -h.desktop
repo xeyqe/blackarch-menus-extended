@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=eapmd5pass
+Icon=utilities-terminal
+Comment=An implementation of an offline dictionary attack against the EAP-MD5 protocol
+TryExec=/usr/bin/eapmd5pass
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/eapmd5pass -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Wireless;

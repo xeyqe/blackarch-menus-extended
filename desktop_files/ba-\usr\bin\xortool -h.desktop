@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=xortool
+Icon=utilities-terminal
+Comment=A tool to analyze multi-byte xor cipher.
+TryExec=/usr/bin/xortool
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/xortool -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;

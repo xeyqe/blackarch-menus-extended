@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=davtest
+Icon=utilities-terminal
+Comment=Tests WebDAV enabled servers by uploading test executable files, and then (optionally) uploading files which allow for command execution or other actions directly on the target
+TryExec=/usr/bin/davtest
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/davtest' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

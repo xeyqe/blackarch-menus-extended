@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=crackle
+Icon=utilities-terminal
+Comment=Crack and decrypt BLE encryption
+TryExec=/usr/bin/crackle
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/crackle' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Bluetooth;

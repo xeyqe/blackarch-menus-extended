@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=monocle
+Icon=utilities-terminal
+Comment=A local network host discovery tool. In passive mode, it will listen for ARP request and reply packets. In active mode, it will send ARP requests to the specific IP range. The results are a list of IP and MAC addresses present on the local network.
+TryExec=/usr/bin/monocle
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/monocle -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;X-BlackArch-Networking;

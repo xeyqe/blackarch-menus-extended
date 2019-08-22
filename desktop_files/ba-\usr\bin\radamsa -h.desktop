@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=radamsa
+Icon=utilities-terminal
+Comment=General purpose data fuzzer.
+TryExec=/usr/bin/radamsa
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/radamsa -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

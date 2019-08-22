@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=vanguard
+Icon=utilities-terminal
+Comment=A comprehensive web penetration testing tool written in Perl thatidentifies vulnerabilities in web applications.
+TryExec=/usr/bin/vanguard
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/vanguard -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;

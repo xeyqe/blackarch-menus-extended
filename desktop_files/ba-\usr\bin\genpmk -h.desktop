@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=genpmk
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/genpmk
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/genpmk -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;X-BlackArch-Cracker;

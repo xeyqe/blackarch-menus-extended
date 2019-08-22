@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=memdump-kernel
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/memdump-kernel
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/memdump-kernel -h ' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

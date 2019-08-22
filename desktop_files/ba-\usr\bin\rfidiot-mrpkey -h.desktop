@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rfidiot-mrpkey
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rfidiot-mrpkey
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rfidiot-mrpkey -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

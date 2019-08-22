@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=proxyscan
+Icon=utilities-terminal
+Comment=A security penetration testing tool to scan for hosts and ports through a Web proxy server.
+TryExec=/usr/bin/proxyscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/proxyscan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

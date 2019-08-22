@@ -1,0 +1,17 @@
+/usr/bin/haystack-find-heap.py 
+/usr/bin/pscan 
+/usr/bin/pscan 
+/usr/share/inguma/debian/inguma/usr/bin/inguma 
+/usr/share/maltego/bin/maltego 
+/usr/share/casefile/bin/maltego.ico 
+/usr/share/maltego/bin/maltego.ico 
+/usr/share/maltego/extide/ant/bin/ant.bat 
+/usr/share/maltego/extide/ant/bin/ant.cmd 
+/usr/lib/node_modules/bluebox-ng/node_modules/grunt-retire/node_modules/grunt-contrib-jshint/node_modules/jshint/bin/changelog 
+/opt/cuckoo/analyzer/windows/bin/cuckoomon.dll 
+/opt/cuckoo/analyzer/windows/bin/cuckoomon_bson.dll 
+/opt/cuckoo/analyzer/windows/bin/cuckoomon_netlog.dll 
+/opt/android-sdk/tools/apps/SdkController/bin/SdkControllerApp.apk 
+/usr/share/windows/3proxy-win32/bin/3proxy.pem 
+/usr/share/hubbit-sniffer/bin/.gitignore 
+/usr/share/wi-feye/bin/dhcpd.conf 

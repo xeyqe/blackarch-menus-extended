@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fusil-gimp
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/fusil-gimp
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/fusil-gimp' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

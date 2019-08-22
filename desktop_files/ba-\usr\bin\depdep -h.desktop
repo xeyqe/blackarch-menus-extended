@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=depdep
+Icon=utilities-terminal
+Comment=A merciless sentinel which will seek sensitive files containing critical info leaking through your network.
+TryExec=/usr/bin/depdep
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/depdep -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Malware;

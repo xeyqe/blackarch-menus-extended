@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=idswakeup
+Icon=utilities-terminal
+Comment=A collection of tools that allows to test network intrusion detection systems.
+TryExec=/usr/bin/idswakeup
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/idswakeup -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;X-BlackArch-Networking;X-BlackArch-Scanner;

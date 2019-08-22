@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rlogin-scanner
+Icon=utilities-terminal
+Comment=Multithreaded rlogin scanner. Tested on Linux, OpenBSD and Solaris.
+TryExec=/usr/bin/rlogin-scanner
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rlogin-scanner' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Scanner;

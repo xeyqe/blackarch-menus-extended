@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pnscan
+Icon=utilities-terminal
+Comment=A parallel network scanner that can be used to survey TCP network services.
+TryExec=/usr/bin/pnscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pnscan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

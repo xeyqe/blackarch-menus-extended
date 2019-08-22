@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ipaudit-ipstrings
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ipaudit-ipstrings
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ipaudit-ipstrings' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

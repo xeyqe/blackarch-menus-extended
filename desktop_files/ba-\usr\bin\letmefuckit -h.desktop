@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=letmefuckit
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/letmefuckit
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/letmefuckit -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Webapp;

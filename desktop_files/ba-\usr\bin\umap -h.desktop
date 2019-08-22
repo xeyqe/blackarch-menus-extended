@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=umap
+Icon=utilities-terminal
+Comment=The USB host security assessment tool.
+TryExec=/usr/bin/umap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/umap -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Fuzzer;

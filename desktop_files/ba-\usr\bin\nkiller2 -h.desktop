@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=nkiller2
+Icon=utilities-terminal
+Comment=A TCP exhaustion/stressing tool.
+TryExec=/usr/bin/nkiller2
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/nkiller2 -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Dos;X-BlackArch-Networking;

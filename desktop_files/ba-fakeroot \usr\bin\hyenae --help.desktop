@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hyenae
+Icon=utilities-terminal
+Comment=flexible platform independent packet generator
+TryExec=/usr/bin/hyenae
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/hyenae --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

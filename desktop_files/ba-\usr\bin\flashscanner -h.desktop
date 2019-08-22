@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=flashscanner
+Icon=utilities-terminal
+Comment=Flash XSS Scanner.
+TryExec=/usr/bin/flashscanner
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/flashscanner -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Webapp;

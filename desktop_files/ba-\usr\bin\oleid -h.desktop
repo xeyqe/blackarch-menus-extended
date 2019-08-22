@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=oleid
+Icon=utilities-terminal
+Comment=A script to analyze OLE files such as MS Office documents (e.g. Word, Excel), to detect specific characteristics that could potentially indicate that the file is suspicious or malicious, in terms of security.
+TryExec=/usr/bin/oleid
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/oleid -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;X-BlackArch-Forensic;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=btscanner
+Icon=utilities-terminal
+Comment=Bluetooth device scanner.
+TryExec=/usr/bin/btscanner
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/btscanner --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;X-BlackArch-Scanner;

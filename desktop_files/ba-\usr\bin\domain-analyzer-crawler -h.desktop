@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=domain-analyzer-crawler
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/domain-analyzer-crawler
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/domain-analyzer-crawler -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

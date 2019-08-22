@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ipsort
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ipsort
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ipsort --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

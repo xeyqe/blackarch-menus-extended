@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=peframe
+Icon=utilities-terminal
+Comment=Tool to perform static analysis on (portable executable) malware.
+TryExec=/usr/bin/peframe
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/peframe' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Malware;X-BlackArch-Binary;X-BlackArch-Reversing;

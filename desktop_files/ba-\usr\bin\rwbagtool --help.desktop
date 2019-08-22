@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rwbagtool
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rwbagtool
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rwbagtool --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Scanner;

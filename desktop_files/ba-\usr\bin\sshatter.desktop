@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sshatter
+Icon=utilities-terminal
+Comment=Password bruteforcer for SSH.
+TryExec=/usr/bin/sshatter
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sshatter' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

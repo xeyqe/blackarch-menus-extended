@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ssh-user-enum
+Icon=utilities-terminal
+Comment=SSH User Enumeration Script in Python Using The Timing Attack.
+TryExec=/usr/bin/ssh-user-enum
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ssh-user-enum -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

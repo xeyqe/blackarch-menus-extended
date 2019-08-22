@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=genkeys
+Icon=utilities-terminal
+Comment=generates lookup file for asleap
+TryExec=/usr/bin/genkeys
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/genkeys -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

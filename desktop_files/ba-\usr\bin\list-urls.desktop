@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=list-urls
+Icon=utilities-terminal
+Comment=Extracts links from webpage
+TryExec=/usr/bin/list-urls
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/list-urls' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;X-BlackArch-Webapp;

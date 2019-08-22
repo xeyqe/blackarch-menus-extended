@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mobsf-mobsfy
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/mobsf-mobsfy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mobsf-mobsfy -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;

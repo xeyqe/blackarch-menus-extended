@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=junkie
+Icon=utilities-terminal
+Comment=A modular packet sniffer and analyzer.
+TryExec=/usr/bin/junkie
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/junkie -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;X-BlackArch-Networking;

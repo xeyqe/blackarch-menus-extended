@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bbharvest
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/bbharvest
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bbharvest -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Malware;X-BlackArch-Cracker;X-BlackArch-Reversing;

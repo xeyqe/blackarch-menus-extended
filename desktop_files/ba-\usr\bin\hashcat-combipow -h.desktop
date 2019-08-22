@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hashcat-combipow
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/hashcat-combipow
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hashcat-combipow -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

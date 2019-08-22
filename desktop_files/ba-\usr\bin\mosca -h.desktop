@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mosca
+Icon=utilities-terminal
+Comment=Static analysis tool to find bugs like a grep unix command.
+TryExec=/usr/bin/mosca
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mosca -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Code-audit;

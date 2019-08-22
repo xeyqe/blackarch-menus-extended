@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rfidiot-cardselect
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rfidiot-cardselect
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rfidiot-cardselect -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

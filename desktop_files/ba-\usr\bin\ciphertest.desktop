@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ciphertest
+Icon=utilities-terminal
+Comment=A better SSL cipher checker using gnutls.
+TryExec=/usr/bin/ciphertest
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ciphertest' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;

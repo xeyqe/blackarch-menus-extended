@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=expimp-lookup
+Icon=utilities-terminal
+Comment=Looks for all export and import names that contain a specified string in all Portable Executable in a directory tree.
+TryExec=/usr/bin/expimp-lookup
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/expimp-lookup' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;X-BlackArch-Recon;

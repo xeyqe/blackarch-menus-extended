@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bsqlinjector
+Icon=utilities-terminal
+Comment=Blind SQL injection exploitation tool written in ruby.
+TryExec=/usr/bin/bsqlinjector
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bsqlinjector -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Exploitation;

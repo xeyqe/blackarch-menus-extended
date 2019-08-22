@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=yasca
+Icon=utilities-terminal
+Comment=Multi-Language Static Analysis Toolset.
+TryExec=/usr/bin/yasca
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/yasca -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Code-audit;

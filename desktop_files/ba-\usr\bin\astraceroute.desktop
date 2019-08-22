@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=astraceroute
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/astraceroute
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/astraceroute' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;

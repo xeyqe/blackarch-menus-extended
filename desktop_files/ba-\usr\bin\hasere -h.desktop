@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hasere
+Icon=utilities-terminal
+Comment=Discover the vhosts using google and bing.
+TryExec=/usr/bin/hasere
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hasere -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;X-BlackArch-Scanner;

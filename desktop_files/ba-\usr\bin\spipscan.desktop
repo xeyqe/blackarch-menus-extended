@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=spipscan
+Icon=utilities-terminal
+Comment=SPIP (CMS) scanner for penetration testing purpose written in Python.
+TryExec=/usr/bin/spipscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/spipscan' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;

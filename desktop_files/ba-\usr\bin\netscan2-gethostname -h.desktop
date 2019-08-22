@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=netscan2-gethostname
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/netscan2-gethostname
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/netscan2-gethostname -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Recon;

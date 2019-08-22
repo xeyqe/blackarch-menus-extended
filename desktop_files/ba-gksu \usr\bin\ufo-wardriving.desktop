@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ufo-wardriving
+Icon=utilities-terminal
+Comment=Allows you to test the security of wireless networks by detecting their passwords based on the router model
+TryExec=/usr/bin/ufo-wardriving
+Exec=gksu /usr/bin/ufo-wardriving
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Wireless;

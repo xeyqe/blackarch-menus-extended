@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ftp-scanner
+Icon=utilities-terminal
+Comment=Multithreaded ftp scanner/brute forcer. Tested on Linux, OpenBSD and Solaris.
+TryExec=/usr/bin/ftp-scanner
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ftp-scanner -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Scanner;

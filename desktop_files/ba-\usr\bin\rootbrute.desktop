@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rootbrute
+Icon=utilities-terminal
+Comment=Local root account bruteforcer.
+TryExec=/usr/bin/rootbrute
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rootbrute' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

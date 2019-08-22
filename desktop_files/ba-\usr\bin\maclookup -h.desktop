@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=maclookup
+Icon=utilities-terminal
+Comment=Lookup MAC addresses in the IEEE MA-L/OUI public listing.
+TryExec=/usr/bin/maclookup
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/maclookup -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

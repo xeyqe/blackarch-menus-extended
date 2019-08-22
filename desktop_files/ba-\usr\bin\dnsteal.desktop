@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dnsteal
+Icon=utilities-terminal
+Comment=DNS Exfiltration tool for stealthily sending files over DNS requests..
+TryExec=/usr/bin/dnsteal
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dnsteal' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

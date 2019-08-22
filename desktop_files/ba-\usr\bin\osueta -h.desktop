@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=osueta
+Icon=utilities-terminal
+Comment=A simple Python script to exploit the OpenSSH User Enumeration Timing Attack.
+TryExec=/usr/bin/osueta
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/osueta -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

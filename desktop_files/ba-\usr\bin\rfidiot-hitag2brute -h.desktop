@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rfidiot-hitag2brute
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rfidiot-hitag2brute
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rfidiot-hitag2brute -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

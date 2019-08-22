@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cisco-snmp-enumeration
+Icon=utilities-terminal
+Comment=Automated Cisco SNMP Enumeration, Brute Force, Configuration Download and Password Cracking.
+TryExec=/usr/bin/cisco-snmp-enumeration
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cisco-snmp-enumeration' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Networking;X-BlackArch-Exploitation;X-BlackArch-Cracker;

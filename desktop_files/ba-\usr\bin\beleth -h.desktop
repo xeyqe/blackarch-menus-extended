@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=beleth
+Icon=utilities-terminal
+Comment=A Multi-threaded Dictionary based SSH cracker.
+TryExec=/usr/bin/beleth
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/beleth -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

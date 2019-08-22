@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=striptls
+Icon=utilities-terminal
+Comment=Proxy PoC implementation of STARTTLS stripping attacks.
+TryExec=/usr/bin/striptls
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/striptls -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Proxy;

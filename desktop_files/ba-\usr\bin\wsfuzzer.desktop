@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wsfuzzer
+Icon=utilities-terminal
+Comment=A Python tool written to automate SOAP pentesting of web services.
+TryExec=/usr/bin/wsfuzzer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wsfuzzer' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;X-BlackArch-Webapp;

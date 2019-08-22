@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hbad
+Icon=utilities-terminal
+Comment=This tool allows you to test clients on the heartbleed bug.
+TryExec=/usr/bin/hbad
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hbad' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

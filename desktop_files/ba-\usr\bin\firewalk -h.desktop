@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=firewalk
+Icon=utilities-terminal
+Comment=An active reconnaissance network security tool
+TryExec=/usr/bin/firewalk
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/firewalk -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;X-BlackArch-Scanner;

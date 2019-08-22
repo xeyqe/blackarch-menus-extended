@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=httping
+Icon=utilities-terminal
+Comment=A 'ping'-like tool for http-requests.
+TryExec=/usr/bin/httping
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/httping --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Recon;

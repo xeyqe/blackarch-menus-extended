@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fakenetbiosdgm
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/fakenetbiosdgm
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/fakenetbiosdgm -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Spoof;X-BlackArch-Honeypot;X-BlackArch-Networking;

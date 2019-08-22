@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=maligno-clientgen
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/maligno-clientgen
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/maligno-clientgen' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Fuzzer;X-BlackArch-Exploitation;

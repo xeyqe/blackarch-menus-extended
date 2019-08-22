@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dbd
+Icon=utilities-terminal
+Comment=A Netcat-clone, designed to be portable and offer strong encryption. It runs on Unix-like operating systems and on Microsoft Win32.
+TryExec=/usr/bin/dbd
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dbd -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

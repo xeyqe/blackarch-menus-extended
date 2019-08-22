@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=zbreplay
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/zbreplay
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/zbreplay -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Wireless;

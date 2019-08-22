@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=flashlight
+Icon=utilities-terminal
+Comment=Automated Information Gathering Tool for Penetration Testers.
+TryExec=/usr/bin/flashlight
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/flashlight -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

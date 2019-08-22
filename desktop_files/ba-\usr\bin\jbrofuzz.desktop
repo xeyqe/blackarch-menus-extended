@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=jbrofuzz
+Icon=utilities-terminal
+Comment=Web application protocol fuzzer that emerged from the needs of penetration testing.
+TryExec=/usr/bin/jbrofuzz
+Exec=/usr/bin/jbrofuzz
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Fuzzer;

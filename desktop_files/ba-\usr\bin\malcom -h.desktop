@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=malcom
+Icon=utilities-terminal
+Comment=Analyze a system's network communication using graphical representations of network traffic.
+TryExec=/usr/bin/malcom
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/malcom -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Defensive;X-BlackArch-Malware;

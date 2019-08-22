@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=nsia
+Icon=utilities-terminal
+Comment=A website scanner that monitors websites in realtime in order to detect defacements, compliance violations, exploits, sensitive information disclosure and other issues.
+TryExec=/usr/bin/nsia
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/nsia -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Webapp;X-BlackArch-Defensive;

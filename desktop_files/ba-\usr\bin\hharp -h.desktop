@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hharp
+Icon=utilities-terminal
+Comment=This tool can perform man-in-the-middle and switch flooding attacks. It has 4 major functions, 3 of which attempt to man-in-the-middle one or more computers on a network with a passive method or flood type method.
+TryExec=/usr/bin/hharp
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hharp -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Spoof;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tanya
+Icon=utilities-terminal
+Comment=bluetooth DoS tool
+TryExec=/usr/bin/tanya
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/tanya' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

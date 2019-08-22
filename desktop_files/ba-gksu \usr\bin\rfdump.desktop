@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rfdump
+Icon=utilities-terminal
+Comment=A back-end GPL tool to directly inter-operate with any RFID ISO-Reader to make the contents stored on RFID tags accessible
+TryExec=/usr/bin/rfdump
+Exec=sh -c 'gksu /usr/bin/rfdump' $SHELL
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Wireless;

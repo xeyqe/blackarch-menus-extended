@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rauserdata
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rauserdata
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rauserdata -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Defensive;X-BlackArch-Sniffer;

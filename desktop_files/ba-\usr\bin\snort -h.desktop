@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=snort
+Icon=utilities-terminal
+Comment=A lightweight network intrusion detection system.
+TryExec=/usr/bin/snort
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/snort -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Defensive;X-BlackArch-Networking;X-BlackArch-Forensic;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sbd
+Icon=utilities-terminal
+Comment=Netcat-clone, portable, offers strong encryption - features AES-128-CBC + HMAC-SHA1 encryption, program execution (-e), choosing source port, continuous reconnection with delay + more
+TryExec=/usr/bin/sbd
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sbd -h ' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;X-BlackArch-Networking;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pef-config
+Icon=utilities-terminal
+Comment=configure BMC values
+TryExec=/usr/bin/pef-config
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pef-config --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Misc;

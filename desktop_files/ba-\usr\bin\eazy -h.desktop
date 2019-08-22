@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=eazy
+Icon=utilities-terminal
+Comment=This is a small python tool that scans websites to look for PHP shells, backups, admin panels, and more.
+TryExec=/usr/bin/eazy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/eazy -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Webapp;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hulk
+Icon=utilities-terminal
+Comment=A webserver DoS tool (Http Unbearable Load King) ported to Go with some additional features.
+TryExec=/usr/bin/hulk
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hulk -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Dos;

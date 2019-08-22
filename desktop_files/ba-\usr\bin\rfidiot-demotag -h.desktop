@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rfidiot-demotag
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rfidiot-demotag
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rfidiot-demotag -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

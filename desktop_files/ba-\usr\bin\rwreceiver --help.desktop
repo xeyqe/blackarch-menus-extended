@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rwreceiver
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rwreceiver
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rwreceiver --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Scanner;

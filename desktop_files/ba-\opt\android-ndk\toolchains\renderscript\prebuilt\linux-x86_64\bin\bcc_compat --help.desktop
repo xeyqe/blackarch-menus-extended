@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bcc_compat
+Icon=utilities-terminal
+Comment=
+TryExec=/opt/android-ndk/toolchains/renderscript/prebuilt/linux-x86_64/bin/bcc_compat
+Exec=sh -c '/usr/local/bin/appHelper.sh /opt/android-ndk/toolchains/renderscript/prebuilt/linux-x86_64/bin/bcc_compat --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;

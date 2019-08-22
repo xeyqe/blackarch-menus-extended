@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=udptunnel
+Icon=utilities-terminal
+Comment=Tunnels TCP over UDP packets.
+TryExec=/usr/bin/udptunnel
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/udptunnel -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Tunnel;

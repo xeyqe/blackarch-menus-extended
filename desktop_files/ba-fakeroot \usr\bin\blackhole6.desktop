@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=blackhole6
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/blackhole6
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/blackhole6' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ciscos
+Icon=utilities-terminal
+Comment=Scans class A, B, and C networks for cisco routers which have telnet open and have not changed the default password from cisco.
+TryExec=/usr/bin/ciscos
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ciscos' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

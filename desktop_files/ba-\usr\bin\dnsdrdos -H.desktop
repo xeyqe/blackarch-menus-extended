@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dnsdrdos
+Icon=utilities-terminal
+Comment=Proof of concept code for distributed DNS reflection DoS.
+TryExec=/usr/bin/dnsdrdos
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dnsdrdos -H' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Dos;

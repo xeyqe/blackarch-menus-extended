@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=batadv-vis
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/batadv-vis
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/batadv-vis -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ncplogout
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ncplogout
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ncplogout -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

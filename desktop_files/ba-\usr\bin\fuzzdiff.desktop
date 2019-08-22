@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fuzzdiff
+Icon=utilities-terminal
+Comment=A simple tool designed to help out with crash analysis during fuzz testing. It selectively 'un-fuzzes' portions of a fuzzed file that is known to cause a crash, re-launches the targeted application, and sees if it still crashes.
+TryExec=/usr/bin/fuzzdiff
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/fuzzdiff' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=spf
+Icon=utilities-terminal
+Comment=A python tool designed to allow for quick recon and deployment of simple social engineering phishing exercises.
+TryExec=/usr/bin/spf
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/spf -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Social;

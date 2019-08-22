@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=slowhttptest
+Icon=utilities-terminal
+Comment=A highly configurable tool that simulates application layer denial of service attacks.
+TryExec=/usr/bin/slowhttptest
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/slowhttptest -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Dos;

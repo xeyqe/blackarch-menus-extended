@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fimap
+Icon=utilities-terminal
+Comment=A little tool for local and remote file inclusion auditing and exploitation
+TryExec=/usr/bin/fimap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/fimap -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Fuzzer;

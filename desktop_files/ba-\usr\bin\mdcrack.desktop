@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mdcrack
+Icon=utilities-terminal
+Comment=MD4/MD5/NTLM1 hash cracker
+TryExec=/usr/bin/mdcrack
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mdcrack' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

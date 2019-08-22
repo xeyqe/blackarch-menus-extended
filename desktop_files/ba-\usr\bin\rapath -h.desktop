@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rapath
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rapath
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rapath -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Defensive;X-BlackArch-Sniffer;

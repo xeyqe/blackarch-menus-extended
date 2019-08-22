@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=recovermov
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/recovermov
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/recovermov' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

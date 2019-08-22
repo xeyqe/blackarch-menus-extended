@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=spf-report
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/spf-report
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/spf-report' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Social;

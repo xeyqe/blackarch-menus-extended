@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dnsbrute
+Icon=utilities-terminal
+Comment=Multi-theaded DNS bruteforcing, average speed 80 lookups/second with 40 threads.
+TryExec=/usr/bin/dnsbrute
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dnsbrute -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;X-BlackArch-Scanner;

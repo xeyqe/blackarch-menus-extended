@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mboxgrep
+Icon=utilities-terminal
+Comment=A small, non-interactive utility that scans mail folders for messages matching regular expressions. It does matching against basic and extended POSIX regular expressions, and reads and writes a variety of mailbox formats.
+TryExec=/usr/bin/mboxgrep
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mboxgrep --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

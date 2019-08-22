@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wifite
+Icon=utilities-terminal
+Comment=A tool to attack multiple WEP and WPA encrypted networks at the same time.
+TryExec=/usr/bin/wifite
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/wifite' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Wireless;

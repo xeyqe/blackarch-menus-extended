@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=termineter
+Icon=utilities-terminal
+Comment=Smart meter testing framework
+TryExec=/usr/bin/termineter
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/termineter -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

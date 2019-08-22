@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bing-lfi-rfi
+Icon=utilities-terminal
+Comment=This is a python script for searching Bing for sites that may have local and remote file inclusion vulnerabilities.
+TryExec=/usr/bin/bing-lfi-rfi
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bing-lfi-rfi -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;X-BlackArch-Fuzzer;

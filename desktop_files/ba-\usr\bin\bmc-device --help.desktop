@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bmc-device
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/bmc-device
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bmc-device --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Misc;

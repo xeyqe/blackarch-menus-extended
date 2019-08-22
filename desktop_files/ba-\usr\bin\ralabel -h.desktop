@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ralabel
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ralabel
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ralabel -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Defensive;X-BlackArch-Sniffer;

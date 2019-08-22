@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=thc-smartbrute
+Icon=utilities-terminal
+Comment=This tool finds undocumented and secret commands implemented in a smartcard.
+TryExec=/usr/bin/thc-smartbrute
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/thc-smartbrute --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Scanner;

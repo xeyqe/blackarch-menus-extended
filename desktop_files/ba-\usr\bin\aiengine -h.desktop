@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=aiengine
+Icon=utilities-terminal
+Comment=A packet inspection engine with capabilities of learning without any human intervention.
+TryExec=/usr/bin/aiengine
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/aiengine -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Defensive;

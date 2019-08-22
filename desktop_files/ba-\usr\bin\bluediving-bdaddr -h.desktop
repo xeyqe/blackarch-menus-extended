@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bluediving-bdaddr
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/bluediving-bdaddr
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bluediving-bdaddr -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

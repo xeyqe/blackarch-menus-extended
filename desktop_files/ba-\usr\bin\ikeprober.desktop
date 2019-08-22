@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ikeprober
+Icon=utilities-terminal
+Comment=Tool crafting IKE initiator packets and allowing many options to be manually set. Useful to find overflows, error conditions and identifiyng vendors
+TryExec=/usr/bin/ikeprober
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ikeprober' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

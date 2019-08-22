@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dumb0
+Icon=utilities-terminal
+Comment=A simple tool to dump users in popular forums and CMS.
+TryExec=/usr/bin/dumb0
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dumb0 -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Webapp;

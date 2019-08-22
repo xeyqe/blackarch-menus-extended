@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=crowbar
+Icon=utilities-terminal
+Comment=A brute forcing tool that can be used during penetration tests. It is developed to support protocols that are not currently supported by thc-hydra and other popular brute forcing tools.
+TryExec=/usr/bin/crowbar
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/crowbar --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

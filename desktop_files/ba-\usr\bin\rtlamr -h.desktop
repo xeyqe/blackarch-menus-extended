@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rtlamr
+Icon=utilities-terminal
+Comment=An rtl-sdr receiver for smart meters operating in the 900MHz ISM band.
+TryExec=/usr/bin/rtlamr
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rtlamr -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Radio;X-BlackArch-Hardware;

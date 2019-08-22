@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=iis-shortname-scanner
+Icon=utilities-terminal
+Comment=An IIS shortname Scanner.
+TryExec=/usr/bin/iis-shortname-scanner
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/iis-shortname-scanner' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

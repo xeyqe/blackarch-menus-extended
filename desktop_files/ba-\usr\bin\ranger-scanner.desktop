@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ranger-scanner
+Icon=utilities-terminal
+Comment=A tool to support security professionals to access and interact with remote Microsoft Windows based systems.
+TryExec=/usr/bin/ranger-scanner
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ranger-scanner' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Recon;

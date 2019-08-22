@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rwuniq
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rwuniq
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rwuniq --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Scanner;

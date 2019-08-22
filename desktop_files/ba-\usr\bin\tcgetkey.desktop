@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tcgetkey
+Icon=utilities-terminal
+Comment=A set of tools that deal with acquiring physical memory dumps via FireWire and then scan the memory dump to locate TrueCrypt keys and finally decrypt the encrypted TrueCrypt container using the keys.
+TryExec=/usr/bin/tcgetkey
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/tcgetkey' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Dos;

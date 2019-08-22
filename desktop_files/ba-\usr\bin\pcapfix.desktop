@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pcapfix
+Icon=utilities-terminal
+Comment=Tries to repair your broken pcap and pcapng files.
+TryExec=/usr/bin/pcapfix
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pcapfix' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Misc;

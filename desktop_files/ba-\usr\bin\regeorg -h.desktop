@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=regeorg
+Icon=utilities-terminal
+Comment=The successor to reDuh, pwn a bastion webserver and create SOCKS proxies through the DMZ. Pivot and pwn.
+TryExec=/usr/bin/regeorg
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/regeorg -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Cracker;X-BlackArch-Proxy;X-BlackArch-Scanner;

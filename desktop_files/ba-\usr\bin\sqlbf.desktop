@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sqlbf
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/sqlbf
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sqlbf' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

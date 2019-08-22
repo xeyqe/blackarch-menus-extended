@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=xorsearch
+Icon=utilities-terminal
+Comment=Program to search for a given string in an XOR, ROL or ROT encoded binary file.
+TryExec=/usr/bin/xorsearch
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/xorsearch' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;

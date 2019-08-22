@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=irpas-dfkaa
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/irpas-dfkaa
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/irpas-dfkaa' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

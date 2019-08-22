@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dizzy
+Icon=utilities-terminal
+Comment=A Python based fuzzing framework with many features.
+TryExec=/usr/bin/dizzy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dizzy -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;X-BlackArch-Networking;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cowpatty
+Icon=utilities-terminal
+Comment=Wireless WPA/WPA2 PSK handshake cracking utility
+TryExec=/usr/bin/cowpatty
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cowpatty -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;X-BlackArch-Cracker;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dumpzilla
+Icon=utilities-terminal
+Comment=A forensic tool for firefox.
+TryExec=/usr/bin/dumpzilla
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dumpzilla -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bluesnarfer
+Icon=utilities-terminal
+Comment=A bluetooth attacking tool
+TryExec=/usr/bin/bluesnarfer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bluesnarfer -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

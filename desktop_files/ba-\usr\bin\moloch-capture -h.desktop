@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=moloch-capture
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/moloch-capture
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/moloch-capture -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

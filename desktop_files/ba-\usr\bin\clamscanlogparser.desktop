@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=clamscanlogparser
+Icon=utilities-terminal
+Comment=This is a utility to parse a Clam Anti Virus log file, in order to sort them into a malware archive for easier maintanence of your malware collection.
+TryExec=/usr/bin/clamscanlogparser
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/clamscanlogparser' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Malware;

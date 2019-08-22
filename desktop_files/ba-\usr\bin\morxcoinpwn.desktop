@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=morxcoinpwn
+Icon=utilities-terminal
+Comment=Mass Bitcoin private keys brute forcing/Take over tool released.
+TryExec=/usr/bin/morxcoinpwn
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/morxcoinpwn' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

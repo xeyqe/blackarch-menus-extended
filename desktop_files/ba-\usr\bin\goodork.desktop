@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=goodork
+Icon=utilities-terminal
+Comment=A python script designed to allow you to leverage the power of google dorking straight from the comfort of your command line.
+TryExec=/usr/bin/goodork
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/goodork' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

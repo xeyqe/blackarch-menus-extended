@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=darkmysqli
+Icon=utilities-terminal
+Comment=Multi-Purpose MySQL Injection Tool
+TryExec=/usr/bin/darkmysqli
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/darkmysqli -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Webapp;

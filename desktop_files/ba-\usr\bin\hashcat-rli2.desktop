@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hashcat-rli2
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/hashcat-rli2
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hashcat-rli2' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

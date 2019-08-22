@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=paratrace
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/paratrace
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/paratrace' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

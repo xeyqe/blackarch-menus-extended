@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=lodowep
+Icon=utilities-terminal
+Comment=Lodowep is a tool for analyzing password strength of accounts on a Lotus Domino webserver system.
+TryExec=/usr/bin/lodowep
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/lodowep -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

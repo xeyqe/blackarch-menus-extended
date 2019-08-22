@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ranonymize
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ranonymize
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ranonymize -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Defensive;X-BlackArch-Sniffer;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=androidpincrack
+Icon=utilities-terminal
+Comment=Bruteforce the Android Passcode given the hash and salt.
+TryExec=/usr/bin/androidpincrack
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/androidpincrack -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;X-BlackArch-Cracker;

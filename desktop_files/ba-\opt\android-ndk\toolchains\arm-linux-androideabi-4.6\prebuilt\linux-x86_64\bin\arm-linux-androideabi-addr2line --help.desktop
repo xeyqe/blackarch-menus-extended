@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=arm-linux-androideabi-addr2line
+Icon=utilities-terminal
+Comment=
+TryExec=/opt/android-ndk/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-addr2line
+Exec=sh -c '/usr/local/bin/appHelper.sh /opt/android-ndk/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-addr2line --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;

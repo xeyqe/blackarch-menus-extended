@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=msf-mpc
+Icon=utilities-terminal
+Comment=Msfvenom payload creator.
+TryExec=/usr/bin/msf-mpc
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/msf-mpc -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Backdoor;X-BlackArch-Malware;

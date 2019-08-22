@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=binwally
+Icon=utilities-terminal
+Comment=Binary and Directory tree comparison tool using the Fuzzy Hashing concept (ssdeep).
+TryExec=/usr/bin/binwally
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/binwally' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;

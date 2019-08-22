@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=binaryninja-python
+Icon=utilities-terminal
+Comment=Binary Ninja prototype written in Python.
+TryExec=/usr/bin/binaryninja-python
+Exec=/usr/bin/binaryninja-python
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Binary;

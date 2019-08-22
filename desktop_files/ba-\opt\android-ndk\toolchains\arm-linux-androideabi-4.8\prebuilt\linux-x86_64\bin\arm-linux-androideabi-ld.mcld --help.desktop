@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=arm-linux-androideabi-ld.mcld
+Icon=utilities-terminal
+Comment=
+TryExec=/opt/android-ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld.mcld
+Exec=sh -c '/usr/local/bin/appHelper.sh /opt/android-ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld.mcld --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;

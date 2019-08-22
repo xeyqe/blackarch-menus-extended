@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=spike-proxy
+Icon=utilities-terminal
+Comment=A Proxy for detecting vulnerabilities in web applications
+TryExec=/usr/bin/spike-proxy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/spike-proxy -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

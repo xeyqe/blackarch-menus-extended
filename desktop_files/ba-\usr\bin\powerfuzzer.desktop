@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=powerfuzzer
+Icon=utilities-terminal
+Comment=Powerfuzzer is a highly automated web fuzzer based on many other Open Source fuzzers available (incl. cfuzzer, fuzzled, fuzzer.pl, jbrofuzz, webscarab, wapiti, Socket Fuzzer). It can detect XSS, Injections (SQL, LDAP, commands, code, XPATH) and others.
+TryExec=/usr/bin/powerfuzzer
+Exec=/usr/bin/powerfuzzer
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Fuzzer;

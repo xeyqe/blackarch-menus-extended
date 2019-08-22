@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pcapteller
+Icon=utilities-terminal
+Comment=A tool designed for traffic manipulation and replay.
+TryExec=/usr/bin/pcapteller
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pcapteller' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;X-BlackArch-Networking;

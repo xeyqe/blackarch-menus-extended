@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cheetah
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/cheetah
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cheetah -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Fingerprint;X-BlackArch-Cracker;

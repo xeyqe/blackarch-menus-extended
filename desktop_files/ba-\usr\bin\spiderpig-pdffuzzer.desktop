@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=spiderpig-pdffuzzer
+Icon=utilities-terminal
+Comment=A javascript pdf fuzzer
+TryExec=/usr/bin/spiderpig-pdffuzzer
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/spiderpig-pdffuzzer' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

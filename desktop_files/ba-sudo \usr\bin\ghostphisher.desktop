@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ghostphisher
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ghostphisher
+Exec=sh -c 'sudo /usr/bin/ghostphisher' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

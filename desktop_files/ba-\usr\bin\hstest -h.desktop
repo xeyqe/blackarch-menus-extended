@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hstest
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/hstest
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hstest -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bfbtester
+Icon=utilities-terminal
+Comment=Performs checks of single and multiple argument command line overflows and environment variable overflows
+TryExec=/usr/bin/bfbtester
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bfbtester -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

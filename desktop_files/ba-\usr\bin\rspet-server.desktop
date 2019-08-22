@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rspet-server
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rspet-server
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rspet-server' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Backdoor;X-BlackArch-Dos;

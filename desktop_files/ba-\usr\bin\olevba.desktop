@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=olevba
+Icon=utilities-terminal
+Comment=A script to parse OLE and OpenXML files such as MS Office documents (e.g. Word, Excel), to extract VBA Macro code in clear text, deobfuscate and analyze malicious macros.
+TryExec=/usr/bin/olevba
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/olevba' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;X-BlackArch-Forensic;

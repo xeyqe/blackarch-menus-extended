@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=haystack-rekall-dump
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/haystack-rekall-dump
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/haystack-rekall-dump -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;X-BlackArch-Forensic;

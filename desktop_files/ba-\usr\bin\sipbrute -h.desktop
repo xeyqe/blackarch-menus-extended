@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sipbrute
+Icon=utilities-terminal
+Comment=A utility to perform dictionary attacks against the VoIP SIP Register hash.
+TryExec=/usr/bin/sipbrute
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sipbrute -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Voip;X-BlackArch-Cracker;

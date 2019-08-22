@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=chapcrack
+Icon=utilities-terminal
+Comment=A tool for parsing and decrypting MS-CHAPv2 network handshakes.
+TryExec=/usr/bin/chapcrack
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/chapcrack help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

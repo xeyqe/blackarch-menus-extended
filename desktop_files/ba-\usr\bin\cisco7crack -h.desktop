@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cisco7crack
+Icon=utilities-terminal
+Comment=Crypt and decrypt the cisco enable 7 passwords.
+TryExec=/usr/bin/cisco7crack
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cisco7crack -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Crypto;

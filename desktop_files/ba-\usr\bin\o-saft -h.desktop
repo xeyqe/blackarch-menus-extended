@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=o-saft
+Icon=utilities-terminal
+Comment=A tool to show informations about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.
+TryExec=/usr/bin/o-saft
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/o-saft -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Recon;

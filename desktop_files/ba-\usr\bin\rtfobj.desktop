@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rtfobj
+Icon=utilities-terminal
+Comment=A Python module to extract embedded objects from RTF files, such as OLE ojects. It can be used as a Python library or a command-line tool.
+TryExec=/usr/bin/rtfobj
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rtfobj' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;X-BlackArch-Forensic;

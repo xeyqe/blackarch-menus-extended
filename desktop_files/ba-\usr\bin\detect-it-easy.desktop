@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=detect-it-easy
+Icon=utilities-terminal
+Comment=A program for determining types of files.
+TryExec=/usr/bin/detect-it-easy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/detect-it-easy' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;X-BlackArch-Reversing;

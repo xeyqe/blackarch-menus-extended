@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=strip
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/share/arduino/hardware/tools/avr/lib/avr/bin/strip
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/share/arduino/hardware/tools/avr/lib/avr/bin/strip' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Hardware;

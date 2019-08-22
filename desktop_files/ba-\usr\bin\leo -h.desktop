@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=leo
+Icon=utilities-terminal
+Comment=Literate programmer's editor, outliner, and project manager.
+TryExec=/usr/bin/leo
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/leo -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=llvm-rs-cc
+Icon=utilities-terminal
+Comment=
+TryExec=/opt/android-ndk/toolchains/renderscript/prebuilt/linux-x86_64/bin/llvm-rs-cc
+Exec=sh -c '/usr/local/bin/appHelper.sh /opt/android-ndk/toolchains/renderscript/prebuilt/linux-x86_64/bin/llvm-rs-cc -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Mobile;

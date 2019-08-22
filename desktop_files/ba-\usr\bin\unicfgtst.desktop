@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=unicfgtst
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/unicfgtst
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/unicfgtst' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

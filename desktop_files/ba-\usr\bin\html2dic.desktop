@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=html2dic
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/html2dic
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/html2dic' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Webapp;

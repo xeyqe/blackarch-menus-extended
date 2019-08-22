@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ubitack
+Icon=utilities-terminal
+Comment=Tool, which automates some of the tasks you might need on a (wireless) penetration test or while you are on the go.
+TryExec=/usr/bin/ubitack
+Exec=sh -c '/usr/local/bin/appHelper.sh sudo /usr/bin/ubitack' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

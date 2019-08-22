@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pompem
+Icon=utilities-terminal
+Comment=A python exploit tool finder.
+TryExec=/usr/bin/pompem
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pompem' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

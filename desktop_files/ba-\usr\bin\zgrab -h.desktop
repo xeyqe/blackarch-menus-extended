@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=zgrab
+Icon=utilities-terminal
+Comment=Grab banners (optionally over TLS).
+TryExec=/usr/bin/zgrab
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/zgrab -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

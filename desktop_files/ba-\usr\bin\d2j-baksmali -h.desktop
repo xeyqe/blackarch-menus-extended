@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=d2j-baksmali
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/d2j-baksmali
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/d2j-baksmali -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Hardware;X-BlackArch-Reversing;

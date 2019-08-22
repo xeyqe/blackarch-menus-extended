@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ibrute
+Icon=utilities-terminal
+Comment=An AppleID password bruteforce tool. It uses Find My Iphone service API, where bruteforce protection was not implemented.
+TryExec=/usr/bin/ibrute
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ibrute' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Mobile;

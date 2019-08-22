@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=netreconn
+Icon=utilities-terminal
+Comment=A collection of network scan/recon tools that are relatively small compared to their larger cousins.
+TryExec=/usr/bin/netreconn
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/netreconn -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Recon;X-BlackArch-Scanner;

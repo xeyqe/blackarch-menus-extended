@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=maligno-srv
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/maligno-srv
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/maligno-srv' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Fuzzer;X-BlackArch-Exploitation;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=genlist
+Icon=utilities-terminal
+Comment=Generates lists of IP addresses.
+TryExec=/usr/bin/genlist
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/genlist' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

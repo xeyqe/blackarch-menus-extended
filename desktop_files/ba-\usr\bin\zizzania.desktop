@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=zizzania
+Icon=utilities-terminal
+Comment=Automated DeAuth attack.
+TryExec=/usr/bin/zizzania
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/zizzania' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;X-BlackArch-Dos;X-BlackArch-Sniffer;

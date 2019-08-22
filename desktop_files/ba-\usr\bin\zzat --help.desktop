@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=zzat
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/zzat
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/zzat --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

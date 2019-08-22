@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=asp-audit
+Icon=utilities-terminal
+Comment=An ASP fingerprinting tool and vulnerability scanner.
+TryExec=/usr/bin/asp-audit
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/asp-audit' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fingerprint;X-BlackArch-Scanner;X-BlackArch-Webapp;

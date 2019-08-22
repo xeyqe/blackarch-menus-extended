@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pip3line
+Icon=utilities-terminal
+Comment=The Swiss army knife of byte manipulation.
+TryExec=/usr/bin/pip3line
+Exec=/usr/bin/pip3line
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Crypto;

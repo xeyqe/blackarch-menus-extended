@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=filedaemon
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/filedaemon
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/filedaemon --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

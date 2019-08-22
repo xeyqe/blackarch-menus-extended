@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sniffjoke
+Icon=utilities-terminal
+Comment=Injects packets in the transmission flow that are able to seriously disturb passive analysis like sniffing, interception and low level information theft.
+TryExec=/usr/bin/sniffjoke
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/sniffjoke -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Defensive;X-BlackArch-Networking;X-BlackArch-Sniffer;

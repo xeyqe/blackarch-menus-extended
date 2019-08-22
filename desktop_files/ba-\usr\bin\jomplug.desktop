@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=jomplug
+Icon=utilities-terminal
+Comment=This php script fingerprints a given Joomla system and then uses Packet Storm's archive to check for bugs related to the installed components.
+TryExec=/usr/bin/jomplug
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/jomplug' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Fingerprint;

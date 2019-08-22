@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tcpxtract
+Icon=utilities-terminal
+Comment=A tool for extracting files from network traffic.
+TryExec=/usr/bin/tcpxtract
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/tcpxtract -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

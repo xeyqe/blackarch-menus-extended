@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ssllabs-scan
+Icon=utilities-terminal
+Comment=Command-line client for the SSL Labs APIs
+TryExec=/usr/bin/ssllabs-scan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ssllabs-scan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Crypto;

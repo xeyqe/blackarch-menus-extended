@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hashcat-combinator
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/hashcat-combinator
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hashcat-combinator -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

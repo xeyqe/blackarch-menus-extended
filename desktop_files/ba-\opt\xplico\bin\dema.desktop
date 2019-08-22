@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dema
+Icon=utilities-terminal
+Comment=
+TryExec=/opt/xplico/bin/dema
+Exec=sh -c '/usr/local/bin/appHelper.sh /opt/xplico/bin/dema' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;X-BlackArch-Networking;

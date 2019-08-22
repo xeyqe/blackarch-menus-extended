@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=onesixtyone
+Icon=utilities-terminal
+Comment=An SNMP scanner that sends multiple SNMP requests to multiple IP addresses
+TryExec=/usr/bin/onesixtyone
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/onesixtyone' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Scanner;

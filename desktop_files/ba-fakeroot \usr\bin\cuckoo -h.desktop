@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cuckoo
+Icon=utilities-terminal
+Comment=A malware analysis system.
+TryExec=/usr/bin/cuckoo
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/cuckoo -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Malware;

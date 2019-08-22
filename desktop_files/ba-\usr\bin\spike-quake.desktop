@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=spike-quake
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/spike-quake
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/spike-quake' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

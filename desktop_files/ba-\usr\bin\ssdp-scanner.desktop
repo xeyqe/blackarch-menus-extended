@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ssdp-scanner
+Icon=utilities-terminal
+Comment=SSDP amplification scanner written in Python. Makes use of Scapy.
+TryExec=/usr/bin/ssdp-scanner
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ssdp-scanner' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Networking;

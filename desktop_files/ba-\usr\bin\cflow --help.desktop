@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=cflow
+Icon=utilities-terminal
+Comment=A C program flow analyzer.
+TryExec=/usr/bin/cflow
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/cflow --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Code-audit;

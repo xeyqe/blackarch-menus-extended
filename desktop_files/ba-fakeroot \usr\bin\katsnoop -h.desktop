@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=katsnoop
+Icon=utilities-terminal
+Comment=Utility that sniffs HTTP Basic Authentication information and prints the base64 decoded form.
+TryExec=/usr/bin/katsnoop
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/katsnoop -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;

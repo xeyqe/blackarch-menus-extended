@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=samdump2
+Icon=utilities-terminal
+Comment=Dump password hashes from a Windows NT/2k/XP installation
+TryExec=/usr/bin/samdump2
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/samdump2' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

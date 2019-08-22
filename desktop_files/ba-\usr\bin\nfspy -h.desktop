@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=nfspy
+Icon=utilities-terminal
+Comment=A Python library for automating the falsification of NFS credentials when mounting an NFS share.
+TryExec=/usr/bin/nfspy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/nfspy -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;

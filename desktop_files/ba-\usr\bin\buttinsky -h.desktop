@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=buttinsky
+Icon=utilities-terminal
+Comment=Provide an open source framework for automated botnet monitoring.
+TryExec=/usr/bin/buttinsky
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/buttinsky -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

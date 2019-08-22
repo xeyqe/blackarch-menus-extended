@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=exabgp
+Icon=utilities-terminal
+Comment=The BGP swiss army knife of networking.
+TryExec=/usr/bin/exabgp
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/exabgp -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Defensive;

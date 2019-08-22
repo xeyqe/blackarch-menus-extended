@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pmcma
+Icon=utilities-terminal
+Comment=Automated exploitation of invalid memory writes (being them the consequences of an overflow in a writable section, of a missing format string, integer overflow, variable misuse, or any other type of memory corruption).
+TryExec=/usr/bin/pmcma
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pmcma -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Automation;X-BlackArch-Fuzzer;

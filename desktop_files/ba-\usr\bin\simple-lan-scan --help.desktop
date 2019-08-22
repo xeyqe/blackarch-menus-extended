@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=simple-lan-scan
+Icon=utilities-terminal
+Comment=A simple python script that leverages scapy for discovering live hosts on a network.
+TryExec=/usr/bin/simple-lan-scan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/simple-lan-scan --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Recon;X-BlackArch-Networking;

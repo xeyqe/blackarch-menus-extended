@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=erase_registrations
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/erase_registrations
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/erase_registrations' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Voip;

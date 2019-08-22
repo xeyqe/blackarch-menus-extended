@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hashcat-keyspace
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/hashcat-keyspace
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hashcat-keyspace' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

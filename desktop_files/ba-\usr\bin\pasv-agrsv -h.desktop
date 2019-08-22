@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pasv-agrsv
+Icon=utilities-terminal
+Comment=Passive recon / OSINT automation script.
+TryExec=/usr/bin/pasv-agrsv
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pasv-agrsv -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Automation;X-BlackArch-Recon;

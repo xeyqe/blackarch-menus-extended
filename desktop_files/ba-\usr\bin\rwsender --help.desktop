@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rwsender
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rwsender
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rwsender --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Scanner;

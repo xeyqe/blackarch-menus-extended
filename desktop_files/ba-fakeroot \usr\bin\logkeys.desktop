@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=logkeys
+Icon=utilities-terminal
+Comment=Simple keylogger supporting also USB keyboards.
+TryExec=/usr/bin/logkeys
+Exec=sh -c '/usr/local/bin/appHelper.sh fakeroot /usr/bin/logkeys' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Keylogger;

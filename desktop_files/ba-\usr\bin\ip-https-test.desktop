@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ip-https-test
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ip-https-test
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ip-https-test' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Tunnel;X-BlackArch-Networking;

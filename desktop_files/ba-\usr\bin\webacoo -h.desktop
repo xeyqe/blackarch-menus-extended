@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=webacoo
+Icon=utilities-terminal
+Comment=Web Backdoor Cookie Script-Kit.
+TryExec=/usr/bin/webacoo
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/webacoo -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Backdoor;X-BlackArch-Webapp;

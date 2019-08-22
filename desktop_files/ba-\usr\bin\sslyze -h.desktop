@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sslyze
+Icon=utilities-terminal
+Comment=Python tool for analyzing the configuration of SSL servers and for identifying misconfigurations.
+TryExec=/usr/bin/sslyze
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sslyze -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

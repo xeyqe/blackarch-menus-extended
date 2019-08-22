@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fraud-bridge
+Icon=utilities-terminal
+Comment=ICMP and DNS tunneling via IPv4 and IPv6.
+TryExec=/usr/bin/fraud-bridge
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/fraud-bridge -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Tunnel;X-BlackArch-Networking;

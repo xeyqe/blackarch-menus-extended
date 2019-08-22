@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hyperfox
+Icon=utilities-terminal
+Comment=A security tool for proxying and recording HTTP and HTTPs traffic.
+TryExec=/usr/bin/hyperfox
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hyperfox -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Proxy;X-BlackArch-Webapp;

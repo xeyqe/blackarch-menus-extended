@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ubertooth-dfu
+Icon=utilities-terminal
+Comment=Ubertooth firmware update tool.
+TryExec=/usr/bin/ubertooth-dfu
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ubertooth-dfu -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

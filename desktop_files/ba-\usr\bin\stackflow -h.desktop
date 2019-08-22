@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=stackflow
+Icon=utilities-terminal
+Comment=Universal stack-based buffer overfow exploitation tool.
+TryExec=/usr/bin/stackflow
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/stackflow -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

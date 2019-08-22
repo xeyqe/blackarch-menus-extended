@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=gerix-wifi-cracker
+Icon=utilities-terminal
+Comment=A graphical user interface for aircrack-ng and pyrit.
+TryExec=/usr/bin/gerix-wifi-cracker
+Exec=sh -c 'gksu /usr/bin/gerix-wifi-cracker' $SHELL
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Wireless;X-BlackArch-Misc;

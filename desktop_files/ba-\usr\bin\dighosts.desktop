@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dighosts
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/dighosts
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dighosts' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Proxy;

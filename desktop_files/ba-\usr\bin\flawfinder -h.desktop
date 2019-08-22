@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=flawfinder
+Icon=utilities-terminal
+Comment=Searches through source code for potential security flaws.
+TryExec=/usr/bin/flawfinder
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/flawfinder -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Code-audit;X-BlackArch-Scanner;

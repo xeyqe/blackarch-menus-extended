@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=irpas-irdpresponder
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/irpas-irdpresponder
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/irpas-irdpresponder' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

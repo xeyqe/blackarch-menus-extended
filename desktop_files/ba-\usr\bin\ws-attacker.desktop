@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ws-attacker
+Icon=utilities-terminal
+Comment=A modular framework for web services penetration testing.
+TryExec=/usr/bin/ws-attacker
+Exec=/usr/bin/ws-attacker
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Webapp;

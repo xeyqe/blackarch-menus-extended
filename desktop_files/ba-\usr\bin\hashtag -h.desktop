@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hashtag
+Icon=utilities-terminal
+Comment=A python script written to parse and identify password hashes.
+TryExec=/usr/bin/hashtag
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hashtag -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;

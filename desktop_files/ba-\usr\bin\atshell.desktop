@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=atshell
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/atshell
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/atshell' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;

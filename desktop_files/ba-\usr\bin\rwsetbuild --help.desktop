@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rwsetbuild
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rwsetbuild
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rwsetbuild --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Scanner;

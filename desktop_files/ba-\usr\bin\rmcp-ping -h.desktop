@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rmcp-ping
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rmcp-ping
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rmcp-ping -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Misc;

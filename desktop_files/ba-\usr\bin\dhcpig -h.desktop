@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dhcpig
+Icon=utilities-terminal
+Comment=Enhanced DHCPv4 and DHCPv6 exhaustion and fuzzing script written in python using scapy network library.
+TryExec=/usr/bin/dhcpig
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dhcpig -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Fuzzer;X-BlackArch-Dos;

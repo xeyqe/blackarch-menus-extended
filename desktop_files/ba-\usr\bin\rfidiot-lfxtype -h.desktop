@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rfidiot-lfxtype
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/rfidiot-lfxtype
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/rfidiot-lfxtype -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

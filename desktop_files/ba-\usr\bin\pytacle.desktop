@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pytacle
+Icon=utilities-terminal
+Comment=Automates the task of sniffing GSM frames
+TryExec=/usr/bin/pytacle
+Exec=/usr/bin/pytacle
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Sniffer;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=lbd
+Icon=utilities-terminal
+Comment=Load Balancing detector
+TryExec=/usr/bin/lbd
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/lbd' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;

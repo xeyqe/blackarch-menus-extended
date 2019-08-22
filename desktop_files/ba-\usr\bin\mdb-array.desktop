@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mdb-array
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/mdb-array
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mdb-array' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

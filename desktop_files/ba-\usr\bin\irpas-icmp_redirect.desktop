@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=irpas-icmp_redirect
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/irpas-icmp_redirect
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/irpas-icmp_redirect' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

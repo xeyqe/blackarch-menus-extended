@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=zzuf
+Icon=utilities-terminal
+Comment=Transparent application input fuzzer.
+TryExec=/usr/bin/zzuf
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/zzuf -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

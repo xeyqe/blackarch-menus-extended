@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=affinfo
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/affinfo
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/affinfo' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=portspoof
+Icon=utilities-terminal
+Comment=This program's primary goal is to enhance OS security through a set of new techniques.
+TryExec=/usr/bin/portspoof
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/portspoof -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Defensive;X-BlackArch-Spoof;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=isip
+Icon=utilities-terminal
+Comment=Interactive sip toolkit for packet manipulations, sniffing, man in the middle attacks, fuzzing, simulating of dos attacks.
+TryExec=/usr/bin/isip
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/isip' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Voip;X-BlackArch-Networking;X-BlackArch-Fuzzer;X-BlackArch-Dos;

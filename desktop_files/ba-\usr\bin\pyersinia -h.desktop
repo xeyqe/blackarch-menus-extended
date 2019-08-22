@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pyersinia
+Icon=utilities-terminal
+Comment=Network attack tool like yersinia but written in Python.
+TryExec=/usr/bin/pyersinia
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pyersinia -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Fuzzer;X-BlackArch-Dos;X-BlackArch-Voip;X-BlackArch-Scanner;X-BlackArch-Exploitation;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=shocker
+Icon=utilities-terminal
+Comment=A tool to find and exploit servers vulnerable to Shellshock.
+TryExec=/usr/bin/shocker
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/shocker -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Scanner;

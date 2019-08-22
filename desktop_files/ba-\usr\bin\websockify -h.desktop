@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=websockify
+Icon=utilities-terminal
+Comment=WebSocket to TCP proxy/bridge.
+TryExec=/usr/bin/websockify
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/websockify -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

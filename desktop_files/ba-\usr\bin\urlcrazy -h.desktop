@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=urlcrazy
+Icon=utilities-terminal
+Comment=Generate and test domain typos and variations to detect and perform typo squatting, URL hijacking, phishing, and corporate espionage.
+TryExec=/usr/bin/urlcrazy
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/urlcrazy -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dnsfilexfer-recv
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/dnsfilexfer-recv
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dnsfilexfer-recv -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Misc;

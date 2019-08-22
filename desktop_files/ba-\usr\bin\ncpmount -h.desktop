@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ncpmount
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ncpmount
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ncpmount -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

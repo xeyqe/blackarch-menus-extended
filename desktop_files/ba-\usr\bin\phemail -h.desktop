@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=phemail
+Icon=utilities-terminal
+Comment=A python open source phishing email tool that automates the process of sending phishing emails as part of a social engineering test.
+TryExec=/usr/bin/phemail
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/phemail -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Social;X-BlackArch-Automation;

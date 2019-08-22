@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=nosqlmap
+Icon=utilities-terminal
+Comment=Automated Mongo database and NoSQL web application exploitation tool
+TryExec=/usr/bin/nosqlmap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/nosqlmap' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Exploitation;

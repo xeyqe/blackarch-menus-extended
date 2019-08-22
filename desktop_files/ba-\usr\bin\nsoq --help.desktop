@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=nsoq
+Icon=utilities-terminal
+Comment=A Network Security Tool for packet manipulation that allows a large number of options.
+TryExec=/usr/bin/nsoq
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/nsoq --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Scanner;X-BlackArch-Fuzzer;

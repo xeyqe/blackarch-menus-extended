@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wig
+Icon=utilities-terminal
+Comment=WebApp Information Gatherer.
+TryExec=/usr/bin/wig
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wig -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Webapp;X-BlackArch-Scanner;X-BlackArch-Recon;

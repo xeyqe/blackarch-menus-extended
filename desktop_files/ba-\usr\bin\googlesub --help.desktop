@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=googlesub
+Icon=utilities-terminal
+Comment=A python script to find domains by using google dorks.
+TryExec=/usr/bin/googlesub
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/googlesub --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

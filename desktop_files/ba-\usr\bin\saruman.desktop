@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=saruman
+Icon=utilities-terminal
+Comment=ELF anti-forensics exec, for injecting full dynamic executables into process image (With thread injection).
+TryExec=/usr/bin/saruman
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/saruman' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;X-BlackArch-Backdoor;X-BlackArch-Anti-Forensic;

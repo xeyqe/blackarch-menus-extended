@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ranlib
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/share/arduino/hardware/tools/avr/lib/avr/bin/ranlib
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/share/arduino/hardware/tools/avr/lib/avr/bin/ranlib' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Hardware;

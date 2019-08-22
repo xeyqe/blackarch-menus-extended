@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=js-beautify
+Icon=utilities-terminal
+Comment=This little beautifier will reformat and reindent bookmarklets, ugly JavaScript, unpack scripts packed by Dean Edward?s popular packer, as well as deobfuscate scripts processed by javascriptobfuscator.com.
+TryExec=/usr/bin/js-beautify
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/js-beautify -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Reversing;X-BlackArch-Unpacker;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=delorean
+Icon=utilities-terminal
+Comment=NTP Main-in-the-Middle tool.
+TryExec=/usr/bin/delorean
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/delorean -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Proxy;

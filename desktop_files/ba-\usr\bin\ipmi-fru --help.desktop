@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ipmi-fru
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ipmi-fru
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ipmi-fru --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Misc;

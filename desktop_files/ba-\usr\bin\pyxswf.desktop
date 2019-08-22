@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pyxswf
+Icon=utilities-terminal
+Comment=A script to detect, extract and analyze Flash objects (SWF) that may be embedded in files such as MS Office documents (e.g. Word, Excel), which is especially useful for malware analysis.
+TryExec=/usr/bin/pyxswf
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pyxswf' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Binary;X-BlackArch-Forensic;

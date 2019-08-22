@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=grokevt-addlog
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/grokevt-addlog
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/grokevt-addlog' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dump1090
+Icon=utilities-terminal
+Comment=A simple Mode S decoder for RTLSDR devices.
+TryExec=/usr/bin/dump1090
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/dump1090 -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;X-BlackArch-Misc;

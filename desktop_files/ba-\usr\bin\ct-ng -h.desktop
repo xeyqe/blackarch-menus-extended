@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ct-ng
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ct-ng
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ct-ng -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

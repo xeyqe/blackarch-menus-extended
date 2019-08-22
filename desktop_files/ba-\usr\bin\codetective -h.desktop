@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=codetective
+Icon=utilities-terminal
+Comment=A tool to determine the crypto/encoding algorithm used according to traces of its representation.
+TryExec=/usr/bin/codetective
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/codetective -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Crypto;

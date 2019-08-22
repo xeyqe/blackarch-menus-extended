@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=prads
+Icon=utilities-terminal
+Comment=Is a "Passive Real-time Asset Detection System".
+TryExec=/usr/bin/prads
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/prads -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Networking;

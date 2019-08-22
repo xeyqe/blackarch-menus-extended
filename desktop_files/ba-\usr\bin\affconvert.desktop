@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=affconvert
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/affconvert
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/affconvert' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

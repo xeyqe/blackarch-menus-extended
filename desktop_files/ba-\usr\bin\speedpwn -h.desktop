@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=speedpwn
+Icon=utilities-terminal
+Comment=An active WPA/2 Bruteforcer, original created to prove weak standard key generation in different ISP labeled routers without a client is connected.
+TryExec=/usr/bin/speedpwn
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/speedpwn -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Cracker;X-BlackArch-Wireless;

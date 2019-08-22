@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=jwscan
+Icon=utilities-terminal
+Comment=Scanner for Jar to EXE wrapper like Launch4j, Exe4j, JSmooth, Jar2Exe.
+TryExec=/usr/bin/jwscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/jwscan' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Reversing;X-BlackArch-Binary;

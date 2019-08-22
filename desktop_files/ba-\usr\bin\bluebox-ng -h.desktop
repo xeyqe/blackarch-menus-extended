@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bluebox-ng
+Icon=utilities-terminal
+Comment=A GPL VoIP/UC vulnerability scanner.
+TryExec=/usr/bin/bluebox-ng
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bluebox-ng -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Voip;X-BlackArch-Scanner;X-BlackArch-Fuzzer;

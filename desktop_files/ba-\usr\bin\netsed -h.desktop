@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=netsed
+Icon=utilities-terminal
+Comment=Small and handful utility design to alter the contents of packets forwarded thru network in real time.
+TryExec=/usr/bin/netsed
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/netsed -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

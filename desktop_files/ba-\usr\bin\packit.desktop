@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=packit
+Icon=utilities-terminal
+Comment=A network auditing tool. Its value is derived from its ability to customize, inject, monitor, and manipulate IP traffic.
+TryExec=/usr/bin/packit
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/packit' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

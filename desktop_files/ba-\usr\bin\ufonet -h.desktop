@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ufonet
+Icon=utilities-terminal
+Comment=A tool designed to launch DDoS attacks against a target, using 'Open Redirect' vectors on third party web applications, like botnet.
+TryExec=/usr/bin/ufonet
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ufonet -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Dos;X-BlackArch-Webapp;

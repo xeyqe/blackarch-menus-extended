@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mfcuk
+Icon=utilities-terminal
+Comment=MIFARE Classic Universal toolKit
+TryExec=/usr/bin/mfcuk
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mfcuk' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Wireless;

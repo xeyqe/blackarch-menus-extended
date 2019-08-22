@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=gwtenum
+Icon=utilities-terminal
+Comment=Enumeration of GWT-RCP method calls.
+TryExec=/usr/bin/gwtenum
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/gwtenum -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Recon;X-BlackArch-Webapp;

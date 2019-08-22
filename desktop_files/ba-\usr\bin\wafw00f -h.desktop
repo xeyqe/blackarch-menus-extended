@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wafw00f
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/wafw00f
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/wafw00f -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Webapp;

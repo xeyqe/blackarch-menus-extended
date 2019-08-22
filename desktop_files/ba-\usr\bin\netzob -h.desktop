@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=netzob
+Icon=utilities-terminal
+Comment=An open source tool for reverse engineering, traffic generation and fuzzing of communication protocols.
+TryExec=/usr/bin/netzob
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/netzob -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Reversing;X-BlackArch-Fuzzer;X-BlackArch-Networking;

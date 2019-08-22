@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ipscan
+Icon=utilities-terminal
+Comment=Angry IP scanner is a very fast IP address and port scanner.
+TryExec=/usr/bin/ipscan
+Exec=/usr/bin/ipscan
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-BlackArch-Scanner;

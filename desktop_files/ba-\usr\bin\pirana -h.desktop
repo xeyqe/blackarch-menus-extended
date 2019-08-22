@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pirana
+Icon=utilities-terminal
+Comment=Exploitation framework that tests the security of a email content filter.
+TryExec=/usr/bin/pirana
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pirana -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=yasat
+Icon=utilities-terminal
+Comment=Yet Another Stupid Audit Tool.
+TryExec=/usr/bin/yasat
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/yasat -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;X-BlackArch-Recon;X-BlackArch-Fingerprint;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mwebfp
+Icon=utilities-terminal
+Comment=Mass Web Fingerprinter.
+TryExec=/usr/bin/mwebfp
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mwebfp -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fingerprint;X-BlackArch-Webapp;X-BlackArch-Scanner;

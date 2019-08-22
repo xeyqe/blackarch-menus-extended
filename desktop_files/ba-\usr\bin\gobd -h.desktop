@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=gobd
+Icon=utilities-terminal
+Comment=A Golang covert backdoor.
+TryExec=/usr/bin/gobd
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/gobd -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Backdoor;

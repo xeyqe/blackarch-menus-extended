@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ipfixDump
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/ipfixDump
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/ipfixDump --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Networking;

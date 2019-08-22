@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=morxtunnel
+Icon=utilities-terminal
+Comment=Network Tunneling using TUN/TAP interfaces over TCP tool.
+TryExec=/usr/bin/morxtunnel
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/morxtunnel -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Tunnel;X-BlackArch-Networking;

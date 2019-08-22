@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sambascan
+Icon=utilities-terminal
+Comment=Allows you to search an entire network or a number of hosts for SMB shares. It will also list the contents of all public shares that it finds.
+TryExec=/usr/bin/sambascan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/sambascan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

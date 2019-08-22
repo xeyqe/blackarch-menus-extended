@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mssqlscan
+Icon=utilities-terminal
+Comment=A small multi-threaded tool that scans for Microsoft SQL Servers.
+TryExec=/usr/bin/mssqlscan
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/mssqlscan -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Scanner;

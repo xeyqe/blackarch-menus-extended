@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hexinject
+Icon=utilities-terminal
+Comment=A very versatile packet injector and sniffer that provides a command-line framework for raw network access.
+TryExec=/usr/bin/hexinject
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hexinject -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Sniffer;

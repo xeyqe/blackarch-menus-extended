@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pop3p
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/pop3p
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/pop3p --help' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Proxy;

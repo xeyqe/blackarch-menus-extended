@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=get_file_info.py
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/get_file_info.py
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/get_file_info.py -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Forensic;

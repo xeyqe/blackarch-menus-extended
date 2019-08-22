@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bluelog
+Icon=utilities-terminal
+Comment=A Bluetooth scanner and sniffer written to do a single task, log devices that are in discoverable mode.
+TryExec=/usr/bin/bluelog
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/bluelog -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Bluetooth;X-BlackArch-Scanner;

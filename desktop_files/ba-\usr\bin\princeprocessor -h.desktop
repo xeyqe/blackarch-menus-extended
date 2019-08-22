@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=princeprocessor
+Icon=utilities-terminal
+Comment=Standalone password candidate generator using the PRINCE algorithm.
+TryExec=/usr/bin/princeprocessor
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/princeprocessor -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Misc;

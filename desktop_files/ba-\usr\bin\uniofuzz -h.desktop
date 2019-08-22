@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=uniofuzz
+Icon=utilities-terminal
+Comment=The universal fuzzing tool for browsers, web services, files, programs and network services/ports
+TryExec=/usr/bin/uniofuzz
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/uniofuzz -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Fuzzer;

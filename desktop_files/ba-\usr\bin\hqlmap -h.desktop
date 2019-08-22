@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hqlmap
+Icon=utilities-terminal
+Comment=A tool to exploit HQL Injections.
+TryExec=/usr/bin/hqlmap
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/hqlmap -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;

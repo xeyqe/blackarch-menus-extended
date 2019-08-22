@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=miranda-upnp-portmapper
+Icon=utilities-terminal
+Comment=
+TryExec=/usr/bin/miranda-upnp-portmapper
+Exec=sh -c '/usr/local/bin/appHelper.sh /usr/bin/miranda-upnp-portmapper -h' $SHELL
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=X-BlackArch-Exploitation;X-BlackArch-Scanner;
