@@ -10,7 +10,7 @@ provides=('blackarch-menus')
 conflicts=('blackarch-menus')
 replaces=('blackarch-menus')
 source=("https://codeload.github.com/xeyqe/blackarch-menus-extended/zip/master")
-md5sums=('')
+md5sums=('SKIP')
 
 
 
