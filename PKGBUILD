@@ -10,19 +10,18 @@ provides=('blackarch-menus')
 conflicts=('blackarch-menus')
 replaces=('blackarch-menus')
 source=("https://codeload.github.com/xeyqe/blackarch-menus-extended/zip/master")
-md5sums=('SKIP')
+md5sums=('')
 
-prepare() {
-	cd "${srcdir}"	
-}
+
 
 package() {
+	cd "${pkgname}-master"
+
 	install -m755 -d "${pkgdir}/etc/xdg/menus/applications-merged"
 	install -m755 -d "${pkgdir}/usr/share/applications"
 	install -m755 -d "${pkgdir}/usr/share/desktop-directories"
 	install -m755 -d "${pkgdir}/usr/local/bin"
 	install -dm 755 "$pkgdir/usr/share/icons/hicolor/32x32/apps"
-
 
 
 	install -m644 directories/X-BlackArch.menu "${pkgdir}/etc/xdg/menus/applications-merged/"
